@@ -1466,7 +1466,7 @@ a:focus {
 @media (max-width: 991px) {
   .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
     font-size: 30px;
-    font-size: 1.66667rem;
+    font-size: 2.3rem;
   }
 }
 
