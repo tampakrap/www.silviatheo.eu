@@ -1445,7 +1445,7 @@ a:focus {
 
 /*** header style 1 ****/
 .header-style-1 .couple-logo, .header-style-2 .couple-logo {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 @media (max-width: 991px) {
@@ -1457,7 +1457,7 @@ a:focus {
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
   font-family: "Fifindrel", cursive;
   font-size: 40px;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-weight: 500;
   margin: 0;
   text-shadow: 1px 1px 2px #999999;
