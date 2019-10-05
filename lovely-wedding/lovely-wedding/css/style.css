@@ -31,6 +31,8 @@ URL:            http://themeforest.net/user/themexriver
 @import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,900&subset=greek");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=greek');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700&subset=greek');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700&subset=greek');
 @font-face {
   font-family: 'Fifindrel';
   src: url('../fonts/AC-Fifindrel_Unicode.ttf') format('truetype');
@@ -44,7 +46,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "IBM Plex Sans";
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
