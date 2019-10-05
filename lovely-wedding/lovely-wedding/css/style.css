@@ -34,6 +34,7 @@ URL:            http://themeforest.net/user/themexriver
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700&subset=greek');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700&subset=greek');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,600,700&subset=greek');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic:400,600,700&subset=greek');
 @font-face {
   font-family: 'Fifindrel';
   src: url('../fonts/AC-Fifindrel_Unicode.ttf') format('truetype');
@@ -47,7 +48,7 @@ html {
 }
 
 body {
-  font-family: "Alegreya Sans";
+  font-family: "Didact Gothic";
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
