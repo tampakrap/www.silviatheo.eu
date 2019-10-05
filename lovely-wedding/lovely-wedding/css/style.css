@@ -1455,9 +1455,10 @@ a:focus {
 }
 
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 35px;
-  font-size: 1.94444rem;
+  font-family: "Fifindrel", cursive;
+  font-size: 40px;
+  font-size: 2.2rem;
+  font-weight: 500;
   margin: 0;
   text-shadow: 1px 1px 2px #999999;
 }
