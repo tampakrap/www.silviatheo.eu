@@ -44,13 +44,13 @@ URL:            http://themeforest.net/user/themexriver
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   background-color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
