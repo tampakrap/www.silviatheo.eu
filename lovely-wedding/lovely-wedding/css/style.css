@@ -1738,9 +1738,9 @@ a:focus {
 .hero .wedding-announcement .couple-name-merried-text h2 {
   font-family: "Fifindrel";
   font-size: 90px;
-  font-size: 5rem;
+  font-size: 6rem;
   color: #fff;
-  margin: 0 0 0.4em;
+  margin: 0 0 0;
   position: relative;
   z-index: 10;
 }
