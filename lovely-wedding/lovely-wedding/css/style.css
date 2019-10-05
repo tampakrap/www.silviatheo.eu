@@ -29,7 +29,10 @@ URL:            http://themeforest.net/user/themexriver
 	Fonts
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
-@import url("fonts/AC-Fifindrel_Unicode.ttf");
+@font-face {
+  font-family: 'Fifindrel';
+  src: url('../fonts/AC-Fifindrel_Unicode.ttf') format('truetype');
+}
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -444,7 +447,7 @@ a:focus {
 }
 
 .section-title h2, .section-title-white h2 {
-  font-family: "Aka AcidGR-Fifindrel"
+  font-family: "Fifindrel";
   background-color: rgba(94, 154, 142, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
@@ -1733,7 +1736,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Fifindrel";
   font-size: 90px;
   font-size: 5rem;
   color: #fff;
