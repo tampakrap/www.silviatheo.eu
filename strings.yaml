@@ -1,103 +1,211 @@
 ---
+yaml_weregettingmarried:
+  en: WE'RE GETTING MARRIED!
+  gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_invitation_title:
   en: Invitation
   gr: Πρόσκληση
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_timeline_title:
   en: Timeline
   gr: Χρονοδιάγραμμα
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_venue_title:
   en: Venue
   gr: Γαμήλιο Κέντρο
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_transportation_title:
   en: Transportation
   gr: Μετακίνηση
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_accommodation_title:
   en: Accommodation
   gr: Διαμονή
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_rsvp_title:
   en: RSVP
   gr: Αποδοχή
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony on Saturday, 11th of July 2020.</p><p>In this website you will find information about the Venue, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
   gr: TODO Σας προσκαλούμε στο γάμο μας!
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_bus1_title:
   en: Bus Departure
   gr: Αναχώρηση Λεοφωρείου
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_ceremony_title:
   en: Ceremony
   gr: Γαμήλια τελετή
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_ceremony_content:
   en: The beautiful ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives on time...
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_cocktail_title:
   en: Cocktail Party
   gr: Κοκτέιλ Πάρτυ
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_cocktail_content:
   en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to have a nice cocktail party, with plenty of snacks, drinks and live music!
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_dinner_title:
   en: Dinner
   gr: Δείπνο
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_dinner_content:
   en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (alergens, intolerance etc)
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_party_title:
   en: Party! Dance!
   gr: Πάρτυ! Χορός!
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_party_content:
   en: TODO
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_bus2_title:
   en: Bus Departures
   gr: Αναχωρήσεις Λεοφωρείων
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_bus2_content:
   en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-book the time."
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
   gr: "Θα θέλαμε πολύ να δούμε την ξεχωριστή μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_venue_content:
   en: TODO
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_venue_see_location:
   en: See the location at the map
   gr: Δείτε την τοποθεσία στο Χάρτη
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_transportation_content:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See at the map below for the pickup points. (map goes below)
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_accommodation_content:
   en: We recommend the following hotels. Don't forget to mention that you are attenging Silvia and Theo's wedding to get a discount!
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_rsvp_content:
   en: Please reserve before TODO
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_gifts_surprises_title:
   en: Gifts & Surprises
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_gifts_title:
   en: Gifts
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_gifts_content:
   en: bank account number
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_surprises_title:
   en: Surprises
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_surprises_content:
   en: "In case you are planning any surprise for us for the wedding day, please let our wedding planners know beforehands: (email goes here)"
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_preparty_title:
   en: Pre-Party
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_preparty_content:
   en: We are also organizing a pre-wedding party, on Friday 10-7-2020 at PLACE, starting at TIME. See below on the map.
   gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
