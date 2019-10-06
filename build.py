@@ -40,6 +40,14 @@ for lang in LANGUAGES:
     lang_index_html = '{}/index.html'.format(lang)
     print('Creating {}'.format(lang_index_html))
     shutil.copyfile('index.tmpl', lang_index_html)
+    tmp_lang = lang
+    if lang == 'gr':
+        tmp_lang = 'el'
+    with open(lang_index_html, 'r') as f:
+        lines = f.readlines()
+    with open(lang_index_html, 'w') as f:
+        for line in lines:
+            f.write(re.sub(r'set_lang', tmp_lang, line))
 
     flags_html = '{: <24s}<a href="javascript:void(0);"><img src="../images/flags/{}.png"/></a>\n{: <24s}<ul class="sub-menu">\n'.format('', lang, '')
     FLAGS = LANGUAGES.copy()
