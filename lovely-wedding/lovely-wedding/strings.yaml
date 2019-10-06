@@ -1,0 +1,79 @@
+---
+yaml_date:
+  en: 11th of July 2020
+  gr: 11 Ιουλίου 2020
+yaml_invitation_title:
+  en: Invitation
+  gr: Πρόσκληση
+yaml_timeline_title:
+  en: Timeline
+  gr: Χρονοδιάγραμμα
+yaml_venue_title:
+  en: Venue
+  gr: Γαμήλιο Κέντρο
+yaml_transportation_title:
+  en: Transportation
+  gr: Μετακίνηση
+yaml_accommodation_title:
+  en: Accommodation
+  gr: Διαμονή
+yaml_rsvp_title:
+  en: RSVP
+  gr: Αποδοχή
+yaml_invitation_content:
+  en: TODO We invite you to our wedding!
+  gr: TODO Σας προσκαλούμε στο γάμο μας!
+yaml_bus1_title:
+  en: Bus Departure
+  gr: Αναχώρηση Λεοφωρείου
+yaml_bus1_content:
+  en: In case you don't have a car, there will be buses to transfer you to the wedding venue. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier on the pickup point!
+  gr: TODO
+yaml_ceremony_title:
+  en: Ceremony
+  gr: Γαμήλια τελετή
+yaml_ceremony_content:
+  en: The ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives on time...
+  gr: TODO
+yaml_cocktail_title:
+  en: Cocktail Party
+  gr: Κοκτέιλ Πάρτυ
+yaml_cocktail_content:
+  en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to have a nice cocktail party, with plenty of snacks, drinks and live music!
+  gr: TODO
+yaml_dinner_title:
+  en: Dinner
+  gr: Δείπνο
+yaml_dinner_content:
+  en: TODO alergens
+  gr: TODO
+yaml_party_title:
+  en: Party! Dance!
+  gr: Πάρτυ! Χορός!
+yaml_party_content:
+  en: TODO
+  gr: TODO
+yaml_bus2_title:
+  en: Bus Departures
+  gr: Αναχωρήσεις Λεοφωρείων
+yaml_bus2_content:
+  en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-book the time."
+  gr: TODO
+yaml_hashtag:
+  en: "We'd love to see our big day through your eyes! Simply hashtag your social media posts with:"
+  gr: "Θα θέλαμε πολύ να δούμε τη μεγάλη μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
+yaml_venue_address:
+  en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
+  gr: TODO
+yaml_venue_content:
+  en: TODO
+  gr: TODO
+yaml_venue_see_location:
+  en: See the location at the map
+  gr: Δείτε την τοποθεσία στο Χάρτη
+yaml_transportation_content:
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See at the map below for the pickup points. (map goes below)
+  gr: TODO
+yaml_accommodation_content:
+  en: We recommend the following hotels. Mention that you are joining Silvia and Theo's wedding to get discount!
+  gr: TODO
