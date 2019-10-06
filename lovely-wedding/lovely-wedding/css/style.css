@@ -1134,7 +1134,7 @@ a:focus {
   }
   .site-header #navbar > ul .sub-menu {
     background-color: #fff;
-    width: 220px;
+    width: 50px;
     border-top: 2px solid #5e9a8e;
     position: absolute;
     left: 0;
