@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import shutil
 import re
 import yaml
@@ -34,15 +35,17 @@ weregettingmarried = strings['yaml_weregettingmarried']
 del strings['yaml_weregettingmarried']
 
 for lang in LANGUAGES:
-    lang_index_html = '{}.html'.format(lang)
+    if not os.path.exists(lang):
+        os.mkdir(lang)
+    lang_index_html = '{}/index.html'.format(lang)
     print('Creating {}'.format(lang_index_html))
     shutil.copyfile('index.tmpl', lang_index_html)
 
-    flags_html = '{: <24s}<a href="javascript:void(0);"><img src="images/flags/{}.png"/></a>\n{: <24s}<ul class="sub-menu">\n'.format('', lang, '')
+    flags_html = '{: <24s}<a href="javascript:void(0);"><img src="../images/flags/{}.png"/></a>\n{: <24s}<ul class="sub-menu">\n'.format('', lang, '')
     FLAGS = LANGUAGES.copy()
     FLAGS.remove(lang)
     for flag in FLAGS:
-        flags_html += '{: <28s}<li><a href="{}.html"><img src="images/flags/{}.png"></a></li>\n'.format('', flag, flag)
+        flags_html += '{: <28s}<li><a href="/{}/"><img src="../images/flags/{}.png"></a></li>\n'.format('', flag, flag)
     with open(lang_index_html, 'r') as f:
         lines = f.readlines()
     with open(lang_index_html, 'w') as f:
@@ -82,5 +85,3 @@ for lang in LANGUAGES:
                 translated = orig_translated
 
     print("DONE {}".format(lang_index_html))
-
-#shutil.copyfile('en.html', 'index.html')
