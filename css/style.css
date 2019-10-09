@@ -2464,12 +2464,13 @@ a:focus {
 }
 
 .count-down-section #clock {
-  color: #5e9a8e;
+  color: white;
   overflow: hidden;
+  text-shadow: 1px 1px 1px white;
 }
 
 .count-down-section #clock > div {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.3);
   width: 23.5%;
   float: left;
   text-align: center;
