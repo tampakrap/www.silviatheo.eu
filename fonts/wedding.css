@@ -1,0 +1,81 @@
+	/*
+  	Wedding icon font: Wedding
+  	Creation date: 02/05/2018 08:36
+  	*/
+
+@font-face {
+  font-family: "Wedding";
+  src: url("./Wedding.eot");
+  src: url("./Wedding.eot?#iefix") format("embedded-opentype"),
+       url("./Wedding.woff") format("woff"),
+       url("./Wedding.ttf") format("truetype"),
+       url("./Wedding.svg#Wedding") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Wedding";
+    src: url("./Wedding.svg#Wedding") format("svg");
+  }
+}
+
+[class^="wedding-"]:before, [class*=" wedding-"]:before,
+[class^="wedding-"]:after, [class*=" wedding-"]:after {   
+  font-family: Wedding;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.wedding-001-newlyweds:before { content: "\f100"; }
+.wedding-002-heart-2:before { content: "\f101"; }
+.wedding-003-wedding-cake:before { content: "\f102"; }
+.wedding-004-wedding-invitation:before { content: "\f103"; }
+.wedding-005-wedding-photography:before { content: "\f104"; }
+.wedding-006-wedding-contract:before { content: "\f105"; }
+.wedding-007-glasses:before { content: "\f106"; }
+.wedding-008-chocolate-fountain:before { content: "\f107"; }
+.wedding-009-garter:before { content: "\f108"; }
+.wedding-010-bow-tie:before { content: "\f109"; }
+.wedding-011-necklace:before { content: "\f10a"; }
+.wedding-012-heart-1:before { content: "\f10b"; }
+.wedding-013-wedding-dinner-1:before { content: "\f10c"; }
+.wedding-014-wedding-dinner:before { content: "\f10d"; }
+.wedding-015-wedding-1:before { content: "\f10e"; }
+.wedding-016-proposal-1:before { content: "\f10f"; }
+.wedding-017-wedding-location:before { content: "\f110"; }
+.wedding-018-wedding-card:before { content: "\f111"; }
+.wedding-019-champagne-1:before { content: "\f112"; }
+.wedding-020-makeup:before { content: "\f113"; }
+.wedding-021-altar:before { content: "\f114"; }
+.wedding-022-suitcase:before { content: "\f115"; }
+.wedding-023-bible:before { content: "\f116"; }
+.wedding-024-wedding-ring-2:before { content: "\f117"; }
+.wedding-025-wedding-video:before { content: "\f118"; }
+.wedding-026-champagne:before { content: "\f119"; }
+.wedding-027-relationship-2:before { content: "\f11a"; }
+.wedding-028-suit:before { content: "\f11b"; }
+.wedding-029-relationship-1:before { content: "\f11c"; }
+.wedding-030-relationship:before { content: "\f11d"; }
+.wedding-031-wedding-ring-1:before { content: "\f11e"; }
+.wedding-032-wedding-photo:before { content: "\f11f"; }
+.wedding-033-wedding:before { content: "\f120"; }
+.wedding-034-heart:before { content: "\f121"; }
+.wedding-035-proposal:before { content: "\f122"; }
+.wedding-036-key:before { content: "\f123"; }
+.wedding-037-lock:before { content: "\f124"; }
+.wedding-038-honeymoon:before { content: "\f125"; }
+.wedding-039-bride-dress:before { content: "\f126"; }
+.wedding-040-island:before { content: "\f127"; }
+.wedding-041-church:before { content: "\f128"; }
+.wedding-042-bag:before { content: "\f129"; }
+.wedding-043-music-note:before { content: "\f12a"; }
+.wedding-044-camera:before { content: "\f12b"; }
+.wedding-045-arrows:before { content: "\f12c"; }
+.wedding-046-wedding-gift:before { content: "\f12d"; }
+.wedding-047-balloon:before { content: "\f12e"; }
+.wedding-048-wedding-day:before { content: "\f12f"; }
+.wedding-049-bouquet:before { content: "\f130"; }
+.wedding-050-wedding-ring:before { content: "\f131"; }
