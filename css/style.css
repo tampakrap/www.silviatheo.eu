@@ -2800,6 +2800,7 @@ a:focus {
 
 .cta h2 span {
   font-family: "Open Sans";
+  line-height: 1.5;
   font-size: 20px;
   font-size: 1.4rem;
   display: block;
