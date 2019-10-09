@@ -24,7 +24,7 @@
 [class^="wedding-"]:before, [class*=" wedding-"]:before,
 [class^="wedding-"]:after, [class*=" wedding-"]:after {   
   font-family: Wedding;
-        font-size: 20px;
+        font-size: 50px;
 font-style: normal;
 margin-left: 20px;
 }

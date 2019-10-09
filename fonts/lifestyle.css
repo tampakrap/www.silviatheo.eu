@@ -24,7 +24,7 @@
 [class^="lifestyle-"]:before, [class*=" lifestyle-"]:before,
 [class^="lifestyle-"]:after, [class*=" lifestyle-"]:after {   
   font-family: lifestyle;
-        font-size: 20px;
+        font-size: 50px;
 font-style: normal;
 margin-left: 20px;
 }
