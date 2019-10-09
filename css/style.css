@@ -2466,7 +2466,7 @@ a:focus {
 .count-down-section #clock {
   color: white;
   overflow: hidden;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 1px 1px 1px black;
 }
 
 .count-down-section #clock > div {
