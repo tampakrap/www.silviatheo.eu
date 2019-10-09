@@ -2635,8 +2635,6 @@ a:focus {
 }
 
 .story-section .story-timeline .text-holder {
-  border-top: 1px solid rgba(94, 154, 142, 0.1);
-  padding-top: 45px !important;
   position: relative;
 }
 
