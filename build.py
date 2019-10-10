@@ -49,11 +49,11 @@ for lang in LANGUAGES:
         for line in lines:
             f.write(re.sub(r'set_lang', tmp_lang, line))
 
-    flags_html = '{: <24s}<a href="javascript:void(0);"><img src="../images/flags/{}.png"/></a>\n{: <24s}<ul class="sub-menu">\n'.format('', lang, '')
+    flags_html = '{: <16s}<a href="javascript:void(0);"><img src="../images/flags/{}.png"/></a>\n{: <16s}<ul class="sub-menu">\n'.format('', lang, '')
     FLAGS = LANGUAGES.copy()
     FLAGS.remove(lang)
     for flag in FLAGS:
-        flags_html += '{: <28s}<li><a href="/{}/"><img src="../images/flags/{}.png"></a></li>\n'.format('', flag, flag)
+        flags_html += '{: <18s}<li><a href="/{}/"><img src="../images/flags/{}.png"></a></li>\n'.format('', flag, flag)
     with open(lang_index_html, 'r') as f:
         lines = f.readlines()
     with open(lang_index_html, 'w') as f:
@@ -65,9 +65,10 @@ for lang in LANGUAGES:
     for letter in weregettingmarried[lang]:
         time += 0.05
         if letter == ' ':
-            weregettingmarried_html += '{: <24s}<span>&nbsp;</span>\n'.format('')
+            weregettingmarried_html += '{: <12s}<span>&nbsp;</span>\n'.format('')
         else:
-            weregettingmarried_html += '{: <24s}<span class=" wow fadeInUp" data-wow-delay="{:.2f}s">{}</span>\n'.format('', time, letter)
+            weregettingmarried_html += '{: <12s}<span class=" wow fadeInUp" data-wow-delay="{:.2f}s">{}</span>\n'.format('', time, letter)
+    weregettingmarried_html = weregettingmarried_html[:-1]
     with open(lang_index_html, 'r') as f:
         lines = f.readlines()
     with open(lang_index_html, 'w') as f:
