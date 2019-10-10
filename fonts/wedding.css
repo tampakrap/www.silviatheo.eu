@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "Wedding";
-  src: url("./Wedding.eot");
-  src: url("./Wedding.eot?#iefix") format("embedded-opentype"),
-       url("./Wedding.woff") format("woff"),
-       url("./Wedding.ttf") format("truetype"),
-       url("./Wedding.svg#Wedding") format("svg");
+  src: url("./wedding.eot");
+  src: url("./wedding.eot?#iefix") format("embedded-opentype"),
+       url("./wedding.woff") format("woff"),
+       url("./wedding.ttf") format("truetype"),
+       url("./wedding.svg#Wedding") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Wedding";
-    src: url("./Wedding.svg#Wedding") format("svg");
+    src: url("./wedding.svg#Wedding") format("svg");
   }
 }
 
