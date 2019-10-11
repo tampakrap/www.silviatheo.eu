@@ -188,6 +188,8 @@
                 nextArrow: '<button type="button" class="slick-next">Next</button>',
                 dots: true,
                 fade: true,
+                autoplay: true,
+                autoplaySpeed: 6000,
                 cssEase: 'linear'
             });
         }
