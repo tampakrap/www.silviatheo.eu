@@ -55,8 +55,8 @@ yaml_rsvp_title:
   cz: TODO
   de: TODO
 yaml_invitation_content:
-  en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to honor us with your presence at our Wedding Ceremony, on Saturday, 11th of July 2020.</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
-  gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p></p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020.</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
+  en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
+  gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p></p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
   es: TODO
   cz: TODO
   de: TODO
@@ -115,8 +115,8 @@ yaml_party_title:
   cz: TODO
   de: TODO
 yaml_party_content:
-  en: It's party time! The last part of the celebration is when everybody gets to dance! Throw your hands in the air and wave them like you just don't care! There will be some snacks provided to balance the alcohol.
-  gr: Ώρα για πάρτυ! Το τελευταίο μέρος της γιορτής είναι όταν όλοι θα χορέψουν! Σηκώστε τα χέρια σας ψηλά, και κουνήστε τα δεξιά κι αριστερά! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
+  en: It's party time! The last part of the celebration, where everybody is dancing! Throw your hands in the air and wave them like you just don't care! There will be some snacks provided to balance the alcohol.
+  gr: Ώρα για πάρτυ! Το τελευταίο μέρος της εκδήλωσης, όπου όλοι χορεύουν! Σηκώστε τα χέρια σας ψηλά, και κουνήστε τα δεξιά κι αριστερά! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
   es: TODO
   cz: TODO
   de: TODO
@@ -200,7 +200,7 @@ yaml_surprises_title:
   de: TODO
 yaml_surprises_content:
   en: Your contribution is very important to us! Till 15 of June 2020 you could inform either us or our wedding planner (if you want it to be a surprise to us) if you would like to make a special intervention during the ceremony, dinner or any other time of the celebration!
-  gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της γιορτής!
+  gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της εκδήλωσης!
   es: TODO
   cz: TODO
   de: TODO
