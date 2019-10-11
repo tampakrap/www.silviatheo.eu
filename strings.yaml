@@ -9,8 +9,9 @@ yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
   gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
   es: TODO
-  cz: TODO
-  de: TODO
+  es: WE'RE GETTING MARRIED!
+  cz: WE'RE GETTING MARRIED!
+  de: WE'RE GETTING MARRIED!
 yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
@@ -54,20 +55,20 @@ yaml_rsvp_title:
   cz: TODO
   de: TODO
 yaml_invitation_content:
-  en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony on Saturday, 11th of July 2020.</p><p>In this website you will find information about the Venue, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
-  gr: TODO Σας προσκαλούμε στο γάμο μας!
+  en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to honor us with your presence at our Wedding Ceremony, on Saturday, 11th of July 2020.</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
+  gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p></p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020.</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
   es: TODO
   cz: TODO
   de: TODO
 yaml_bus1_title:
   en: Bus Departure
-  gr: Αναχώρηση Λεοφωρείου
+  gr: Αναχώρηση Λεωφορείου
   es: TODO
   cz: TODO
   de: TODO
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
-  gr: TODO
+  gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
   es: TODO
   cz: TODO
   de: TODO
@@ -78,8 +79,8 @@ yaml_ceremony_title:
   cz: TODO
   de: TODO
 yaml_ceremony_content:
-  en: The beautiful ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives on time...
-  gr: TODO
+  en: Our wedding ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives in time...
+  gr: Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...
   es: TODO
   cz: TODO
   de: TODO
@@ -90,8 +91,8 @@ yaml_cocktail_title:
   cz: TODO
   de: TODO
 yaml_cocktail_content:
-  en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to have a nice cocktail party, with plenty of snacks, drinks and live music!
-  gr: TODO
+  en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to enjoy a nice cocktail party, with plenty of snacks, drinks and live music!
+  gr: Στον υπέροχο κήπο του <a href="#venue">La Quinta de Illescas</a> θα απολαύσουμε ένα ωραίο κοκτέιλ πάρτυ, με πλήθος από σνακς, ποτά και ζωντανή μουσική!
   es: TODO
   cz: TODO
   de: TODO
@@ -102,8 +103,8 @@ yaml_dinner_title:
   cz: TODO
   de: TODO
 yaml_dinner_content:
-  en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (alergens, intolerance etc)
-  gr: TODO
+  en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg alergies)
+  gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διατροφικές ανάγκες (πχ αλεργίες)
   es: TODO
   cz: TODO
   de: TODO
@@ -114,8 +115,8 @@ yaml_party_title:
   cz: TODO
   de: TODO
 yaml_party_content:
-  en: TODO
-  gr: TODO
+  en: It's party time! The last part of the celebration is when everybody gets to dance! Throw your hands in the air and wave them like you just don't care! There will be some snacks provided to balance the alcohol.
+  gr: Ώρα για πάρτυ! Το τελευταίο μέρος της γιορτής είναι όταν όλοι θα χορέψουν! Σηκώστε τα χέρια σας ψηλά, και κουνήστε τα δεξιά κι αριστερά! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
   es: TODO
   cz: TODO
   de: TODO
@@ -127,7 +128,7 @@ yaml_bus2_title:
   de: TODO
 yaml_bus2_content:
   en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-book the time."
-  gr: TODO
+  gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα."
   es: TODO
   cz: TODO
   de: TODO
@@ -139,13 +140,13 @@ yaml_hashtag:
   de: TODO
 yaml_venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
-  gr: TODO
+  gr: Περιφερειακή οδός Μαδρίτης-Toledo (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Toledo)
   es: TODO
   cz: TODO
   de: TODO
 yaml_venue_content:
-  en: TODO
-  gr: TODO
+  en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Its wonderful spacious garden will host the ceremony and the cocktail party. Its enchanting salon will host the dinner. Its disco will host the night party! The venue is simply amazing, provides excellent food and the staff is nice and friendly. We are very happy for our choice, and we are looking forward to see you there on our special day!
+  gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Ο υπέροχος ευρύχωρος κήπος του θα φιλοξενήσει την τελετή και το κοκτέιλ πάρτυ. Το μαγευτικό του σαλόνι θα φιλοξενήσει το δείπνο. Η disco του θα φιλοξενήσει το ολονύχτιο πάρτυ! Το γαμήλιο κέντρο είναι απλά καταπληκτικό, παρέχει εξαίρετο φαγητό και το προσωπικό του είναι ωραίο και φιλικό. Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
   es: TODO
   cz: TODO
   de: TODO
@@ -156,26 +157,26 @@ yaml_venue_see_location:
   cz: TODO
   de: TODO
 yaml_transportation_content:
-  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See at the map below for the pickup points. (map goes below)
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See at the map below for the pickup points. (TODO map goes below)
   gr: TODO
   es: TODO
   cz: TODO
   de: TODO
 yaml_accommodation_content:
-  en: We recommend the following hotels. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount!
-  gr: TODO
+  en: For your convenience, we recommend the following hotels. They are relatively close to the pickup points of the busses that will transfer you to the venue. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount!
+  gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση!
   es: TODO
   cz: TODO
   de: TODO
 yaml_rsvp_content:
-  en: Please reserve before TODO
-  gr: TODO
+  en: Please let us know of your presence before TODO_DEADLINE. Also, please fill in on the comment section for any special dietary needs (eg alergies).
+  gr: Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE. Επίσης, παρακαλούμε συμπληρώστε στο πεδίο με τα σχόλια για όποιες ιδιαίτερες διατροφικές ανάγκες (πχ αλεργίες).
   es: TODO
   cz: TODO
   de: TODO
 yaml_gifts_surprises_title:
   en: Gifts & Surprises
-  gr: TODO
+  gr: Δώρα & Εκπλήξεις
   es: TODO
   cz: TODO
   de: TODO
@@ -186,32 +187,32 @@ yaml_gifts_title:
   cz: TODO
   de: TODO
 yaml_gifts_content:
-  en: bank account number
-  gr: TODO
+  en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional mysterious envelope!
+  gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό μυστηριώδη φάκελο!
   es: TODO
   cz: TODO
   de: TODO
 yaml_surprises_title:
   en: Surprises
-  gr: TODO
+  gr: Εκπλήξεις
   es: TODO
   cz: TODO
   de: TODO
 yaml_surprises_content:
-  en: "In case you are planning any surprise for us for the wedding day, please let our wedding planners know beforehands: (email goes here)"
-  gr: TODO
+  en: Your contribution is very important to us! Till 15 of June 2020 you could inform either us or our wedding planner (if you want it to be a surprise to us) if you would like to make a special intervention during the ceremony, dinner or any other time of the celebration!
+  gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της γιορτής!
   es: TODO
   cz: TODO
   de: TODO
 yaml_preparty_title:
   en: Pre-Party
-  gr: TODO
+  gr: Pre-Party
   es: TODO
   cz: TODO
   de: TODO
 yaml_preparty_content:
-  en: We are also organizing a pre-wedding party, on Friday 10-7-2020 at PLACE, starting at TIME. See below on the map.
-  gr: TODO
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME. Find it below on the map.
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη.
   es: TODO
   cz: TODO
   de: TODO
