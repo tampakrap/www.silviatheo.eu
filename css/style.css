@@ -2558,6 +2558,14 @@ a:focus {
   .story-section .story-timeline:after {
     display: none;
   }
+
+  #cocktail-timeline {
+    margin-top: 2px;
+  }
+
+  #party-dance-timeline {
+    margin-top: 2px;
+  }
 }
 
 .story-section .story-timeline > .row {
