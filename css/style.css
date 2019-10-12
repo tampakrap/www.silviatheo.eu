@@ -2579,7 +2579,7 @@ a:focus {
 }
 
 .story-section .story-timeline > .row + .row {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding-top: 15px;
 }
 
@@ -2646,6 +2646,7 @@ a:focus {
 }
 
 .story-section .story-timeline .text-holder .heart {
+  color: #fff;
   background-color: #9cc2bb;
   width: 43px;
   height: 43px;
@@ -2663,14 +2664,18 @@ a:focus {
   z-index: 10;
 }
 
+.timeline-clocks {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.timeline-clock {
+}
+
 @media (max-width: 991px) {
   .story-section .story-timeline .text-holder .heart {
     display: none;
   }
-}
-
-.story-section .story-timeline .text-holder .fa {
-  color: #fff;
 }
 
 .story-section .story-timeline .right-heart .heart {
