@@ -2671,7 +2671,7 @@ a:focus {
 
 .timeline-clock {
   padding-right: 12px;
-  color: #a9a9a9;
+  /* color: #a9a9a9; */
 }
 
 .timeline-clock:last-child {
@@ -2697,7 +2697,6 @@ a:focus {
   font-size: 22px;
   font-size: 1.22222rem;
   font-weight: 600;
-  color: #5e9a8e;
   margin: 0 0 0.5em;
   text-transform: uppercase;
 }
