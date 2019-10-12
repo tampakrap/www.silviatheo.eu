@@ -405,6 +405,12 @@ a:focus {
 
 .section-title .vertical-line span i, .section-title-white .vertical-line span i {
   position: absolute;
+  left: -29px;
+  top: -57px;
+}
+
+#getting-there .section-title .vertical-line span i, .section-title-white .vertical-line span i {
+  position: absolute;
   left: -34px;
   top: -63px;
 }
