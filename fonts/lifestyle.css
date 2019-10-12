@@ -26,7 +26,6 @@
   font-family: lifestyle;
         font-size: 50px;
 font-style: normal;
-margin-left: 20px;
 }
 
 .lifestyle-airplane:before { content: "\f100"; }
