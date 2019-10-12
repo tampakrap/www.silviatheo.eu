@@ -117,13 +117,13 @@
               <span class="icon-bar"></span>
             </button>
             <div class="couple-logo">
-              <h1><a href="#" class="back-to-top-btn">Σ <i class="fi flaticon-shape-1" style="font-size: 38px; 1.94rem; position: relative; top: -12px"></i> Θ</a></h1>
+              <h1><a href="#" class="back-to-top-btn-logo">Σ <i class="fi flaticon-shape-1" style="font-size: 38px; 1.94rem; position: relative; top: -12px"></i> Θ</a></h1>
             </div>
           </div>
           <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
             <button class="close-navbar"><i class="fa fa-close"></i></button>
             <ul class="nav navbar-nav">
-              <li><a href="#home">Home</a></li>
+              <!--li><a href="#home">Home</a></li-->
               <li><a href="#invitation">Προσκληση</a></li>
               <li><a href="#timeline">Χρονοδιαγραμμα</a></li>
               <li><a href="#venue">Γαμηλιο Κεντρο</a></li>
@@ -212,7 +212,7 @@
           <div class="col col-xs-12">
             <div class="story-timeline">
               <div class="row">
-                <div class="col col-md-6">
+                <div class="col col-md-6 text-holder">
                   <div class="story-text right-align-text">
                     <i class="lifestyle-bus"></i>
                     <h3>Αναχωρηση Λεωφορειου</h3>
@@ -221,23 +221,17 @@
                         <i class="fa fa-clock-o"></i> 18:00
                       </span>
                     </div>
-                    <!--span class="date">18:00</span-->
                     <p>Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!</p>
                   </div>
                 </div>
-                <div class="col col-md-6">
-                  <!--div class="img-holder">
-                    <img src="images/story/img-1.jpg" alt class="img img-responsive">
-                  </div-->
+                <div class="col col-md-6 text-holder">
+                  <span class="heart">
+                    <i class="fa fa-heart"></i>
+                  </span>
                 </div>
               </div>
               <div class="row">
-                <div class="col col-md-6">
-                  <!--div class="img-holder right-align-text story-slider">
-                    <img src="images/story/img-2.jpg" alt class="img img-responsive">
-                    <img src="images/story/img-3.jpg" alt class="img img-responsive">
-                  </div-->
-                </div>
+                <div class="col col-md-6"></div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
                     <i class="fa fa-heart"></i>
@@ -250,13 +244,12 @@
                         <i class="fa fa-clock-o"></i> 19:00
                       </span>
                     </div>
-                    <!--span class="date">19:00</span-->
                     <p>Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...</p>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col col-md-6 text-holder right-heart">
+                <div class="col col-md-6 text-holder right-heart" id="cocktail-timeline">
                   <span class="heart">
                     <i class="fa fa-heart"></i>
                   </span>
@@ -268,27 +261,16 @@
                         <i class="fa fa-clock-o"></i> 20:00
                       </span>
                     </div>
-                    <!--span class="date">20:00</span-->
                     <p>Στον υπέροχο κήπο του <a href="#venue">La Quinta de Illescas</a> θα απολαύσουμε ένα ωραίο κοκτέιλ πάρτυ, με πλήθος από σνακς, ποτά και ζωντανή μουσική!</p>
                   </div>
                 </div>
                 <div class="col col-md-6">
-                  <!--div class="img-holder right-align-text story-slider">
-                    <img src="images/story/img-7.jpg" alt class="img img-responsive">
-                    <img src="images/story/img-5.jpg" alt class="img img-responsive">
-                  </div-->
                 </div>
               </div>
               <div class="row">
                 <div class="col col-md-6">
-                  <!--div class="img-holder video-holder">
-                    <img src="images/story/img-8.jpg" alt class="img img-responsive">
-                    <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe" class="video-play-btn">
-                      <i class="fa fa-play"></i>
-                    </a>
-                  </div-->
                 </div>
-                <div class="col col-md-6 text-holder">
+                <div class="col col-md-6 text-holder" id="dinner-timeline">
                   <span class="heart">
                     <i class="fa fa-heart"></i>
                   </span>
@@ -300,13 +282,12 @@
                         <i class="fa fa-clock-o"></i> 22:00
                       </span>
                     </div>
-                    <!--span class="date">22:00</span-->
-                    <p>Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διατροφικές ανάγκες (πχ αλεργίες)</p>
+                    <p>Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διαιτητικές ανάγκες (πχ αλλεργίες).</p>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col col-md-6 text-holder right-heart">
+                <div class="col col-md-6 text-holder right-heart" id="party-dance-timeline">
                   <span class="heart">
                     <i class="fa fa-heart"></i>
                   </span>
@@ -318,25 +299,14 @@
                         <i class="fa fa-clock-o"></i> 00:00
                       </span>
                     </div>
-                    <!--span class="date">00:00</span-->
-                    <p>Ώρα για πάρτυ! Το τελευταίο μέρος της εκδήλωσης, όπου όλοι χορεύουν! Σηκώστε τα χέρια σας ψηλά, και κουνήστε τα δεξιά κι αριστερά! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.</p>
+                    <p>It's party time! Throw your hands in the air and wave them like you just don't care! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.</p>
                   </div>
                 </div>
                 <div class="col col-md-6">
-                  <!--div class="img-holder right-align-text story-slider">
-                    <img src="images/story/img-7.jpg" alt class="img img-responsive">
-                    <img src="images/story/img-5.jpg" alt class="img img-responsive">
-                  </div-->
                 </div>
               </div>
               <div class="row">
                 <div class="col col-md-6">
-                  <!--div class="img-holder video-holder">
-                    <img src="images/story/img-8.jpg" alt class="img img-responsive">
-                    <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe" class="video-play-btn">
-                      <i class="fa fa-play"></i>
-                    </a>
-                  </div-->
                 </div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
@@ -345,10 +315,17 @@
                   <div class="story-text">
                     <i class="lifestyle-bus"></i>
                     <h3>Αναχωρησεις Λεοφωρειων</h3>
-                    <i class="fa fa-clock-o"></i> 1:30
-                    <i class="fa fa-clock-o"></i> 3:00
-                    <i class="fa fa-clock-o"></i> 5:00
-                    <!--span class="date">1:30, 3:00, 5:00</span-->
+                    <div class="timeline-clocks">
+                      <span class="timeline-clock">
+                        <i class="fa fa-clock-o"></i> 01:30
+                      </span>
+                      <span class="timeline-clock">
+                        <i class="fa fa-clock-o"></i> 03:00
+                      </span>
+                      <span class="timeline-clock">
+                        <i class="fa fa-clock-o"></i> 05:00
+                      </span>
+                    </div>
                     <p>Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα.</p>
                   </div>
                 </div>
@@ -390,19 +367,16 @@
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
               <div class="img-holder">
-                <img src="../images/events/img-1.jpg" alt class="img img-responsive">
+                <img src="../images/venue.jpg" alt class="img img-responsive">
               </div>
               <div class="details">
                 <h3>La Quinta de Illescas</h3>
                 <ul>
                   <li><i class="fa fa-map-marker"></i>Περιφερειακή οδός Μαδρίτης-Toledo (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Toledo)</li>
-                  <!--does this look good??-->
-                  <!--li><i class="fa fa-clock-o"></i> 19:00</li-->
+                  <!--li><i class="fa fa-clock-o"></i>11-07-2020 19:00</li-->
                 </ul>
                 <p>Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Ο υπέροχος ευρύχωρος κήπος του θα φιλοξενήσει την τελετή και το κοκτέιλ πάρτυ. Το μαγευτικό του σαλόνι θα φιλοξενήσει το δείπνο. Η disco του θα φιλοξενήσει το ολονύχτιο πάρτυ! Το γαμήλιο κέντρο είναι απλά καταπληκτικό, παρέχει εξαίρετο φαγητό και το προσωπικό του είναι ωραίο και φιλικό. Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!</p>
-                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">
-                  Δείτε την τοποθεσία στο Χάρτη <i class="fa fa-angle-right"></i>
-                </a>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">Δείτε την τοποθεσία στο χάρτη<i class="fa fa-angle-right"></i></a>
               </div>
             </div>
           </div>
@@ -412,8 +386,8 @@
     <!-- end events-section -->
 
 
-    <!-- start gallery-section -->
-    <section class="gallery-section section-padding" id="transportation">
+    <!-- start events-section -->
+    <section class="events-section section-padding" id="transportation">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
@@ -425,74 +399,43 @@
         </div> <!-- end section-title -->
 
         <div class="row">
-          <div class="col col-xs-12 sortable-gallery">
-            <!--div class="gallery-filters">
-              <ul>
-                <li><a data-filter="*" href="#" class="current">All</a></li>
-                <li><a data-filter=".wedding" href="#">Wedding</a></li>
-                <li><a data-filter=".ceremony" href="#">Ceremony</a></li>
-                <li><a data-filter=".party" href="#">Party</a></li>
-              </ul>
-            </div-->
-
-            <div class="gallery-container gallery-fancybox masonry-gallery">
-              <p>TODO</p>
-              <!--div class="grid wedding">
-                <a href="images/gallery/img-1.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-1.jpg" alt class="img img-responsive">
-                </a>
+          <div class="col col-lg-10 col-lg-offset-1">
+            <div class="event">
+              <p>Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα! Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα.</p>
+            </div>
+            <div class="event">
+              <div class="img-holder">
+                <img src="../images/transportation1.jpg" alt class="img img-responsive">
               </div>
-              <div class="grid wedding ceremony">
-                <a href="images/gallery/img-2.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-2.jpg" alt class="img img-responsive">
-                </a>
+              <div class="details">
+                <h3>ΠΡΩΤΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ:</h3>
+                <ul>
+                  <li><i class="fa fa-map-marker"></i>TODO</li>
+                  <li><i class="fa fa-clock-o"></i> 19:00</li>
+                </ul>
+                <p>TODO</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">Δείτε το πρώτο σημείο στο χάρτη <i class="fa fa-angle-right"></i></a>
               </div>
-              <div class="grid ceremony eudcation">
-                <a href="images/gallery/img-3.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-3.jpg" alt class="img img-responsive">
-                </a>
+            </div>
+            <div class="event">
+              <div class="img-holder">
+                <img src="../images/transportation2.jpg" alt class="img img-responsive">
               </div>
-              <div class="grid wedding party">
-                <a href="images/gallery/img-4.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-4.jpg" alt class="img img-responsive">
-                </a>
-              </div>
-              <div class="grid ceremony">
-                <a href="images/gallery/img-5.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-5.jpg" alt class="img img-responsive">
-                </a>
-              </div>
-              <div class="grid party">
-                <a href="images/gallery/img-6.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-6.jpg" alt class="img img-responsive">
-                </a>
-              </div>
-              <div class="grid wedding">
-                <a href="images/gallery/img-7.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-7.jpg" alt class="img img-responsive">
-                </a>
-              </div>
-              <div class="grid ceremony"-->
-                 <!--  <a href="images/gallery/img-8.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
-                </a> -->
-                <!--a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe" class="video-play-btn">
-                  <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
-                  <i class="fa fa-play"></i>
-                </a>
-
-              </div>
-              <div class="grid ceremony">
-                <a href="images/gallery/img-9.jpg" class="fancybox" data-fancybox-group="gall-1">
-                  <img src="images/gallery/img-9.jpg" alt class="img img-responsive">
-                </a>
-              </div-->
+              <div class="details">
+                <h3>ΔΕΥΤΕΡΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ:</h3>
+                <ul>
+                  <li><i class="fa fa-map-marker"></i>TODO</li>
+                  <li><i class="fa fa-clock-o"></i> 19:00</li>
+                </ul>
+                <p>TODO</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">Δείτε το δεύτερο σημείο στο χάρτη <i class="fa fa-angle-right"></i></a>
+             </div>
             </div>
           </div>
         </div> <!-- end row -->
       </div> <!-- end container -->
     </section>
-    <!-- end gallery-section -->
+    <!-- end events-section -->
 
 
     <!-- start inportant-people-section -->
@@ -510,229 +453,53 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="inportant-people-content">
-              <p>Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση!</p>
+              <p>Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση! Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα.</p>
               <br/>
-              <!--div class="tablist">
-                <ul class="nav">
-                  <li class="active">
-                    <a href="#groomsmen" data-toggle="tab">Groomsmen</a>
-                  </li>
-                  <li>
-                    <a href="#bridesmaid" data-toggle="tab">Bridesmaid</a>
-                  </li>
-                </ul>
-              </div-->
-
               <div class="tab-content">
                 <div class="tab-pane fade in active grid-wrapper" id="groomsmen">
                   <div class="grid">
                     <div class="img-holder">
-                      <a href="../images/groomsmen/img-1.jpg" class="popup-image">
+                      <a href="https://google.com" target="_blank">
                         <img src="../images/groomsmen/img-1.jpg" alt class="img img-responsive">
                       </a>
                     </div>
                     <div class="details">
                       <h3>Hotel 1</h3>
-                      <span>Address</span>
+                      <span>TODO</span>
                       <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li><a href="#" target="blank">Δείτε το στο χάρτη</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="grid">
                     <div class="img-holder">
-                      <a href="../images/groomsmen/img-2.jpg" class="popup-image">
-                        <img src="../images/groomsmen/img-2.jpg" alt class="img img-responsive">
+                      <a href="https://google.com" target="_blank">
+                        <img src="../images/groomsmen/img-1.jpg" alt class="img img-responsive">
                       </a>
                     </div>
                     <div class="details">
                       <h3>Hotel 2</h3>
-                      <span>Address</span>
+                      <span>TODO</span>
                       <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li><a href="#" target="blank">Δείτε το στο χάρτη</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="grid">
                     <div class="img-holder">
-                      <a href="../images/groomsmen/img-3.jpg" class="popup-image">
-                        <img src="../images/groomsmen/img-3.jpg" alt class="img img-responsive">
+                      <a href="https://google.com" target="_blank">
+                        <img src="../images/groomsmen/img-1.jpg" alt class="img img-responsive">
                       </a>
                     </div>
                     <div class="details">
                       <h3>Hotel 3</h3>
-                      <span>Address</span>
+                      <span>TODO</span>
                       <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li><a href="#" target="blank">Δείτε το στο χάρτη</a></li>
                       </ul>
                     </div>
                   </div>
-                  <!--div class="grid">
-                    <div class="img-holder">
-                      <a href="images/groomsmen/img-4.jpg" class="popup-image">
-                        <img src="images/groomsmen/img-4.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Hatu Michel</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/groomsmen/img-5.jpg" class="popup-image">
-                        <img src="images/groomsmen/img-5.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Michel doin</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/groomsmen/img-6.jpg" class="popup-image">
-                        <img src="images/groomsmen/img-6.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Topper jone</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div-->
                 </div>
-
-                <!--div class="tab-pane fade grid-wrapper" id="bridesmaid">
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-1.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-1.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Rachel Li</h3>
-                      <span>Made of honor</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-2.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-2.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Male Vign</h3>
-                      <span>Best friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-3.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-3.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Jonny Mich</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-4.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-4.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Brodd Wid</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-5.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-5.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Nokshal bedi</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="images/bridesmaid/img-6.jpg" class="popup-image">
-                        <img src="images/bridesmaid/img-6.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Holly Fie</h3>
-                      <span>Friend</span>
-                      <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div-->
               </div>
             </div>
           </div>
@@ -756,7 +523,7 @@
 
         <div class="row content">
           <div class="col col-md-6">
-            <h3>TODO</h3>
+            <h3>Δώρα</h3>
             <p>Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό μυστηριώδη φάκελο!</p>
             <pre>IBAN: ES91 0239 0806 7600 1762 9528<br/>SWIFT/BIC: EVOBESMMXXX<br/>NAME: Silvia Alvarez Almazan</pre>
           </div>
@@ -785,33 +552,28 @@
 
         <div class="row content">
           <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p>Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE. Επίσης, παρακαλούμε συμπληρώστε στο πεδίο με τα σχόλια για όποιες ιδιαίτερες διατροφικές ανάγκες (πχ αλεργίες).</p>
+            <p><p>Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο με τα σχόλια.</p></p>
             <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
               <div class="col col-sm-6">
                 <input type="text" name="name" class="form-control" placeholder="Your Name*">
               </div>
               <div class="col col-sm-6">
-                <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                <input type="email" name="email" class="form-control" placeholder="Your E-mail*">
               </div>
               <div class="col col-sm-6">
-                <select class="form-control" name="guest" >
-                  <option disabled selected>Number Of Guest*</option>
+                <input type="text" name="partner-name" class="form-control" placeholder="Partner's Name">
+              </div>
+              <div class="col col-sm-6">
+                <select class="form-control" name="kids">
+                  <option disabled selected>Number Of Kids*</option>
+                  <option>0</option>
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-              <div class="col col-sm-6">
-                <select class="form-control" name="events" >
-                  <option disabled selected>I Am Attending*</option>
-                  <option>Al events</option>
-                  <option>Wedding ceremony</option>
-                  <option>Reception party</option>
                 </select>
               </div>
               <div class="col col-sm-12">
-                <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
+                <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
               </div>
               <div class="col col-sm-12 submit-btn">
                 <button type="submit" class="submit">Send</button>
@@ -829,8 +591,8 @@
     <!-- end rsvp-section -->
 
 
-    <!-- start gift-registration-section -->
-    <section class="gift-registration-section section-padding" id="pre-party">
+    <!-- start events-section -->
+    <section class="events-section section-padding" id="pre-party">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
@@ -841,32 +603,27 @@
           </div>
         </div> <!-- end section-title -->
 
-        <div class="row content">
+        <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
-            <p>Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη.</p>
-
-            <!--div class="gif-registration-slider">
-              <div class="register">
-                <img src="images/gift/img-1.jpg" alt class="img img-responsive">
+            <div class="event">
+              <div class="img-holder">
+                <img src="../images/pre-party.jpg" alt class="img img-responsive">
               </div>
-              <div class="register">
-                <img src="images/gift/img-2.jpg" alt class="img img-responsive">
+              <div class="details">
+                <h3>TODO bar name</h3>
+                <ul>
+                  <li><i class="fa fa-map-marker"></i>TODO</li>
+                  <li><i class="fa fa-clock-o"></i> Παρασκευή 10 Ιουλίου 2020 17:00</li>
+                </ul>
+                <p>Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη. Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα.</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">Δείτε την τοποθεσία στο χάρτη <i class="fa fa-angle-right"></i></a>
               </div>
-              <div class="register">
-                <img src="images/gift/img-3.jpg" alt class="img img-responsive">
-              </div>
-              <div class="register">
-                <img src="images/gift/img-1.jpg" alt class="img img-responsive">
-              </div>
-              <div class="register">
-                <img src="images/gift/img-2.jpg" alt class="img img-responsive">
-              </div>
-            </div-->
+            </div>
           </div>
         </div> <!-- end row -->
       </div> <!-- end container -->
     </section>
-    <!-- end gift-registration-section -->
+    <!-- end events-section -->
 
 
     <!-- start footer -->

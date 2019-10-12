@@ -2,16 +2,15 @@
 yaml_metadescr:
   en: Silvia and Theo are getting married!
   gr: Η Σίλβια και ο Θοδωρής παντρεύονται!
-  es: Silvia and Theo are getting married!
-  cz: Silvia and Theo are getting married!
-  de: Silvia and Theo are getting married!
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
   gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
   es: TODO
-  es: WE'RE GETTING MARRIED!
-  cz: WE'RE GETTING MARRIED!
-  de: WE'RE GETTING MARRIED!
+  cz: TODO
+  de: TODO
 yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
@@ -103,8 +102,8 @@ yaml_dinner_title:
   cz: TODO
   de: TODO
 yaml_dinner_content:
-  en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg alergies)
-  gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διατροφικές ανάγκες (πχ αλεργίες)
+  en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg allergies).
+  gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διαιτητικές ανάγκες (πχ αλλεργίες).
   es: TODO
   cz: TODO
   de: TODO
@@ -115,8 +114,8 @@ yaml_party_title:
   cz: TODO
   de: TODO
 yaml_party_content:
-  en: It's party time! The last part of the celebration, where everybody is dancing! Throw your hands in the air and wave them like you just don't care! There will be some snacks provided to balance the alcohol.
-  gr: Ώρα για πάρτυ! Το τελευταίο μέρος της εκδήλωσης, όπου όλοι χορεύουν! Σηκώστε τα χέρια σας ψηλά, και κουνήστε τα δεξιά κι αριστερά! Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
+  en: There will be some snacks provided to balance the alcohol.
+  gr: Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
   es: TODO
   cz: TODO
   de: TODO
@@ -150,27 +149,99 @@ yaml_venue_content:
   es: TODO
   cz: TODO
   de: TODO
-yaml_venue_see_location:
+yaml_venue_map:
   en: See the location at the map
-  gr: Δείτε την τοποθεσία στο Χάρτη
+  gr: Δείτε την τοποθεσία στο χάρτη
   es: TODO
   cz: TODO
   de: TODO
 yaml_transportation_content:
-  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See at the map below for the pickup points. (TODO map goes below)
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point! The pickup points will be announced soon.
+  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα! Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα.
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation1_title:
+  en: FIRST PICKUP POINT
+  gr: ΠΡΩΤΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation1_address:
+  en: Central Street 105
   gr: TODO
   es: TODO
   cz: TODO
   de: TODO
+yaml_transportation1_content:
+  en: You can get there by bus 144, stop Central, or by metro green line, stop Central.
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation1_map:
+  en: See the first pickup point on the map
+  gr: Δείτε το πρώτο σημείο στο χάρτη
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation2_title:
+  en: SECOND PICKUP POINT
+  gr: ΔΕΥΤΕΡΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation2_address:
+  en: Central Street 120
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation2_content:
+  en: You can get there by bus 144, stop Central, or by metro green line, stop Central.
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation2_map:
+  en: See the second pickup point on the map
+  gr: Δείτε το δεύτερο σημείο στο χάρτη
+  es: TODO
+  cz: TODO
+  de: TODO
 yaml_accommodation_content:
-  en: For your convenience, we recommend the following hotels. They are relatively close to the pickup points of the busses that will transfer you to the venue. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount!
-  gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση!
+  en: For your convenience, we recommend the following hotels. They are relatively close to the pickup points of the buses that will transfer you to the venue. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount! The suggested hotels will be announced soon.
+  gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση! Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα.
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_accommodation_address1:
+  en: TODO
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_accommodation_address2:
+  en: TODO
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_accommodation_address3:
+  en: TODO
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_accommodation_map:
+  en: See it on the map
+  gr: Δείτε το στο χάρτη
   es: TODO
   cz: TODO
   de: TODO
 yaml_rsvp_content:
-  en: Please let us know of your presence before TODO_DEADLINE. Also, please fill in on the comment section for any special dietary needs (eg alergies).
-  gr: Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE. Επίσης, παρακαλούμε συμπληρώστε στο πεδίο με τα σχόλια για όποιες ιδιαίτερες διατροφικές ανάγκες (πχ αλεργίες).
+  en: "<p>Please let us know of your presence before TODO_DEADLINE.<br/>In case you have any special dietary needs (eg allergies), please mention it on the comments section.</p>"
+  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο με τα σχόλια.</p>"
   es: TODO
   cz: TODO
   de: TODO
@@ -182,7 +253,7 @@ yaml_gifts_surprises_title:
   de: TODO
 yaml_gifts_title:
   en: Gifts
-  gr: TODO
+  gr: Δώρα
   es: TODO
   cz: TODO
   de: TODO
@@ -204,15 +275,27 @@ yaml_surprises_content:
   es: TODO
   cz: TODO
   de: TODO
-yaml_preparty_title:
-  en: Pre-Party
-  gr: Pre-Party
+yaml_preparty_address:
+  en: TODO
+  gr: TODO
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_preparty_date:
+  en: Friday 10th of July
+  gr: Παρασκευή 10 Ιουλίου
   es: TODO
   cz: TODO
   de: TODO
 yaml_preparty_content:
-  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME. Find it below on the map.
-  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη.
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME. The place and time of the Pre-Party will be announced soon.
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη. Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα.
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_preparty_map:
+  en: See the location at the map
+  gr: Δείτε την τοποθεσία στο χάρτη
   es: TODO
   cz: TODO
   de: TODO
