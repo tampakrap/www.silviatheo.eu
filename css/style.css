@@ -2670,6 +2670,16 @@ a:focus {
 }
 
 .timeline-clock {
+  padding-right: 12px;
+  color: #a9a9a9;
+}
+
+.timeline-clock:last-child {
+  padding-right: 0px;
+}
+
+.timeline-clock .fa-clock-o {
+  color: #5e9a8e;
 }
 
 @media (max-width: 991px) {
