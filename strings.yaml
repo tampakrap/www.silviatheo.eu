@@ -162,7 +162,7 @@ yaml_transportation_content:
   cz: TODO
   de: TODO
 yaml_transportation_soon:
-  en: The pickup points will be announced soon!
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
   gr: Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
@@ -222,7 +222,7 @@ yaml_accommodation_content:
   cz: TODO
   de: TODO
 yaml_accommodation_soon:
-  en: The suggested hotels will be announced soon!
+  en: For your convenience, we plan to recommend some hotels, that will be relatively close to the pickup points of the buses, and will offer discounts for our wedding's guests. We will announce soon our recommended hotels!
   gr: Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
@@ -348,7 +348,7 @@ yaml_preparty_content:
   cz: TODO
   de: TODO
 yaml_preparty_soon:
-  en: The place and time of the Pre-Party will be announced soon!
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020. The exact place and time of the Pre-Party will be announced soon!
   gr: Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
