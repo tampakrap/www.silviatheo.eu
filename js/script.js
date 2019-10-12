@@ -558,7 +558,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
+                    url: "https://script.google.com/macros/s/AKfycbzGgacTnaTmR7FjF0bXSY7iEXczpXrl4H1BDzxYTFPOEG8q0-S2/exec",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
