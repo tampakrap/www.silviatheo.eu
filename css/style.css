@@ -70,7 +70,7 @@ body {
   }
 }
 
-p {
+p, pre {
   color: #767878;
   line-height: 1.8em;
 }
@@ -3504,19 +3504,32 @@ a:focus {
 }
 
 .getting-there-section .content h3,
-.getting-there-section .content p {
+.getting-there-section .content p,
+.getting-there-section .content pre {
   color: #fff;
 }
 
+.getting-there-section pre {
+  background-color: #5e9a8e;
+  border: 0;
+  font-family: "Open Sans";
+  padding: 0;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
 @media (max-width: 1199px) {
-  .getting-there-section .content p {
+  .getting-there-section .content p,
+  .getting-there-section .content pre {
     font-size: 16px;
     font-size: 0.88889rem;
   }
 }
 
 @media (max-width: 767px) {
-  .getting-there-section .content p {
+  .getting-there-section .content p,
+  .getting-there-section .content pre {
     font-size: 15px;
     font-size: 0.83333rem;
   }
