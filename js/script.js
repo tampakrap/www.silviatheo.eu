@@ -142,7 +142,8 @@
                 var resize     = height - $(window).scrollTop();
                 var parallaxSpeed = $(this).data("speed");
                 var doParallax = -(resize / parallaxSpeed);
-                var positionValue   = doParallax + "px";
+                // var positionValue   = doParallax + "px";
+                var positionValue   = "0px";
                 var img = $(this).data("bg-image");
 
                 $(this).css({
@@ -160,7 +161,7 @@
         }
     }
 
-    bgParallax();
+    // bgParallax();
 
 
     // Hero slider background setting
