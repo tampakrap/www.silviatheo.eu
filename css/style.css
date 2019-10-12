@@ -2632,6 +2632,15 @@ a:focus {
   .story-section .story-timeline .right-align-text {
     text-align: right;
   }
+
+  .story-text {
+    position: relative;
+    top: -25px;
+  }
+
+  .story-section .story-timeline > .row + .row {
+    padding-top: 0;
+  }
 }
 
 .story-section .story-timeline .text-holder {
