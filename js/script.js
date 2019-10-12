@@ -559,7 +559,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "https://script.google.com/macros/s/AKfycbzGgacTnaTmR7FjF0bXSY7iEXczpXrl4H1BDzxYTFPOEG8q0-S2/exec",
+                    url: "https://script.google.com/macros/s/AKfycbxl4CJ-NIYyoVtB8OKfX3LqrfWolYTa77DrKHr6Sgh-E7hUUZk/exec",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();

@@ -55,7 +55,7 @@ yaml_rsvp_title:
   de: TODO
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
-  gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p></p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
+  gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
   es: TODO
   cz: TODO
   de: TODO
@@ -156,8 +156,14 @@ yaml_venue_map:
   cz: TODO
   de: TODO
 yaml_transportation_content:
-  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point! The pickup points will be announced soon.
-  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα! Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα.
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point!
+  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_transportation_soon:
+  en: The pickup points will be announced soon!
+  gr: Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
   de: TODO
@@ -210,8 +216,14 @@ yaml_transportation2_map:
   cz: TODO
   de: TODO
 yaml_accommodation_content:
-  en: For your convenience, we recommend the following hotels. They are relatively close to the pickup points of the buses that will transfer you to the venue. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount! The suggested hotels will be announced soon.
-  gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση! Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα.
+  en: For your convenience, we recommend the following hotels. They are relatively close to the pickup points of the buses that will transfer you to the venue. Don't forget to mention that you are attending Silvia and Theo's wedding to get a discount!
+  gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να αναφέρετε ότι θα παρεβρεθείτε στο γάμο της Σίλβιας και του Θοδωρή ώστε να έχετε έκπτωση!
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_accommodation_soon:
+  en: The suggested hotels will be announced soon!
+  gr: Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
   de: TODO
@@ -240,11 +252,53 @@ yaml_accommodation_map:
   cz: TODO
   de: TODO
 yaml_rsvp_content:
-  en: "<p>Please let us know of your presence before TODO_DEADLINE.<br/>In case you have any special dietary needs (eg allergies), please mention it on the comments section.</p>"
-  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σαςη πριν τις TODO_DEADLINE.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο με τα σχόλια.</p>"
+  en: "<p>Please let us know of your presence before TODO_DEADLINE.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
+  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις TODO_DEADLINE.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
   es: TODO
   cz: TODO
   de: TODO
+yaml_rsvp_name:
+  en: Your full name
+  gr: Το όνομά σας
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_email:
+  en: Your e-mail
+  gr: Το e-mail σας
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_partner:
+  en: Your partner's full name
+  gr: Το πλήρες όνομα του/της συντρόφου σας
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_kids:
+  en: Number of kids
+  gr: Αριθμός παιδιών
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_message:
+  en: Your message
+  gr: Το μήνυμά σας
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_send:
+  en: Send
+  gr: Αποστολή
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_rsvp_thankyou:
+  en: Thank you!
+  gr: Ευχαριστούμε!
+  es: Gracias!
+  cz: Děkujeme!
+  de: Danke schön!
 yaml_gifts_surprises_title:
   en: Gifts & Surprises
   gr: Δώρα & Εκπλήξεις
@@ -288,8 +342,14 @@ yaml_preparty_date:
   cz: TODO
   de: TODO
 yaml_preparty_content:
-  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME. The place and time of the Pre-Party will be announced soon.
-  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME. Βρείτε το στον ακόλουθο χάρτη. Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα.
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME.
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME.
+  es: TODO
+  cz: TODO
+  de: TODO
+yaml_preparty_soon:
+  en: The place and time of the Pre-Party will be announced soon!
+  gr: Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
   de: TODO

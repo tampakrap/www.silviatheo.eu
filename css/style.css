@@ -2969,7 +2969,7 @@ a:focus {
 #1.1	inportant-people-section
 --------------------------------------------------------------*/
 .inportant-people-section {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
   /*** tablist ***/
   /*** tab-content ***/
 }
