@@ -805,32 +805,28 @@
         <div class="row content">
           <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <p>Please let us know of your presence before TODO_DEADLINE. Also, please fill in on the comment section for any special dietary needs (eg alergies).</p>
-            <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
+            <form id="rsvp-form" class="form validate-rsvp-form row gform" method="post" action="https://script.google.com/macros/s/AKfycbzGgacTnaTmR7FjF0bXSY7iEXczpXrl4H1BDzxYTFPOEG8q0-S2/exec">
               <div class="col col-sm-6">
                 <input type="text" name="name" class="form-control" placeholder="Your Name*">
               </div>
               <div class="col col-sm-6">
-                <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                <input type="email" name="email" class="form-control" placeholder="Your E-mail*">
               </div>
               <div class="col col-sm-6">
-                <select class="form-control" name="guest" >
-                  <option disabled selected>Number Of Guest*</option>
+                <input type="text" name="partner-name" class="form-control" placeholder="Partner's Name">
+              </div>
+              <div class="col col-sm-6">
+                <select class="form-control" name="kids">
+                  <option disabled selected>Number Of Kids*</option>
+                  <option>0</option>
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
                   <option>4</option>
                 </select>
               </div>
-              <div class="col col-sm-6">
-                <select class="form-control" name="events" >
-                  <option disabled selected>I Am Attending*</option>
-                  <option>Al events</option>
-                  <option>Wedding ceremony</option>
-                  <option>Reception party</option>
-                </select>
-              </div>
               <div class="col col-sm-12">
-                <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
+                <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
               </div>
               <div class="col col-sm-12 submit-btn">
                 <button type="submit" class="submit">Send</button>
