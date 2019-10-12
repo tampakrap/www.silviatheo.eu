@@ -3485,6 +3485,16 @@ a:focus {
   background-color: #5e9a8e;
 }
 
+.getting-there-section a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.getting-there-section a:hover {
+  color: #fff;
+  opacity: 0.4;
+}
+
 .getting-there-section .content h3,
 .getting-there-section .content p {
   color: #fff;
