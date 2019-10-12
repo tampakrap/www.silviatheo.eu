@@ -417,8 +417,14 @@ a:focus {
 
 @media (max-width: 991px) {
   .section-title .vertical-line span i, .section-title-white .vertical-line span i {
-    left: -28px;
-    top: -54px;
+    left: -25px;
+    top: -46px;
+  }
+
+  #getting-there .section-title .vertical-line span i, .section-title-white .vertical-line span i {
+    position: absolute;
+    left: -34px;
+    top: -62px;
   }
 }
 
