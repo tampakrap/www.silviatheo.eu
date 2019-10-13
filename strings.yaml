@@ -50,7 +50,7 @@ yaml_accommodation_title:
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
   gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
-  es: "<p>¡Después de cuatro años increíbles juntos, esperamos celebrar la boda de nuestros sueños en Madrid!</p><p>Te invitamos a asistir a nuestra ceremonia de boda, el Sábado 11 de Julio de 2020. ¡Tu presencia hará que este evento sea más especial!</p><p>¡En esta página web encontrarás información sobre el lugar, transporte, alojamiento recomendado y la pre-fiesta del viernes!</p><p><a href='#rsvp'>Aceptar la invitación</a></p>"
+  es: "<p>¡Después de cuatro años increíbles juntos, esperamos celebrar la boda de nuestros sueños en Madrid!</p><p>Os invitamos a asistir a nuestra ceremonia de boda, el Sábado 11 de Julio de 2020. ¡Vuestra presencia hará que este evento sea más especial!</p><p>¡En esta página web encontraréis información sobre el lugar, transporte, alojamiento recomendado y la pre-fiesta del viernes!</p><p><a href='#rsvp'>Aceptar la invitación</a></p>"
   cz: TODO
   de: TODO
 yaml_bus1_title:
@@ -62,7 +62,7 @@ yaml_bus1_title:
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
-  es: En caso de que no tengas coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pincha <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Asegúrate de llegar al menos 15 minutos antes de la salida de los autobuses!
+  es: En caso de que no tengáis coche, habrá autobuses para trasladarles al <a href="venue">lugar de la boda</a>. Pinchad <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraros de llegar al menos 15 minutos antes de la salida de los autobuses!
   cz: TODO
   de: TODO
 yaml_ceremony_title:
@@ -98,7 +98,7 @@ yaml_dinner_title:
 yaml_dinner_content:
   en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg allergies).
   gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διαιτητικές ανάγκες (πχ αλλεργίες).
-  es: Buena comida, más bebidas, brindis y la tarta de boda! Rellena en el formulario de RSVP si tienes alguna necesidad dietética especial (por ejemplo, alergias).
+  es: Buena comida, más bebidas, brindis y la tarta de boda! Rellenad en el formulario de RSVP si tenéis alguna necesidad dietética especial (por ejemplo, alergias).
   cz: TODO
   de: TODO
 yaml_party_title:
@@ -128,7 +128,7 @@ yaml_bus2_content:
 yaml_hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
   gr: "Θα θέλαμε πολύ να δούμε την ξεχωριστή μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
-  es: "¡Nos encantaría ver nuestro día especial a través de tus ojos! Simplemente etiqueta tus publicaciones en redes sociales con:"
+  es: "¡Nos encantaría ver nuestro día especial a través de vuestros ojos! Simplemente etiquetad vuestras publicaciones en redes sociales con:"
   cz: TODO
   de: TODO
 yaml_venue_address:
@@ -140,7 +140,7 @@ yaml_venue_address:
 yaml_venue_content:
   en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Its wonderful spacious garden will host the ceremony and the cocktail party. Its enchanting salon will host the dinner. Its disco will host the night party! The venue is simply amazing, provides excellent food and the staff is nice and friendly. We are very happy for our choice, and we are looking forward to see you there on our special day!
   gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Ο υπέροχος ευρύχωρος κήπος του θα φιλοξενήσει την τελετή και το κοκτέιλ πάρτυ. Το μαγευτικό του σαλόνι θα φιλοξενήσει το δείπνο. Η disco του θα φιλοξενήσει το ολονύχτιο πάρτυ! Το γαμήλιο κέντρο είναι απλά καταπληκτικό, παρέχει εξαίρετο φαγητό και το προσωπικό του είναι ωραίο και φιλικό. Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
-  es: La ceremonia de boda, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Su gran maravilloso jardín será el anfitrión de la ceremonia y el cóctel. Su encantador salón será el anfitrión de la cena. ¡En su discoteca será donde tengamos la fiesta nocturna! El lugar es simplemente increíble, ofrece excelente comida y el personal es agradable y amable. ¡Estamos muy contentos de nuestra elección y esperamos verte allí en nuestro día especial!
+  es: La ceremonia de boda, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Su gran maravilloso jardín será el anfitrión de la ceremonia y el cóctel. Su encantador salón será el anfitrión de la cena. ¡En su discoteca será donde tengamos la fiesta nocturna! El lugar es simplemente increíble, ofrece excelente comida y el personal es agradable y amable. ¡Estamos muy contentos de nuestra elección y esperamos veros allí en nuestro día especial!
   cz: TODO
   de: TODO
 yaml_venue_map:
@@ -158,7 +158,7 @@ yaml_transportation_content:
 yaml_transportation_soon:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
   gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Θα ανακοινώσουμε σύντομα τα σημεία συλλογής των επιβατών!
-  es: El lugar de la boda está a media hora de Madrid. Si no tienes coche, habrá autobuses para trasladarte allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
+  es: El lugar de la boda está a media hora de Madrid. Si no tenéis coche, habrá autobuses para trasladaros allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
   cz: TODO
   de: TODO
 yaml_transportation1_title:
@@ -218,7 +218,7 @@ yaml_accommodation_content:
 yaml_accommodation_soon:
   en: For your convenience, we plan to recommend some hotels, that will be relatively close to the pickup points of the buses, and will offer discounts for our wedding's guests. We will announce soon our recommended hotels!
   gr: Για τη διευκόλυνσή σας θα προτείνουμε μερικά ξενοδοχεία, τα οποία θα βρίσκονται σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων, και θα προσφέρουν έκπτωση για τους καλεσμένους του γάμου. Θα ανακοινώσουμε σύντομα τα προτεινόμενα ξενοδοχεία!
-  es: Para tu comodidad, planeamos recomendar algunos hoteles, que estarán relativamente cerca de los puntos de recogida de los autobuses, y ofrecerán descuentos para los invitados de nuestra boda. ¡Pronto anunciaremos los hoteles recomendados!
+  es: Para vuestra comodidad, planeamos recomendar algunos hoteles, que estarán relativamente cerca de los puntos de recogida de los autobuses, y ofrecerán descuentos para los invitados de nuestra boda. ¡Pronto anunciaremos los hoteles recomendados!
   cz: TODO
   de: TODO
 yaml_accommodation_address1:
@@ -260,7 +260,7 @@ yaml_gifts_title:
 yaml_gifts_content:
   en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional envelope!
   gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό φάκελο!
-  es: Si bien la presencia de tu compañia es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podeis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
+  es: Si bien la presencia de vuestra compañia es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podeis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
   cz: TODO
   de: TODO
 yaml_surprises_title:
@@ -272,13 +272,13 @@ yaml_surprises_title:
 yaml_surprises_content:
   en: Your contribution is very important to us! Till 15 of June 2020 you could inform either us or our wedding planner (if you want it to be a surprise to us) if you would like to make a special intervention during the ceremony, dinner or any other time of the celebration!
   gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της εκδήλωσης!
-  es: ¡Tu aportación es muy importante para nosotros! Hasta el 15 de junio de 2020, puedes informarnos a nosotros o a nuestra wedding planner (si deseas que sea una sorpresa para nosotros) si quieres realizar una intervención especial durante la ceremonia, cena o en cualquier otro momento de la celebración!
+  es: ¡Vuestra aportación es muy importante para nosotros! Hasta el 15 de Junio de 2020, podéis informarnos a nosotros o a nuestra wedding planner (si deseáis que sea una sorpresa para nosotros) si queréis realizar una intervención especial durante la ceremonia, cena o en cualquier otro momento de la celebración!
   cz: TODO
   de: TODO
 yaml_rsvp_content:
   en: "<p>Please let us know of your presence before 15th of May 2020.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
-  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 20 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
-  es: TODO
+  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 15 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
+  es: "<p>Háganos saber vuestra presencia antes del 15 de Mayo de 2020.<br/>En caso de que tengáis alguna necesidad dietética especial (por ejemplo, alergias), por favor mencionarlo en la sección \"Su mensaje\".</p>"
   cz: TODO
   de: TODO
 yaml_rsvp_name:
