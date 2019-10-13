@@ -6,25 +6,27 @@ import re
 import yaml
 
 LANGUAGES = ['en', 'gr', 'es', 'cz', 'de']
-GR_ACCENTS = {
-    'Ά': 'Α',
-    'ά': 'α',
-    'Έ': 'Ε',
-    'έ': 'ε',
-    'Ή': 'Η',
-    'ή': 'η',
-    'Ί': 'Ι',
-    'ί': 'ι',
-    'ϊ': 'ι',
-    'ΐ': 'ι',
-    'Ό': 'ο',
-    'ό': 'ο',
-    'Ύ': 'υ',
-    'ύ': 'υ',
-    'ϋ': 'υ',
-    'ΰ': 'υ',
-    'Ώ': 'ω',
-    'ώ': 'ω',
+ACCENTS = {
+    'gr': {
+        'Ά': 'Α',
+        'ά': 'α',
+        'Έ': 'Ε',
+        'έ': 'ε',
+        'Ή': 'Η',
+        'ή': 'η',
+        'Ί': 'Ι',
+        'ί': 'ι',
+        'ϊ': 'ι',
+        'ΐ': 'ι',
+        'Ό': 'ο',
+        'ό': 'ο',
+        'Ύ': 'υ',
+        'ύ': 'υ',
+        'ϋ': 'υ',
+        'ΰ': 'υ',
+        'Ώ': 'ω',
+        'ώ': 'ω',
+    }
 }
 
 with open('strings.yaml', 'r') as f:
@@ -87,8 +89,8 @@ for page in ['index', 'future']:
                 for line in lines:
                     if '{}_cap'.format(tmpl_var) in line:
                         tmpl_var = '{}_cap'.format(tmpl_var)
-                        if lang == 'gr':
-                            for acc_letter, plain_letter in GR_ACCENTS.items():
+                        if lang in ['gr', 'es']:
+                            for acc_letter, plain_letter in ACCENTS['gr'].items():
                                 translated = re.sub(r'{}'.format(acc_letter), plain_letter, translated)
                     f.write(re.sub(r'{}'.format(tmpl_var), translated, line))
                     tmpl_var = orig_tmpl_var

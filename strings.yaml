@@ -2,79 +2,73 @@
 yaml_metadescr:
   en: Silvia and Theo are getting married!
   gr: Η Σίλβια και ο Θοδωρής παντρεύονται!
-  es: TODO
-  cz: TODO
+  es: Silvia y Theo se casan!
+  cz: Silvia a Theo se vdávají!
   de: TODO
 yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
   gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
-  es: TODO
-  cz: TODO
+  es: NOS CASAMOS!
+  cz: VDÁVÁME SE!
   de: TODO
 yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
-  es: TODO
-  cz: TODO
+  es: 11 de Julio 2020
+  cz: 11 Července 2020
   de: TODO
 yaml_invitation_title:
   en: Invitation
   gr: Πρόσκληση
-  es: TODO
-  cz: TODO
+  es: Invitaciόn
+  cz: Pozvání
   de: TODO
 yaml_timeline_title:
   en: Timeline
   gr: Χρονοδιάγραμμα
-  es: TODO
-  cz: TODO
+  es: Cronograma
+  cz: Časová Osa
   de: TODO
 yaml_venue_title:
   en: Venue
   gr: Γαμήλιο Κέντρο
-  es: TODO
-  cz: TODO
+  es: Lugar de la Boda
+  cz: Svatební Místo
   de: TODO
 yaml_transportation_title:
   en: Transportation
   gr: Μετακίνηση
-  es: TODO
-  cz: TODO
+  es: Transporte
+  cz: Přeprava
   de: TODO
 yaml_accommodation_title:
   en: Accommodation
   gr: Διαμονή
-  es: TODO
-  cz: TODO
-  de: TODO
-yaml_rsvp_title:
-  en: RSVP
-  gr: Αποδοχή
-  es: TODO
-  cz: TODO
+  es: Alojamiento
+  cz: Akomodace #ubytování?
   de: TODO
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Ceremony, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
   gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στην τελετή του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
-  es: TODO
+  es: "<p>¡Después de cuatro años increíbles juntos, esperamos celebrar la boda de nuestros sueños en Madrid!</p><p>Te invitamos a asistir a nuestra ceremonia de boda, el Sábado 11 de Julio de 2020. ¡Tu presencia hará que este evento sea más especial!</p><p>¡En esta página web encontrarás información sobre el lugar, transporte, alojamiento recomendado y la pre-fiesta del viernes!</p><p><a href='#rsvp'>Aceptar la invitación</a></p>"
   cz: TODO
   de: TODO
 yaml_bus1_title:
   en: Bus Departure
   gr: Αναχώρηση Λεωφορείου
-  es: TODO
+  es: Salida de los Autobuses
   cz: TODO
   de: TODO
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
-  es: TODO
+  es: En caso de que no tengas coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pincha <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Asegúrate de llegar al menos 15 minutos antes de la salida de los autobuses!
   cz: TODO
   de: TODO
 yaml_ceremony_title:
   en: Ceremony
   gr: Γαμήλια τελετή
-  es: TODO
+  es: Ceremonia
   cz: TODO
   de: TODO
 yaml_ceremony_content:
@@ -86,7 +80,7 @@ yaml_ceremony_content:
 yaml_cocktail_title:
   en: Cocktail Party
   gr: Κοκτέιλ Πάρτυ
-  es: TODO
+  es: Cóctel
   cz: TODO
   de: TODO
 yaml_cocktail_content:
@@ -98,7 +92,7 @@ yaml_cocktail_content:
 yaml_dinner_title:
   en: Dinner
   gr: Δείπνο
-  es: TODO
+  es: Cena
   cz: TODO
   de: TODO
 yaml_dinner_content:
@@ -110,7 +104,7 @@ yaml_dinner_content:
 yaml_party_title:
   en: Party! Dance!
   gr: Πάρτυ! Χορός!
-  es: TODO
+  es: Fiesta! Baile!
   cz: TODO
   de: TODO
 yaml_party_content:
@@ -122,12 +116,12 @@ yaml_party_content:
 yaml_bus2_title:
   en: Bus Departures
   gr: Αναχωρήσεις Λεοφωρείων
-  es: TODO
+  es: Salidas de los Autobuses
   cz: TODO
   de: TODO
 yaml_bus2_content:
-  en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-book the time."
-  gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα."
+  en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-reserve the time. They will drop you back to the same place that they picked you up."
+  gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα. Θα σας αφήσουν στο ίδιο σημείο από το οποίο αναχωρήσατε."
   es: TODO
   cz: TODO
   de: TODO
