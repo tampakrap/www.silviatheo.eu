@@ -74,7 +74,7 @@ yaml_ceremony_title:
 yaml_ceremony_content:
   en: Our wedding ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives in time...
   gr: Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...
-  es: Nuestra ceremonia de boda, junto con el resto de los eventos, tendrán lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo ...
+  es: Nuestra ceremonia de boda, junto con el resto de los eventos, tendrán lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo...
   cz: TODO
   de: TODO
 yaml_cocktail_title:
@@ -140,7 +140,7 @@ yaml_venue_address:
 yaml_venue_content:
   en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will take place in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
   gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
-  es: La ceremonia de boda, junto con el resto de los eventos, tendrán lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín tendrá lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
+  es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrán lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín tendrá lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
   cz: TODO
   de: TODO
 yaml_venue_map:
