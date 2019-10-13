@@ -163,7 +163,7 @@ yaml_transportation_content:
   de: TODO
 yaml_transportation_soon:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
-  gr: Τα σημεία συλλογής επιβατών θα ανακοινωθούν σύντομα!
+  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Θα ανακοινώσουμε σύντομα τα σημεία συλλογής των επιβατών!
   es: TODO
   cz: TODO
   de: TODO
@@ -223,7 +223,7 @@ yaml_accommodation_content:
   de: TODO
 yaml_accommodation_soon:
   en: For your convenience, we plan to recommend some hotels, that will be relatively close to the pickup points of the buses, and will offer discounts for our wedding's guests. We will announce soon our recommended hotels!
-  gr: Τα προτεινόμενα ξενοδοχεί θα ανακοινωθούν σύντομα!
+  gr: Για τη διευκόλυνσή σας θα προτείνουμε μερικά ξενοδοχεία, τα οποία θα βρίσκονται σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων, και θα προσφέρουν έκπτωση για τους καλεσμένους του γάμου. Θα ανακοινώσουμε σύντομα τα προτεινόμενα ξενοδοχεία!
   es: TODO
   cz: TODO
   de: TODO
@@ -252,8 +252,8 @@ yaml_accommodation_map:
   cz: TODO
   de: TODO
 yaml_rsvp_content:
-  en: "<p>Please let us know of your presence before TODO_DEADLINE.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
-  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις TODO_DEADLINE.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
+  en: "<p>Please let us know of your presence before 15th of May 2020.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
+  gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 20 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
   es: TODO
   cz: TODO
   de: TODO
@@ -312,8 +312,8 @@ yaml_gifts_title:
   cz: TODO
   de: TODO
 yaml_gifts_content:
-  en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional mysterious envelope!
-  gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό μυστηριώδη φάκελο!
+  en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional envelope!
+  gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό φάκελο!
   es: TODO
   cz: TODO
   de: TODO
@@ -349,7 +349,7 @@ yaml_preparty_content:
   de: TODO
 yaml_preparty_soon:
   en: We are also organizing a pre-wedding party, on Friday 10th of July 2020. The exact place and time of the Pre-Party will be announced soon!
-  gr: Το μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020. Το ακριβές μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
   es: TODO
   cz: TODO
   de: TODO
