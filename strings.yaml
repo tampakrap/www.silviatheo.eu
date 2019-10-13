@@ -278,7 +278,7 @@ yaml_surprises_content:
 yaml_rsvp_content:
   en: "<p>Please let us know of your attendance before 15th of May 2020.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
   gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 15 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
-  es: "<p>Por favor comunicarnos vuestra asistencia del 15 de Mayo de 2020.<br/>En caso de que tengáis alguna necesidad dietética especial (por ejemplo, alergias), por favor mencionarlo en la sección \"Su mensaje\".</p>"
+  es: "<p>Por favor comunicarnos vuestra asistencia antes del 15 de Mayo de 2020.<br/>En caso de que tengáis alguna necesidad dietética especial (por ejemplo, alergias), por favor mencionarlo en la sección \"Su mensaje\".</p>"
   cz: TODO
   de: TODO
 yaml_rsvp_name:
