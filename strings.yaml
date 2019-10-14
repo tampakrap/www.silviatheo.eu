@@ -51,7 +51,7 @@ yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Celebration, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
   gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να μας τιμήσετε με την παρουσία σας στον εορτασμό του γάμου μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το συγκεκριμένο γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
   es: "<p>¡Después de cuatro años increíbles juntos, esperamos celebrar la boda de nuestros sueños en Madrid!</p><p>Os invitamos a asistir a la celebración de nuestra boda, el Sábado 11 de Julio de 2020. ¡Vuestra presencia hará que este evento sea más especial!</p><p>¡En esta página web encontraréis información sobre el lugar, transporte, alojamiento recomendado y la pre-party del Viernes!</p><p><a href='#rsvp'>Aceptar la invitación</a></p>"
-  cz: TODO
+  cz: "<p>Po čtyřech úžasných a společných letech Vám s radostí oznamujeme, že se sen stal skutečností a naše svatba se bude konat v Madridu.</p><p>Zveme Vás na naší svatební oslavu v sobotu 11. Července 2020. Vaše účast udělat z místa konání jedinečné místo!</p><p>Na této internetové strance najdete informace o události, dopravě, doporučených ubytovacích zařízeních a páteční pre-party!</p><p><a href='#rsvp'>Přijmout pozvánku</a></p>"
   de: TODO
 yaml_bus1_title:
   en: Bus Departure
@@ -63,19 +63,19 @@ yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
   es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraros de llegar al menos 15 minutos antes de la salida de los autobuses!
-  cz: TODO
+  cz: V případě že nemáte vůz, můžete využít autobusu, který Vás doveze až na <a href="#venue">místo konání svatby</a>. Podívejte se zde na plán míst, kde Vás autobus vyzvedne. Prosím buďte 15 minut před vyzvednutím již na místě, abychom předešli možným nepříjemnostem!
   de: TODO
 yaml_ceremony_title:
   en: Ceremony
   gr: Γαμήλια τελετή
   es: Ceremonia
-  cz: TODO
+  cz: Obřad
   de: TODO
 yaml_ceremony_content:
   en: Our wedding ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives in time...
   gr: Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...
   es: Nuestra ceremonia de boda, junto con el resto de los eventos, tendrán lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo...
-  cz: TODO
+  cz: Náš obřad současně se všemi aktivitami se bude konat v <a href="#venue">La Quinta de Illescas</a>. Obřad začíná v 19:00. Předpokládáme, že nevěsta dorazí včas...
   de: TODO
 yaml_cocktail_title:
   en: Cocktail Party
@@ -87,7 +87,7 @@ yaml_cocktail_content:
   en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to enjoy a nice cocktail party, with plenty of snacks, drinks and live music!
   gr: Στον υπέροχο κήπο του <a href="#venue">La Quinta de Illescas</a> θα απολαύσουμε ένα ωραίο κοκτέιλ πάρτυ, με πλήθος από σνακς, ποτά και ζωντανή μουσική!
   es: ¡En el maravilloso jardín de <a href="#venue">La Quinta de Illescas</a> vamos a disfrutar de un agradable cóctel, con muchos aperitivos, bebidas y música en vivo!
-  cz: TODO
+  cz: Na nadherné zahradě <a href="#venue">La Quinta de Illescas</a> si užijeme coctail party s mnohými pochutinami, nápoji a živou hudbou!
   de: TODO
 yaml_dinner_title:
   en: Dinner
@@ -99,7 +99,7 @@ yaml_dinner_content:
   en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg allergies).
   gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διαιτητικές ανάγκες (πχ αλλεργίες).
   es: ¡Buena comida, más bebidas, brindis y la tarta de boda! Rellenad en el formulario de RSVP si tenéis alguna necesidad dietética especial (por ejemplo, alergias).
-  cz: TODO
+  cz: Mnoho jídla a nápojů, přípitek a hlavně svatební dort! Dejte nám prosím vědět pomocí RSVP formuláře, pokud máte nějaké dietní omezení (či alergii).
   de: TODO
 yaml_party_title:
   en: Party! Dance!
@@ -111,7 +111,7 @@ yaml_party_content:
   en: There will be some snacks provided to balance the alcohol.
   gr: Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
   es: Habrá algunos aperitivos y recena para equilibrar el alcohol.
-  cz: TODO
+  cz: K dispozici bude občerstvení k zachování alkoholové rovnováhy.
   de: TODO
 yaml_bus2_title:
   en: Bus Departures
@@ -123,7 +123,7 @@ yaml_bus2_content:
   en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-reserve the time. They will drop you back to the same place that they picked you up."
   gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα. Θα σας αφήσουν στο ίδιο σημείο από το οποίο αναχωρήσατε."
   es: "Habrá 3 salidas de autobuses desde el lugar de la celebración: a la 1:30, a las 3:00 y a las 5:00. No es necesario reservar previamente la hora. Os dejarán en el mismo lugar donde os recogieron."
-  cz: TODO
+  cz: "Budou připraveny 3 autobusy z místa konání v 1:30, ve 3:00 a v 5:00. Nemusíte dopředu rezervovat, kterým pojedete. Autobus Vás odveze přesně tam, kde Vás vyzvedl."
   de: TODO
 yaml_hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
