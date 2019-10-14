@@ -62,7 +62,7 @@ yaml_bus1_title:
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
-  es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraros de llegar al menos 15 minutos antes de la salida de los autobuses!
+  es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraos de llegar al menos 15 minutos antes de la salida de los autobuses!
   cz: V případě že nemáte vůz, můžete využít autobusu, který Vás doveze až na <a href="#venue">místo konání svatby</a>. Podívejte se zde na plán míst, kde Vás autobus vyzvedne. Prosím buďte 15 minut před vyzvednutím již na místě, abychom předešli možným nepříjemnostem!
   de: TODO
 yaml_ceremony_title:
@@ -74,7 +74,7 @@ yaml_ceremony_title:
 yaml_ceremony_content:
   en: Our wedding ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives in time...
   gr: Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...
-  es: Nuestra ceremonia de boda, junto con el resto de los eventos, tendrán lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo...
+  es: La ceremonia de nuestra boda, junto con el resto de los eventos, tendrá lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo...
   cz: Náš obřad současně se všemi aktivitami se bude konat v <a href="#venue">La Quinta de Illescas</a>. Obřad začíná v 19:00. Předpokládáme, že nevěsta dorazí včas...
   de: TODO
 yaml_cocktail_title:
@@ -138,9 +138,9 @@ yaml_venue_address:
   cz: TODO
   de: TODO
 yaml_venue_content:
-  en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will take place in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
-  gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
-  es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrán lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín tendrá lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
+  en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
+  gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
+  es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín se hará lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
   cz: TODO
   de: TODO
 yaml_venue_map:
@@ -260,7 +260,7 @@ yaml_gifts_title:
 yaml_gifts_content:
   en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional envelope!
   gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό φάκελο!
-  es: Si bien la presencia de vuestra compañia es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podeis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
+  es: ¡Si bien la presencia de vuestra compañía es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podéis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
   cz: TODO
   de: TODO
 yaml_surprises_title:
@@ -272,7 +272,7 @@ yaml_surprises_title:
 yaml_surprises_content:
   en: Your contribution is very important to us! Till 15 of June 2020 you could inform either us or our wedding planner (if you want it to be a surprise to us) if you would like to make a special intervention during the ceremony, dinner or any other time of the celebration!
   gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της εκδήλωσης!
-  es: ¡Vuestra aportación es muy importante para nosotros! Hasta el 15 de Junio de 2020, podéis informarnos a nosotros o a nuestra wedding planner (si deseáis que sea una sorpresa para nosotros) si queréis realizar una intervención especial durante la ceremonia, cena o en cualquier otro momento de la celebración!
+  es: ¡Vuestra aportación es muy importante para nosotros! ¡Hasta el 15 de Junio de 2020, podéis informarnos a nosotros o a nuestra wedding planner (si deseáis que sea una sorpresa para nosotros) si queréis realizar una intervención especial durante la ceremonia, cena o en cualquier otro momento de la celebración!
   cz: TODO
   de: TODO
 yaml_rsvp_content:
@@ -314,7 +314,7 @@ yaml_rsvp_message:
 yaml_rsvp_send:
   en: Send
   gr: Αποστολή
-  es: Emviar
+  es: Enviar
   cz: Poslat #odeslat?
   de: TODO
 yaml_rsvp_thankyou:
