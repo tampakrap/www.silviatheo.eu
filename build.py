@@ -29,6 +29,8 @@ ACCENTS = {
     }
 }
 
+FONT_CZ = 'Promocyja'
+
 with open('strings.yaml', 'r') as f:
     strings = yaml.load(f)
 
@@ -52,11 +54,11 @@ for page in ['index', 'future']:
             for line in lines:
                 f.write(re.sub(r'set_lang', tmp_lang, line))
 
-        flags_html = '{: <16s}<a href="javascript:void(0);"><img src="../images/flags/{}.png"/></a>\n{: <16s}<ul class="sub-menu">\n'.format('', lang, '')
+        flags_html = f'{"": <16s}<a href="javascript:void(0);"><img src="../images/flags/{lang}.png"/></a>\n{"": <16s}<ul class="sub-menu">\n'
         FLAGS = LANGUAGES.copy()
         FLAGS.remove(lang)
         for flag in FLAGS:
-            flags_html += '{: <18s}<li><a href="/{}/"><img src="../images/flags/{}.png"></a></li>\n'.format('', flag, flag)
+            flags_html += f'{"": <18s}<li><a href="/{flag}/"><img src="../images/flags/{flag}.png"></a></li>\n'
         with open(lang_page_html, 'r') as f:
             lines = f.readlines()
         with open(lang_page_html, 'w') as f:
@@ -68,9 +70,9 @@ for page in ['index', 'future']:
         for letter in weregettingmarried[lang]:
             time += 0.05
             if letter == ' ':
-                weregettingmarried_html += '{: <12s}<span>&nbsp;</span>\n'.format('')
+                weregettingmarried_html += f'{"": <12s}<span>&nbsp;</span>\n'
             else:
-                weregettingmarried_html += '{: <12s}<span class=" wow fadeInUp" data-wow-delay="{:.2f}s">{}</span>\n'.format('', time, letter)
+                weregettingmarried_html += f'{"": <12s}<span class=" wow fadeInUp" data-wow-delay="{time:.2f}s">{letter}</span>\n'
         weregettingmarried_html = weregettingmarried_html[:-1]
         with open(lang_page_html, 'r') as f:
             lines = f.readlines()
@@ -82,18 +84,22 @@ for page in ['index', 'future']:
             orig_tmpl_var = tmpl_var
             translated = strings[tmpl_var][lang]
             orig_translated = translated
-            print('Replacing "{}" with "{}"'.format(tmpl_var, translated))
+            print(f'Replacing "{tmpl_var}" with "{translated}"')
             with open(lang_page_html, 'r') as f:
                 lines = f.readlines()
             with open(lang_page_html, 'w') as f:
                 for line in lines:
-                    if '{}_cap'.format(tmpl_var) in line:
-                        tmpl_var = '{}_cap'.format(tmpl_var)
+                    if f'{tmpl_var}_cap' in line:
+                        tmpl_var = f'{tmpl_var}_cap'
                         if lang in ['gr', 'es']:
                             for acc_letter, plain_letter in ACCENTS['gr'].items():
-                                translated = re.sub(r'{}'.format(acc_letter), plain_letter, translated)
-                    f.write(re.sub(r'{}'.format(tmpl_var), translated, line))
+                                translated = re.sub(fr'{acc_letter}', plain_letter, translated)
+                    elif f'{tmpl_var}_cz' in line:
+                        tmpl_var = f'{tmpl_var}_cz'
+                        if lang == 'cz':
+                            translated = f'<span style=\'font-family: "{FONT_CZ}"; font-size: 30px;\'>{translated}</span>'
+                    f.write(re.sub(fr'{tmpl_var}', translated, line))
                     tmpl_var = orig_tmpl_var
                     translated = orig_translated
 
-        print("DONE {}".format(lang_page_html))
+        print(f'DONE {lang_page_html}')

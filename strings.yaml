@@ -353,3 +353,16 @@ yaml_preparty_map:
   es: Ver la ubicación en el mapa
   cz: Podívejte se umístění na mapě
   de: TODO
+### static
+yaml_rsvp_title:
+  en: RSVP
+  gr: RSVP
+  es: RSVP
+  cz: RSVP
+  de: RSVP
+yaml_preparty_title:
+  en: Pre-Party
+  gr: Pre-Party
+  es: Pre-Party
+  cz: Pre-Party
+  de: Pre-Party
