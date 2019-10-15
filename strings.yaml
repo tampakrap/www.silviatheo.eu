@@ -3,7 +3,7 @@ yaml_metadescr:
   en: Silvia and Theo are getting married!
   gr: Η Σίλβια και ο Θοδωρής παντρεύονται!
   es: Silvia y Theo se casan!
-  cz: Silvia a Theo se vdávají!
+  cz: Silvia a Theo se žení!
   de: TODO
 yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
@@ -15,7 +15,7 @@ yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
   es: 11 de Julio 2020
-  cz: 11 Července 2020
+  cz: 11. Července 2020
   de: TODO
 yaml_invitation_title:
   en: Invitation
@@ -45,7 +45,7 @@ yaml_accommodation_title:
   en: Accommodation
   gr: Διαμονή
   es: Alojamiento
-  cz: Akomodace #ubytování?
+  cz: Ubytování
   de: TODO
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Celebration, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
@@ -129,25 +129,25 @@ yaml_hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
   gr: "Θα θέλαμε πολύ να δούμε την ξεχωριστή μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
   es: "¡Nos encantaría ver nuestro día especial a través de vuestros ojos! Simplemente etiquetar vuestras publicaciones en redes sociales con:"
-  cz: TODO
+  cz: "Rádi bychom viděli tento mimořádný den skrz Vaše oči. Použivejte prosím tento hastag na sociálních mediích:"
   de: TODO
 yaml_venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   gr: Περιφερειακή οδός Μαδρίτης-Toledo (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Toledo)
   es: Ctra. Madrid-Toledo (A-42), km. 30 (salida 30A), 45200 Illescas (Toledo)
-  cz: TODO
+  cz: Dálnice Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   de: TODO
 yaml_venue_content:
   en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
   gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
   es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín se hará lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
-  cz: TODO
+  cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat cocktail party. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Nasledně nás čeká disco night party. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
   de: TODO
 yaml_venue_map:
   en: See the location at the map
   gr: Δείτε την τοποθεσία στο χάρτη
   es: Ver la ubicación en el mapa
-  cz: TODO
+  cz: Podívejte se umístění na mapě
   de: TODO
 yaml_transportation_content:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point!
@@ -159,7 +159,7 @@ yaml_transportation_soon:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
   gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Θα ανακοινώσουμε σύντομα τα σημεία συλλογής των επιβατών!
   es: El lugar de la boda está a media hora de Madrid. Si no tenéis coche, habrá autobuses para trasladaros allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
-  cz: TODO
+  cz: Místo konání svatby je zhruba 30 minut od Madridu. Pokud nemáte vůz, tak můžete využít autobusů, které Vás tam odvezou. Podívejte se níže na místa vyzvednutí. Prosím buďte na místě 15 v předstihu, abychom předešli určitým nepříjemnostem!
   de: TODO
 yaml_transportation1_title:
   en: FIRST PICKUP POINT
@@ -219,7 +219,7 @@ yaml_accommodation_soon:
   en: For your convenience, we plan to recommend some hotels, that will be relatively close to the pickup points of the buses, and will offer discounts for our wedding's guests. We will announce soon our recommended hotels!
   gr: Για τη διευκόλυνσή σας θα προτείνουμε μερικά ξενοδοχεία, τα οποία θα βρίσκονται σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων, και θα προσφέρουν έκπτωση για τους καλεσμένους του γάμου. Θα ανακοινώσουμε σύντομα τα προτεινόμενα ξενοδοχεία!
   es: Para vuestra comodidad, planeamos recomendar algunos hoteles, que estarán relativamente cerca de los puntos de recogida de los autobuses, y ofrecerán descuentos para los invitados de nuestra boda. ¡Pronto anunciaremos los hoteles recomendados!
-  cz: TODO
+  cz: Pro zjednodušení máme v plánu Vám doporučit hotely, které budou v blízkosti míst vyzvednutí autobusů a zároveň poskytnou slevu pro naše svatební hosty. Brzy ohlásíme doporučené hotely!
   de: TODO
 yaml_accommodation_address1:
   en: TODO
@@ -261,7 +261,7 @@ yaml_gifts_content:
   en: While the presence of your company is the only gift we could ever ask for, if you wish to give us a wedding gift, you can do it by bank deposit in the following account, or by the traditional envelope!
   gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό φάκελο!
   es: ¡Si bien la presencia de vuestra compañía es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podéis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
-  cz: TODO
+  cz: Zatímco Vaše účast je ten největší dar, o který jsme Vás mohli požádat, pokud nám chcete dát statební dar, tak nám můžete zaslat dar na následující bankovní účet nebo zcela tradiční obálkou!
   de: TODO
 yaml_surprises_title:
   en: Surprises
@@ -273,13 +273,13 @@ yaml_surprises_content:
   en: Your contribution is very important to us! Till 15 of June 2020 you could inform either us or our wedding planner (if you want it to be a surprise to us) if you would like to make a special intervention during the ceremony, dinner or any other time of the celebration!
   gr: H συνεισφορά σας είναι πολύ σημαντική για μας! Μέχρι τις 15 Ιουνίου 2020 μπορείτε να ενημερώσετε είτε εμάς είτε τους διοργανωτές του γάμου μας (αν θέλετε να είναι έκπληξη για μας) αν θα θέλατε να κάνετε κάποια ειδική παρέμβαση κατά τη διάρκεια της τελετής, του δείπνου, ή οποιαδήποτε άλλη στιγμή της εκδήλωσης!
   es: ¡Vuestra aportación es muy importante para nosotros! ¡Hasta el 15 de Junio de 2020, podéis informarnos a nosotros o a nuestra wedding planner (si deseáis que sea una sorpresa para nosotros) si queréis realizar una intervención especial durante la ceremonia, cena o en cualquier otro momento de la celebración!
-  cz: TODO
+  cz: Vaše náměty jsou pro nás velice důležité! Můžete kontaktovat jednoho či druhého z nás či přímo naší svatební koordinátorku (pokud chcete, aby to pro nás bylo překvapení) pokud budete chtít zásadně ovlivnit obřad, večeři či jakýkoliv jiný čas během naší oslavy!
   de: TODO
 yaml_rsvp_content:
   en: "<p>Please let us know of your attendance before 15th of May 2020.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
   gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 15 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
   es: "<p>Por favor comunicarnos vuestra asistencia antes del 15 de Mayo de 2020.<br/>En caso de que tengáis alguna necesidad dietética especial (por ejemplo, alergias), por favor mencionarlo en la sección \"Su mensaje\".</p>"
-  cz: TODO
+  cz: "<p>Prosím, dejte nám vědět do 15. května 2020 v případě, že máte nějaké speciální dietní požadavky (či alergie). Zmiňte tuto skutečnost v sekci \"Vaše zpráva\".</p>"
   de: TODO
 yaml_rsvp_name:
   en: Your full name
@@ -303,7 +303,7 @@ yaml_rsvp_kids:
   en: Number of kids
   gr: Αριθμός παιδιών
   es: Número de niños
-  cz: Počet Dětí
+  cz: Počet dětí
   de: TODO
 yaml_rsvp_message:
   en: Your message
@@ -315,7 +315,7 @@ yaml_rsvp_send:
   en: Send
   gr: Αποστολή
   es: Enviar
-  cz: Poslat #odeslat?
+  cz: Odeslat
   de: TODO
 yaml_rsvp_thankyou:
   en: Thank you!
@@ -345,11 +345,11 @@ yaml_preparty_soon:
   en: We are also organizing a pre-wedding party, on Friday 10th of July 2020. The exact place and time of the Pre-Party will be announced soon!
   gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020. Το ακριβές μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
   es: También estamos organizando una fiesta previa a la boda, el viernes 10 de Julio de 2020. ¡Pronto se anunciará el lugar y la hora exacta de la fiesta!
-  cz: TODO
+  cz: Plánujeme zajistit pre-wedding party (předsvatební party) v pátek 10. 7. 2020. Přesný čas a místo bude brzy upřesněno!
   de: TODO
 yaml_preparty_map:
   en: See the location at the map
   gr: Δείτε την τοποθεσία στο χάρτη
-  es: TODO
-  cz: TODO
+  es: Ver la ubicación en el mapa
+  cz: Podívejte se umístění na mapě
   de: TODO
