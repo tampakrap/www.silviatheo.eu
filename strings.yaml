@@ -81,13 +81,13 @@ yaml_cocktail_title:
   en: Cocktail Party
   gr: Κοκτέιλ Πάρτυ
   es: Cóctel
-  cz: Koktejlové Párty #maybe just as in Eng?
+  cz: Koktejlová Párty
   de: TODO
 yaml_cocktail_content:
   en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to enjoy a nice cocktail party, with plenty of snacks, drinks and live music!
   gr: Στον υπέροχο κήπο του <a href="#venue">La Quinta de Illescas</a> θα απολαύσουμε ένα ωραίο κοκτέιλ πάρτυ, με πλήθος από σνακς, ποτά και ζωντανή μουσική!
   es: ¡En el maravilloso jardín de <a href="#venue">La Quinta de Illescas</a> vamos a disfrutar de un agradable cóctel, con muchos aperitivos, bebidas y música en vivo!
-  cz: Na nadherné zahradě <a href="#venue">La Quinta de Illescas</a> si užijeme coctail party s mnohými pochutinami, nápoji a živou hudbou!
+  cz: Na nadherné zahradě <a href="#venue">La Quinta de Illescas</a> si užijeme koktejlová party s mnohými pochutinami, nápoji a živou hudbou!
   de: TODO
 yaml_dinner_title:
   en: Dinner
@@ -135,13 +135,13 @@ yaml_venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   gr: Περιφερειακή οδός Μαδρίτης-Toledo (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Toledo)
   es: Ctra. Madrid-Toledo (A-42), km. 30 (salida 30A), 45200 Illescas (Toledo)
-  cz: Dálnice Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
+  cz: Dálnice Madrid-Toledo (A-42), km. 30 (výjezd 30A), 45200 Illescas (Toledo)
   de: TODO
 yaml_venue_content:
   en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
   gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
   es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín se hará lugar la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
-  cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat cocktail party. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Nasledně nás čeká disco night party. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
+  cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat koktejlová party. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Nasledně nás čeká disco night party. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
   de: TODO
 yaml_venue_map:
   en: See the location at the map
