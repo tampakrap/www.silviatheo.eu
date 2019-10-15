@@ -159,7 +159,7 @@ yaml_transportation_soon:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
   gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Θα ανακοινώσουμε σύντομα τα σημεία συλλογής των επιβατών!
   es: El lugar de la boda está a media hora de Madrid. Si no tenéis coche, habrá autobuses para trasladaros allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
-  cz: Místo konání svatby je zhruba 30 minut od Madridu. Pokud nemáte vůz, tak můžete využít autobusů, které Vás tam odvezou. Podívejte se níže na místa vyzvednutí. Prosím buďte na místě 15 v předstihu, abychom předešli určitým nepříjemnostem!
+  cz: Místo konání svatby je zhruba 30 minut od Madridu. Pokud nemáte vůz, tak můžete využít autobusů, které Vás tam odvezou. Podívejte se níže na místa vyzvednutí. Brzy oznámíme místa vyzvednutí, kde Vás autobusy vyzvednou.
   de: TODO
 yaml_transportation1_title:
   en: FIRST PICKUP POINT
@@ -279,7 +279,7 @@ yaml_rsvp_content:
   en: "<p>Please let us know of your attendance before 15th of May 2020.<br/>In case you have any special dietary needs (eg allergies), please mention it on the section \"Your message\".</p>"
   gr: "<p>Παρακαλούμε ενημερώστε μας για την παρουσία σας πριν τις 15 Μαΐου 2020.<br/>Σε περίπτωση που έχετε κάποιες ιδιαίτερες διαιτητικές ανάγκες (πχ αλλεργίες), παρακαλούμε να το αναφέρετε στο πεδίο \"Το μήνυμά σας\".</p>"
   es: "<p>Por favor comunicarnos vuestra asistencia antes del 15 de Mayo de 2020.<br/>En caso de que tengáis alguna necesidad dietética especial (por ejemplo, alergias), por favor mencionarlo en la sección \"Su mensaje\".</p>"
-  cz: "<p>Prosím, dejte nám vědět do 15. května 2020 v případě, že máte nějaké speciální dietní požadavky (či alergie). Zmiňte tuto skutečnost v sekci \"Vaše zpráva\".</p>"
+  cz: "<p>Prosím potvrďte svou účast do 15. května 2020.<br/>V případě, že máte nějaké speciální dietní požadavky (či alergie), tak zmiňte tuto skutečnost v sekci \"Vaše zpráva\".</p>"
   de: TODO
 yaml_rsvp_name:
   en: Your full name
