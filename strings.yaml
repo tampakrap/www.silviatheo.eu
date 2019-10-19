@@ -4,139 +4,139 @@ yaml_metadescr:
   gr: Η Σίλβια και ο Θοδωρής παντρεύονται!
   es: Silvia y Theo se casan!
   cz: Silvia a Theo se žení!
-  de: TODO
+  de: Silvia und Theo heiraten!
 yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
   gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
   es: NOS CASAMOS!
   cz: BEREME SE!
-  de: TODO
+  de: WIR HEIRATEN!
 yaml_date:
   en: 11th of July 2020
   gr: 11 Ιουλίου 2020
   es: 11 de Julio 2020
   cz: 11. července 2020
-  de: TODO
+  de: 11. Juli 2020
 yaml_invitation_title:
   en: Invitation
   gr: Πρόσκληση
   es: Invitaciόn
   cz: Pozvání
-  de: TODO
+  de: Einladung
 yaml_timeline_title:
   en: Timeline
   gr: Χρονοδιάγραμμα
   es: Cronograma
   cz: Časová Osa
-  de: TODO
+  de: Tagesablauf
 yaml_venue_title:
   en: Venue
   gr: Γαμήλιο Κέντρο
   es: Lugar de la Boda
   cz: Svatební Místo
-  de: TODO
+  de: Location
 yaml_transportation_title:
   en: Transportation
   gr: Μετακίνηση
   es: Transporte
   cz: Přeprava
-  de: TODO
+  de: Transport
 yaml_accommodation_title:
   en: Accommodation
   gr: Διαμονή
   es: Alojamiento
   cz: Ubytování
-  de: TODO
+  de: Unterkunft
 yaml_invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our Wedding Celebration, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href='#rsvp'>Accept Invitation</a></p>"
   gr: "<p>Μετά από 4 υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να παρεβρεθείτε στο γάμο μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει το γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href='#rsvp'>Αποδοχή Πρόσκλησης</a></p>"
   es: "<p>¡Después de cuatro años increíbles juntos, esperamos celebrar la boda de nuestros sueños en Madrid!</p><p>Os invitamos a asistir a la celebración de nuestra boda, el Sábado 11 de Julio de 2020. ¡Vuestra presencia hará que este evento sea más especial!</p><p>¡En esta página web encontraréis información sobre el lugar, transporte, alojamiento recomendado y la pre-party del Viernes!</p><p><a href='#rsvp'>Aceptar la invitación</a></p>"
   cz: "<p>Po čtyřech úžasných a společných letech Vám s radostí oznamujeme, že se sen stal skutečností a naše svatba se bude konat v Madridu.</p><p>Zveme Vás na naší svatební oslavu v sobotu 11. července 2020. Vaše účast udělat z místa konání jedinečné místo!</p><p>Na této internetové strance najdete informace o události, dopravě, doporučených ubytovacích zařízeních a páteční pre-party!</p><p><a href='#rsvp'>Přijmout pozvánku</a></p>"
-  de: TODO
+  de: "<p>Nach vier gemeinsamen und unglaublichen Jahren, freuen wir uns auf unsere Traumhochzeit in Madrid, Spanien!</p><p>Wir laden dich zu unserer Hochzeitsfeier am Samstag, den 11. Juli 2020 ein. Durch deine Anwesenheit wird unsere Feier besonders schön!</p><p>Auf dieser Webseite erhältst du Informationen über die Hochzeitslocation, den Transport, die empfohlenen Unterkünfte und die Pre-Party am Freitag!</p><p><a href='#rsvp'>Einladung annehmen</a></p>"
 yaml_bus1_title:
   en: Bus Departure
   gr: Αναχώρηση Λεωφορείου
   es: Salida de los Autobuses
   cz: Odjezd Autobusu
-  de: TODO
+  de: Busfahrplan
 yaml_bus1_content:
   en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
   es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraos de llegar al menos 15 minutos antes de la salida de los autobuses!
   cz: V případě že nemáte vůz, můžete využít autobusu, který Vás doveze až na <a href="#venue">místo konání svatby</a>. Podívejte se zde na plán míst, kde Vás autobus vyzvedne. Prosím buďte 15 minut před vyzvednutím již na místě, abychom předešli možným nepříjemnostem!
-  de: TODO
+  de: Falls du kein Auto hast, werden dich Busse zur <a href="#venue">Hochzeitslocation</a> bringen. Mehr Informationen über die Haltestellen der Busse <a href="#transportation">findest du hier</a>. Bitte sei mindestens 15 Minuten vor der Abfahrtszeit an der Haltestelle!
 yaml_ceremony_title:
   en: Ceremony
   gr: Γαμήλια τελετή
   es: Ceremonia
   cz: Obřad
-  de: TODO
+  de: Trauung
 yaml_ceremony_content:
   en: Our wedding ceremony, along with the rest of the events, will take place at <a href="#venue">La Quinta de Illescas</a>. The ceremony starts at 19:00, assuming the bride arrives in time...
   gr: Η όμορφη τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβουν χώρα στο κέντρο <a href="#venue">La Quinta de Illescas</a>. Η τελετή ξεκινάει στις 19:00, υποθέτοντας ότι η νύφη θα φτάσει εγκαίρως...
   es: La ceremonia de nuestra boda, junto con el resto de los eventos, tendrá lugar en <a href="#venue">La Quinta de Illescas</a>. La ceremonia comienza a las 19:00, suponiendo que la novia llegue a tiempo...
   cz: Náš obřad současně se všemi aktivitami se bude konat v <a href="#venue">La Quinta de Illescas</a>. Obřad začíná v 19:00. Předpokládáme, že nevěsta dorazí včas...
-  de: TODO
+  de: Unsere Trauung und die anderen Events werden im Landhaus <a href="#venue">"La Quinta de Illescas"</a> stattfinden. Die Trauung beginnt um 19:00 Uhr, voraussgesetzt die Braut erscheint pünktlich...
 yaml_cocktail_title:
   en: Cocktail Party
   gr: Κοκτέιλ Πάρτυ
   es: Cóctel
   cz: Koktejlová Párty
-  de: TODO
+  de: Cocktailparty
 yaml_cocktail_content:
   en: At the wonderful garden of <a href="#venue">La Quinta de Illescas</a> we are going to enjoy a nice cocktail party, with plenty of snacks, drinks and live music!
   gr: Στον υπέροχο κήπο του <a href="#venue">La Quinta de Illescas</a> θα απολαύσουμε ένα ωραίο κοκτέιλ πάρτυ, με πλήθος από σνακς, ποτά και ζωντανή μουσική!
   es: ¡En el maravilloso jardín de <a href="#venue">La Quinta de Illescas</a> vamos a disfrutar de un agradable cóctel, con muchos aperitivos, bebidas y música en vivo!
   cz: Na nadherné zahradě <a href="#venue">La Quinta de Illescas</a> si užijeme koktejlová párty s mnohými pochutinami, nápoji a živou hudbou!
-  de: TODO
+  de: Im wunderschönen Garten des Landhauses <a href="#venue">La Quinta de Illescas</a> werden wir leckere Cocktails, Getränke und Snacks bei Live-Musik genießen.
 yaml_dinner_title:
   en: Dinner
   gr: Δείπνο
   es: Cena
   cz: Večeře
-  de: TODO
+  de: Abendessen
 yaml_dinner_content:
   en: Nice food, more drinks, toasts, and the wedding cake! Please let us know at the RSVP form if you have any special dietary needs (eg allergies).
   gr: Ωραίο φαγητό, περισσότερα ποτά, προπόσεις, και η γαμήλια τούρτα! Παρακαλούμε ενημερώστε μας στην φόρμα αποδοχής πρόσκλησης αν έχετε κάποιες ειδικές διαιτητικές ανάγκες (πχ αλλεργίες).
   es: ¡Buena comida, más bebidas, brindis y la tarta de boda! Rellenad en el formulario de RSVP si tenéis alguna necesidad dietética especial (por ejemplo, alergias).
   cz: Mnoho jídla a nápojů, přípitek a hlavně svatební dort! Dejte nám prosím vědět pomocí RSVP formuláře, pokud máte nějaké dietní omezení (či alergii).
-  de: TODO
+  de: Leckeres Essen, noch mehr Getränke, Toasts und die Hochzeitstorte! Bitte weise uns im RSVP Formular auf eventelle Essensunverträglichkeiten (z.B. Allergien) hin.
 yaml_party_title:
   en: Party! Dance!
   gr: Πάρτυ! Χορός!
   es: Fiesta! Baile!
   cz: Party! Tanec!
-  de: TODO
+  de: Party! Tanz!
 yaml_party_content:
   en: There will be some snacks provided to balance the alcohol.
   gr: Θα παρέχονται και μερικά σνακς ώστε να ισορροπήσουν το αλκοόλ.
   es: Habrá algunos aperitivos y recena para equilibrar el alcohol.
   cz: K dispozici bude občerstvení k zachování alkoholové rovnováhy.
-  de: TODO
+  de: Es werden Snacks serviert, um die alkoholischen Getränke in Waage zu halten.
 yaml_bus2_title:
   en: Bus Departures
   gr: Αναχωρήσεις Λεοφωρείων
   es: Salidas de los Autobuses
   cz: Odjezdy Autobusů
-  de: TODO
+  de: Busfahrplan
 yaml_bus2_content:
   en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-reserve the time. They will drop you back to the same place that they picked you up."
   gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα. Θα σας αφήσουν στο ίδιο σημείο από το οποίο αναχωρήσατε."
   es: "Habrá 3 salidas de autobuses desde el lugar de la celebración: a la 1:30, a las 3:00 y a las 5:00. No es necesario reservar previamente la hora. Os dejarán en el mismo lugar donde os recogieron."
   cz: "Budou připraveny 3 autobusy z místa konání v 1:30, ve 3:00 a v 5:00. Nemusíte dopředu rezervovat, kterým pojedete. Autobus Vás odveze přesně tam, kde Vás vyzvedl."
-  de: TODO
+  de: Es wird drei Busse geben, die euch von der Hochzeitslocation zurück zur Haltestelle bringen, an der ihr abgeholt worden seid. Die Busse von der Hochzeitslocation zu eurer Haltestelle fahren um 1:30 Uhr, um 3:00 Uhr und um 5:00 Uhr. Die Busse müssen nicht vorreserviert werden.
 yaml_hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
   gr: "Θα θέλαμε πολύ να δούμε την ξεχωριστή μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
   es: "¡Nos encantaría ver nuestro día especial a través de vuestros ojos! Simplemente etiquetar vuestras publicaciones en redes sociales con:"
   cz: "Rádi bychom viděli tento mimořádný den skrz Vaše oči. Použivejte prosím tento hastag na sociálních mediích:"
-  de: TODO
+  de: "Wir würden uns freuen, unseren ganz besonderen Tag mit deinen Augen zu erleben. Verseht eure Social Media posts bitte mit dem Hashtag:"
 yaml_venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   gr: Περιφερειακή οδός Μαδρίτης-Toledo (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Toledo)
   es: Ctra. Madrid-Toledo (A-42), km. 30 (salida 30A), 45200 Illescas (Toledo)
   cz: Dálnice Madrid-Toledo (A-42), km. 30 (výjezd 30A), 45200 Illescas (Toledo)
-  de: TODO
+  de: Autobahn Madrid-Toledo (A-42), km. 30 (Ausfahrt 30A), 45200 Illescas (Toledo)
 yaml_venue_content:
   en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
   gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
