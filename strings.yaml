@@ -4,7 +4,7 @@ yaml_metadescr:
   gr: Η Σίλβια και ο Θοδωρής παντρεύονται!
   es: Silvia y Theo se casan!
   cz: Silvia a Theo se žení!
-  de: Silvia und Theo heiraten! Translated with ❤️ and VIM by thomic - I wish you all the best!
+  de: Silvia und Theo heiraten!
 yaml_weregettingmarried:
   en: WE'RE GETTING MARRIED!
   gr: ΠΑΝΤΡΕΥΟΜΑΣΤΕ!
@@ -262,7 +262,7 @@ yaml_gifts_content:
   gr: Αν και η παρουσία σας είναι το μόνο δώρο που θα μπορούσαμε να ζητήσουμε, αν θέλετε να μας δώσετε κάποιο γαμήλιο δώρο, μπορείτε να το κάνετε με κατάθεση στον ακόλουθο τραπεζικό λογαριασμό, ή με τον παραδοσιακό φάκελο!
   es: ¡Si bien la presencia de vuestra compañía es el único regalo que podríamos pedir, si deseáis hacernos un regalo de boda, podéis hacerlo por ingreso bancario en la siguiente cuenta, o mediante el sobre tradicional!
   cz: Zatímco Vaše účast je ten největší dar, o který jsme Vás mohli požádat, pokud nám chcete dát statební dar, tak nám můžete zaslat dar na následující bankovní účet nebo zcela tradiční obálkou!
-  de: Während deine Teilnahme an unserer Hochzeit das einzige Geschenk ist, um das wir jemals bitten würden, kannst du uns dennoch ein Hochzeitsgeschenk zukommen lassen, wenn du möchtest. Wir lassen uns gerne per Überweisung auf unser Bankkonto oder mit einem klassischen Umschlag überraschen. Unsere Bankdaten findest du untenstehend. 
+  de: Während deine Teilnahme an unserer Hochzeit das einzige Geschenk ist, um das wir jemals bitten würden, kannst du uns dennoch ein Hochzeitsgeschenk zukommen lassen, wenn du möchtest. Wir lassen uns gerne per Überweisung auf unser Bankkonto oder mit einem klassischen Umschlag überraschen. Unsere Bankdaten findest du untenstehend.
 yaml_surprises_title:
   en: Surprises
   gr: Εκπλήξεις
