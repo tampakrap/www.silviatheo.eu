@@ -30,7 +30,7 @@
   .entry-date span {
     background-color: $theme-primary-color;
     font-size: 12px;
-    font-size: calc-rem-value(12);
+    font-size: calc-rem-value(10.66672);
     color: $white;
     display: block;
     text-transform: uppercase;
@@ -57,23 +57,23 @@
 
   .entry-meta a {
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     color: #8a8a8a;
 
     @include media-query(767px) {
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
     }
   }
 
   .entry-meta i {
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     color: $theme-primary-color;
 
     @include media-query(767px) {
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
     }
   }
 
@@ -83,19 +83,19 @@
 
   .entry-title h3 a {
     font-size: 22px;
-    font-size: calc-rem-value(22);
+    font-size: calc-rem-value(19.55552);
     font-weight: 600;
     color: #383838;
     line-height: 1.3em;
 
     @include media-query(991px) {
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
     }
 
     @include media-query(767px) {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
     }
   }
 
@@ -111,7 +111,7 @@
   .read-more {
     background-color: lighten($theme-primary-color, 10%);
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     display: inline-block;
     padding: 5px 20px;
     color: #fff;

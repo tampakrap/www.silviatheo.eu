@@ -27,7 +27,7 @@
 
   .widget h3 {
     font-size: 18px;
-    font-size: calc-rem-value(18);
+    font-size: calc-rem-value(16);
     font-weight: 600;
     color: #3e3e3e;
     line-height: 0.86em;
@@ -120,7 +120,7 @@
 
   .popular-posts-widget .date {
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     font-weight: 600;
     color: $theme-primary-color;
     display: inline-block;
@@ -155,7 +155,7 @@
     background-color: transparentize($theme-primary-color, 0.9);
     display: block;
     font-size: 13px;
-    font-size: calc-rem-value(13);
+    font-size: calc-rem-value(11.55552);
     color: #777778;
     text-align: center;
     text-transform: uppercase;
@@ -202,7 +202,7 @@
   height: 40px;
   line-height: 37px;
   font-size: 16px;
-  font-size: calc-rem-value(16);
+  font-size: calc-rem-value(14.22224);
   font-weight: 600;
   text-align: center;
   color: #565656;
@@ -217,13 +217,13 @@
     height: 35px;
     line-height: 35px;
     font-size: 15px;
-    font-size: calc-rem-value(15);
+    font-size: calc-rem-value(13.33328);
   }
 }
 
 .page-pagination .pagination li a span {
   font-size: 14px;
-  font-size: calc-rem-value(14);
+  font-size: calc-rem-value(12.44448);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -233,7 +233,7 @@
 
    @include media-query(991px) {
     font-size: 13px;
-    font-size: calc-rem-value(13);
+    font-size: calc-rem-value(11.55552);
   }
 }
 

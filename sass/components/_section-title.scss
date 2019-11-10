@@ -40,25 +40,25 @@
 
       i {
         position: absolute;
-        left: -34px;
-        top: -63px;
+        left: -29px;
+        top: -57px;
 
         @include media-query(991px) {
-          left: -28px;
-          top: -54px;
+          left: -25px;
+          top: -46px;
         }
       }
 
       i:before {
         margin: 0;
         font-size: 65px;
-        font-size: calc-rem-value(65);
+        font-size: calc-rem-value(57.77776);
         color: $theme-primary-color;
         opacity: 0.6;
 
         @include media-query(991px) {
           font-size: 55px;
-          font-size: calc-rem-value(55);
+          font-size: calc-rem-value(48.88896);
         }
       }
     }
@@ -81,10 +81,10 @@
   }
 
   h2 {
-    font-family: $heading-font;
+    font-family: $heading-font2;
     background-color: transparentize($theme-primary-color, 0.9);
     font-size: 46px;
-    font-size: calc-rem-value(46);
+    font-size: calc-rem-value(40.88896);
     color: #848383;
     margin: 59px 0 0;
     padding: 10px 25px 5px;
@@ -96,18 +96,18 @@
 
     @include media-query(1199px) {
       font-size: 40px;
-      font-size: calc-rem-value(40);
+      font-size: calc-rem-value(35.55552);
     }
 
     @include media-query(991px) {
       font-size: 35px;
-      font-size: calc-rem-value(35);
+      font-size: calc-rem-value(31.11104);
       margin-top: 52px;
     }
 
     @include media-query(767px) {
       font-size: 30px;
-      font-size: calc-rem-value(30);
+      font-size: calc-rem-value(26.66672);
       padding: 8px 10px 3px;
       letter-spacing: 1px;
     }
@@ -126,6 +126,17 @@
 
     span {
       background: transparentize($white, 0.8);
+
+      i {
+        position: absolute;
+        left: -34px;
+        top: -64px;
+
+        @include media-query(991px) {
+          left: -34px;
+          top: -62px;
+        }
+      }
 
       i:before {
         margin: 0;

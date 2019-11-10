@@ -28,19 +28,19 @@
 
   h2 {
     font-size: 55px;
-    font-size: calc-rem-value(55);
+    font-size: calc-rem-value(48.88896);
     font-weight: 600;
     margin: 0 0 0.5em;
     text-transform: uppercase;
 
     @include media-query(1199px) {
       font-size: 45px;
-      font-size: calc-rem-value(45);
+      font-size: calc-rem-value(40);
     }
 
     @include media-query(767px) {
       font-size: 40px;
-      font-size: calc-rem-value(40);
+      font-size: calc-rem-value(35.55552);
     }
   }
 
@@ -60,14 +60,14 @@
 
     ul li {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
       color: $theme-primary-color;
       float: left;
       position: relative;
 
       @include media-query(1199px) {
         font-size: 16px;
-        font-size: calc-rem-value(16);
+        font-size: calc-rem-value(14.22224);
       }
     }
 

@@ -54,7 +54,7 @@
 
     h3 {
       font-size: 26px;
-      font-size: calc-rem-value(26);
+      font-size: calc-rem-value(23.11104);
       font-weight: 600;
       color: #3d3d3d;
       margin: 0 0 0.7em;
@@ -62,19 +62,19 @@
 
       @include media-query(1199px) {
         font-size: 22px;
-        font-size: calc-rem-value(22);
+        font-size: calc-rem-value(19.55552);
       }
 
       @include media-query(767px) {
         font-size: 20px;
-        font-size: calc-rem-value(20);
+        font-size: calc-rem-value(17.77776);
       }
     }
 
     .signature {
       font-family: $heading-font;
       font-size: 28px;
-      font-size: calc-rem-value(28);
+      font-size: calc-rem-value(24.88896);
       display: block;
       padding-left: 25px;
       margin-top: 15px;
@@ -82,7 +82,7 @@
 
       @include media-query(1199px) {
         font-size: 22px;
-        font-size: calc-rem-value(22);
+        font-size: calc-rem-value(19.55552);
       }
 
       &:before {
@@ -111,7 +111,7 @@
       height: 34px;
       line-height: 34px;
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
       color: $white;
       @include rounded-border();
 
@@ -120,7 +120,7 @@
         height: 32px;
         line-height: 32px;
         font-size: 13px;
-        font-size: calc-rem-value(13);
+        font-size: calc-rem-value(11.55552);
       }
     }
 
@@ -181,34 +181,34 @@
   h2 {
     font-family: $heading-font;
     font-size: 72px;
-    font-size: calc-rem-value(72);
+    font-size: calc-rem-value(64);
     color: $white;
     margin: 0;
 
     @include media-query(1199px) {
       font-size: 62px;
-      font-size: calc-rem-value(62);
+      font-size: calc-rem-value(55.11104);
     }
 
     @include media-query(767px) {
       font-size: 50px;
-      font-size: calc-rem-value(50);
+      font-size: calc-rem-value(44.44448);
     }
 
     > span {
       font-size: 30px;
-      font-size: calc-rem-value(30);
+      font-size: calc-rem-value(26.66672);
       display: block;
       margin-bottom: 0.6em;
 
       @include media-query(1199px) {
         font-size: 25px;
-        font-size: calc-rem-value(25);
+        font-size: calc-rem-value(22.22224);
       }
 
       @include media-query(767px) {
         font-size: 20px;
-        font-size: calc-rem-value(20);
+        font-size: calc-rem-value(17.77776);
       }
     }
   }
@@ -222,11 +222,12 @@
   }
 
   #clock {
-    color: $theme-primary-color;
+    color: white;
     overflow: hidden;
+    text-shadow: 1px 1px 1px black;
 
     > div {
-      background: transparentize($white, 0.1);
+      background: transparentize($white, 0.7);
       width: 23.5%;
       float: left;
       text-align: center;
@@ -254,25 +255,25 @@
 
     .box > div {
       font-size: 40px;
-      font-size: calc-rem-value(40);
+      font-size: calc-rem-value(35.55552);
       font-weight: 600;
       line-height: 1em;
 
       @include media-query(1199px) {
         font-size: 35px;
-        font-size: calc-rem-value(35);
+        font-size: calc-rem-value(31.11104);
       }
 
       @include media-query(991px) {
         font-size: 30px;
-        font-size: calc-rem-value(30);
+        font-size: calc-rem-value(26.66672);
         line-height: 1.3em;
       }
     }
 
     .box span {
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
       text-transform: uppercase;
     }
   }
@@ -318,10 +319,14 @@
   }
 
   .story-timeline > .row + .row {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 15px;
 
     @include media-query(991px) {
+      padding-top: 0;
+    }
+
+    @include widther(992px) {
       padding-top: 0;
     }
   }
@@ -355,6 +360,11 @@
       background: transparentize($theme-primary-color, 0.95);
       padding: 35px 25px;
     }
+
+    @include widther(992px) {
+      position: relative;
+      top: -33px;
+    }
   }
 
   .story-timeline .right-align-text {
@@ -364,8 +374,6 @@
   }
 
   .story-timeline .text-holder {
-    border-top: 1px solid transparentize($theme-primary-color, 0.9);
-    padding-top: 45px !important;
     position: relative;
 
     @include media-query(991px) {
@@ -374,6 +382,7 @@
     }
 
     .heart {
+      color: #fff;
       background-color: lighten($theme-primary-color, 20%);
       width: 43px;
       height: 43px;
@@ -390,10 +399,10 @@
         display: none;
       }
     }
+  }
 
-    .fa {
-      color: $white;
-    }
+  .story-timeline .right-heart {
+    margin-top: 2px;
   }
 
   .story-timeline .right-heart .heart {
@@ -403,26 +412,42 @@
 
   .story-timeline h3 {
     font-size: 22px;
-    font-size: calc-rem-value(22);
+    font-size: calc-rem-value(19.55552);
     font-weight: 600;
-    color: $theme-primary-color;
     margin: 0 0 0.5em;
     text-transform: uppercase;
 
     @include media-query(991px) {
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
     }
 
     @include media-query(767px) {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
     }
+  }
+
+  .story-timeline .clocks {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .story-timeline .clock {
+    padding-right: 12px;
+  }
+
+  .story-timeline .clock:last-child {
+    padding-right: 0px;
+  }
+
+  .story-timeline .clock .fa-clock-o {
+    color: $green;
   }
 
   .story-timeline .date {
     font-size: 14px;
-    font-size: calc-rem-value(14);
+    font-size: calc-rem-value(12.44448);
     font-weight: 600;
     display: block;
     margin-bottom: 15px;
@@ -443,7 +468,7 @@
       line-height: 57px;
       text-align: center;
       font-size: 25px;
-      font-size: calc-rem-value(25);
+      font-size: calc-rem-value(22.22224);
       border: 2px solid $white;
       @include rounded-border();
       position: absolute;
@@ -478,40 +503,41 @@
   h2 {
     font-family: $heading-font;
     font-size: 75px;
-    font-size: calc-rem-value(75);
+    font-size: calc-rem-value(66.66672);
     color: $white;
     margin: 0;
 
     @include media-query(1199px) {
       font-size: 60px;
-      font-size: calc-rem-value(60);
+      font-size: calc-rem-value(53.33328);
     }
 
     @include media-query(991px) {
       font-size: 50px;
-      font-size: calc-rem-value(50);
+      font-size: calc-rem-value(44.44448);
     }
 
     @include media-query(767px) {
       font-size: 40px;
-      font-size: calc-rem-value(40);
+      font-size: calc-rem-value(35.55552);
     }
 
     span {
       font-family: $base-font;
-      font-size: 30px;
-      font-size: calc-rem-value(30);
+      line-height: 1.5;
+      font-size: 20px;
+      font-size: 1.4rem;
       display: block;
       margin-bottom: 0.6em;
 
       @include media-query(1199px) {
         font-size: 25px;
-        font-size: calc-rem-value(25);
+        font-size: calc-rem-value(22.22224);
       }
 
       @include media-query(991px) {
         font-size: 20px;
-        font-size: calc-rem-value(20);
+        font-size: calc-rem-value(17.77776);
       }
     }
   }
@@ -564,7 +590,7 @@
 
   .event .details h3 {
     font-size: 20px;
-    font-size: calc-rem-value(20);
+    font-size: calc-rem-value(17.77776);
     font-weight: 600;
     color: #3e3e3e;
     margin: 0 0 0.9em;
@@ -572,7 +598,7 @@
 
     @include media-query(1199px) {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
     }
   }
 
@@ -582,14 +608,14 @@
 
   .event ul li {
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     color: #a9a9a9;
     position: relative;
     padding-left: 22px;
 
     @include media-query(1199px) {
       font-size: 15px;
-      font-size: calc-rem-value(15);
+      font-size: calc-rem-value(13.33328);
     }
 
     i {
@@ -621,7 +647,6 @@
 #1.1 inportant-people-section
 --------------------------------------------------------------*/
 .inportant-people-section {
-  background-color: $section-bg-color;
 
   /*** tablist ***/
   .tablist {
@@ -652,7 +677,7 @@
 
     @include media-query(767px) {
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
     }
   }
 
@@ -764,7 +789,7 @@
 
   .grid .details h3 {
     font-size: 19px;
-    font-size: calc-rem-value(19);
+    font-size: calc-rem-value(16.88896);
     font-weight: 600;
     color: #3e3e3e;
     margin: 0 0 0.3em;
@@ -772,18 +797,18 @@
 
     @include media-query(991px) {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
     }
 
     @include media-query(767px) {
       font-size: 16px;
-      font-size: calc-rem-value(16);
+      font-size: calc-rem-value(14.22224);
     }
   }
 
   .grid .details > span {
     font-size: 16px;
-    font-size: calc-rem-value(16);
+    font-size: calc-rem-value(14.22224);
     color: #969494;
     text-transform: capitalize;
     display: block;
@@ -803,12 +828,12 @@
 
     li a {
       font-size: 14px;
-      font-size: calc-rem-value(14);
+      font-size: calc-rem-value(12.44448);
       color: lighten($theme-primary-color, 10%);
 
       @include media-query(767px) {
         font-size: 13px;
-        font-size: calc-rem-value(13);
+        font-size: calc-rem-value(11.55552);
       }
     }
 
@@ -854,7 +879,7 @@
 
       @include media-query(767px) {
         font-size: 15px;
-        font-size: calc-rem-value(15);
+        font-size: calc-rem-value(13.33328);
       } 
     }
 
@@ -932,7 +957,7 @@
       height: 50px;
       line-height: 47px;
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
       background: transparentize($theme-primary-color, 0.1);
       border: 3px solid darken($theme-primary-color, 1%);
       color: $white; 
@@ -991,7 +1016,7 @@
       background: #e6eceb;
       height: 45px;
       font-size: 16px;
-      font-size: calc-rem-value(16);
+      font-size: calc-rem-value(14.22224);
       border: 0;
       color: #2a2a2a;
       padding: 6px 15px;
@@ -1002,7 +1027,7 @@
       @include media-query(991px) {
         height: 40px;
         font-size: 15px;
-        font-size: calc-rem-value(15);
+        font-size: calc-rem-value(13.33328);
       }
     }
 
@@ -1025,7 +1050,7 @@
       height: 45px;
       line-height: 45px;
       font-size: 16px;
-      font-size: calc-rem-value(16);
+      font-size: calc-rem-value(14.22224);
       font-weight: 600;
       color: $white;
       padding: 0 15px;
@@ -1039,7 +1064,7 @@
         height: 40px;
         line-height: 40px;
         font-size: 15px;
-        font-size: calc-rem-value(15);
+        font-size: calc-rem-value(13.33328);
       }
     }
 
@@ -1060,20 +1085,42 @@
 .getting-there-section {
   background-color: $theme-primary-color;
 
+  a {
+    color: $white;
+    opacity: 0.7;
+  }
+
+  a:hover {
+    color: $white;
+    opacity: 0.4;
+  }
+
   .content h3,
-  .content p {
+  .content p,
+  .content pre {
     color: $white;
   }
 
-  .content p {
+  pre {
+    background-color: #5e9a8e;
+    border: 0;
+    font-family: $base-font;
+    padding: 0;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-size: calc-rem-value(16);
+  }
+
+  .content p,
+  .content pre {
     @include media-query(1199px) {
       font-size: 16px;
-      font-size: calc-rem-value(16);
+      font-size: calc-rem-value(14.22224);
     }
 
     @include media-query(767px) {
       font-size: 15px;
-      font-size: calc-rem-value(15);
+      font-size: calc-rem-value(13.33328);
     }
   }
 
@@ -1083,18 +1130,18 @@
 
   .content h3 {
     font-size: 25px;
-    font-size: calc-rem-value(25);
+    font-size: calc-rem-value(22.22224);
     font-weight: 600;
     margin: 0 0 0.8em;
 
     @include media-query(1199px) {
       font-size: 22px;
-      font-size: calc-rem-value(22);
+      font-size: calc-rem-value(19.55552);
     }
 
     @include media-query(767px) {
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
     }
   }
 

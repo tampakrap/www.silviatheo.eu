@@ -30,12 +30,12 @@
 
       > ul > li > a {
         font-size: 16px;
-        font-size: calc-rem-value(16);
+        font-size: calc-rem-value(14.22224);
       }
 
       > ul .sub-menu {
         background-color: $white;
-        width: 220px;
+        width: 50px;
         border-top: 2px solid $theme-primary-color;
         position: absolute;
         left: 0;
@@ -52,7 +52,7 @@
 
       > ul > li .sub-menu a {
         font-size: 14px;
-        font-size: calc-rem-value(14);
+        font-size: calc-rem-value(12.44448);
         display: block;
         padding: 8px 15px;
       }
@@ -69,7 +69,7 @@
           font-family: "FontAwesome";
           content: "\f105";
           font-size: 15px;
-          font-size: calc-rem-value(15);
+          font-size: calc-rem-value(13.33328);
           position: absolute;
           right: 15px;
           top: 50%;
@@ -96,7 +96,7 @@
       > ul > li a {
         display: block;
         font-size: 14px;
-        font-size: calc-rem-value(14);
+        font-size: calc-rem-value(12.44448);
       }
 
       > ul > li .sub-menu li {
@@ -122,7 +122,7 @@
           font-family: "FontAwesome";
           content: "\f107";
           font-size: 15px;
-          font-size: calc-rem-value(15);
+          font-size: calc-rem-value(13.33328);
           position: absolute;
           right: 15px;
           top: 50%;
@@ -163,7 +163,7 @@
 
       .mega-menu-box-title {
         font-size: 14px;
-        font-size: calc-rem-value(14);
+        font-size: calc-rem-value(12.44448);
         text-transform: uppercase;
         font-weight: bold;
         display: block;
@@ -174,7 +174,7 @@
 
       .mega-menu-list-holder li a {
         font-size: 14px;
-        font-size: calc-rem-value(14);
+        font-size: calc-rem-value(12.44448);
         display: block;
         padding: 7px 8px;
         margin-left: -8px;
@@ -222,7 +222,7 @@
 
       .mega-menu .mega-menu-box-title {
         font-size: 14px;
-        font-size: calc-rem-value(14);
+        font-size: calc-rem-value(12.44448);
         text-transform: uppercase;
         display: block;
         border-bottom: 1px dotted lighten($black, 70%);
@@ -382,32 +382,33 @@
 .header-style-1 {
 
   .couple-logo {
-    margin-top: 30px;
+    margin-top: 25px;
 
     @include media-query(991px) {
       margin-top: 0;
     }
 
     h1 {
-      font-family: $heading-font;
-      font-size: 35px;
-      font-size: calc-rem-value(35);
+      font-family: $heading-font2;
+      font-size: 40px;
+      font-size: calc-rem-value(44.8);
+      font-weight: 500;
       margin: 0;
       text-shadow: 1px 1px 2px lighten($black, 60%);
 
       @include media-query(991px) {
         font-size: 30px;
-        font-size: calc-rem-value(30);
+        font-size: calc-rem-value(36.8);
       }
     }
 
     .fi:before {
       font-size: 25px;
-      font-size: calc-rem-value(25);
+      font-size: calc-rem-value(22.22224);
 
       @include media-query(991px) {
         font-size: 20px;
-        font-size: calc-rem-value(20);
+        font-size: calc-rem-value(17.77776);
       }
     }
 
@@ -442,7 +443,7 @@
   @include widther(992px) {
     #navbar > ul > li > a {
       font-size: 18px;
-      font-size: calc-rem-value(18);
+      font-size: calc-rem-value(16);
       font-weight: 600;
       color: #413d3d;
       padding: 35px 17px;
@@ -456,7 +457,7 @@
 
     #navbar > ul > li .sub-menu a {
       font-size: 16px;
-      font-size: calc-rem-value(16);
+      font-size: calc-rem-value(14.22224);
         color: #413d3d;
         padding: 10px 15px;
 

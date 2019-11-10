@@ -16,16 +16,16 @@ body {
 
   @include media-query(1199px) {
     font-size: 17px;
-    font-style: calc-rem-value(17);
+    font-style: calc-rem-value(15.11104);
   }
 
   @include media-query(991px) {
     font-size: 16px;
-    font-style: calc-rem-value(16);
+    font-style: calc-rem-value(14.22224);
   }
 }
 
-p {
+p, pre {
   color: $text-color;
   line-height: 1.8em;
 }
@@ -219,7 +219,7 @@ a:focus {
     height: 40px;
     line-height: 37px;
     font-size: 18px;
-    font-size: calc-rem-value(18);
+    font-size: calc-rem-value(16);
     color: $theme-primary-color;
     border: 1px solid #e6e6e6;
     outline: 0;

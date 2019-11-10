@@ -91,11 +91,11 @@
 
     &:before {
       font-size: 25px;
-      font-size: calc-rem-value(25px);
+      font-size: calc-rem-value(22.22224px);
 
       @include media-query(991px) {
         font-size: 20px;
-        font-size: calc-rem-value(20px);
+        font-size: calc-rem-value(17.77776px);
       }
     }
 
@@ -152,28 +152,29 @@
   }
 
   .couple-name-merried-text h2 {
-      font-family: $heading-font;
+    font-family: $heading-font2;
     font-size: 90px;
-    font-size: calc-rem-value(90);
+    font-size: calc-rem-value(112);
     color: $white;
-    margin: 0 0 0.4em;
+    margin: 0 0 0;
+    margin-top: 60px;
     position: relative;
     z-index: 10;
 
     @include media-query(1199px) {
       font-size: 70px;
-      font-size: calc-rem-value(70);
+      font-size: calc-rem-value(62.22224);
     }
 
     @include media-query(991px) {
       font-size: 55px;
-      font-size: calc-rem-value(55);
+      font-size: calc-rem-value(64.88896);
     }
   }
 
   .married-text h4 {
     font-size: 26px;
-    font-size: calc-rem-value(26);
+    font-size: calc-rem-value(23.11104);
     color: $white;
     text-transform: uppercase;
     margin: 0;
@@ -187,13 +188,13 @@
 
     @include media-query(1199px) {
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
       padding: 8px 18px;
     }
 
     @include media-query(991px) {
       font-size: 17px;
-      font-size: calc-rem-value(17);
+      font-size: calc-rem-value(15.11104);
       padding: 8px 14px;
     }
 
@@ -274,40 +275,40 @@
     }
 
     h4 {
-        font-family: $heading-font;
+      font-family: $heading-font;
       font-size: 40px;
-      font-size: calc-rem-value(40);
+      font-size: calc-rem-value(48);
       color: $white;
       margin: 55px 0 0.2em;
       text-shadow: 1px 1px 2px transparentize($black, 0.4);
 
       @include media-query(1199px) {
         font-size: 35px;
-        font-size: calc-rem-value(35);
+        font-size: calc-rem-value(31.11104);
         margin: 45px 0 0.15em;
       }
 
       @include media-query(991px) {
         font-size: 28px;
-        font-size: calc-rem-value(28);
+        font-size: calc-rem-value(32);
         margin: 30px 0 0.15em;
       }
     }
 
     .date {
       font-size: 20px;
-      font-size: calc-rem-value(20);
+      font-size: calc-rem-value(17.77776);
       color: $white;
       text-shadow: 1px 1px 2px transparentize($black, 0.4);
 
       @include media-query(1199px) {
         font-size: 18px;
-        font-size: calc-rem-value(18);
+        font-size: calc-rem-value(16);
       }
 
       @include media-query(991px) {
         font-size: 16px;
-        font-size: calc-rem-value(16);
+        font-size: calc-rem-value(14.22224);
       }
     }
   }
