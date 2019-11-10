@@ -35,6 +35,12 @@ URL:            http://themeforest.net/user/themexriver
   src: url("../fonts/AC-Fifindrel_Unicode.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Promocyja";
+  src: url("../fonts/promocyja.otf") format("opentype");
+  font-style: normal;
+}
+
 /*--------------------------------------------------------------
 #0.1 Theme Reset Style
 --------------------------------------------------------------*/
