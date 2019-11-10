@@ -8,35 +8,35 @@ URL:            http://themeforest.net/user/themexriver
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-#0.1	Theme Reset Style
-#0.2	Global Elements
-#0.3	header
-#0.4	hero-slider
-#0.5	footer
-#0.6	wedding-couple-section
-#0.7	count-down-section
-#0.8	story-section
-#0.9	cta
-#1.0	events-section
-#1.1	inportant-people-section
-#1.2	gallery-section
-#1.3	rsvp-section
-#1.4	getting-there-section
-#1.5	gift-registration-section
+#0.1 Theme Reset Style
+#0.2 Global Elements
+#0.3 header
+#0.4 hero-slider
+#0.5 footer
+#0.6 wedding-couple-section
+#0.7 count-down-section
+#0.8 story-section
+#0.9 cta
+#1.0 events-section
+#1.1 inportant-people-section
+#1.2 gallery-section
+#1.3 rsvp-section
+#1.4 getting-there-section
+#1.5 gift-registration-section
 
 ----------------------------------------------------------------*/
 /*---------------------------
-	Fonts
+# Fonts
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=greek');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=greek");
 @font-face {
-  font-family: 'Fifindrel';
-  src: url('../fonts/AC-Fifindrel_Unicode.ttf') format('truetype');
+  font-family: "Fifindrel";
+  src: url("../fonts/AC-Fifindrel_Unicode.ttf") format("truetype");
 }
 
 /*--------------------------------------------------------------
-#0.1    Theme Reset Style
+#0.1 Theme Reset Style
 --------------------------------------------------------------*/
 html {
   font-size: 16px;
@@ -88,9 +88,6 @@ ul {
 a {
   text-decoration: none;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -ms-transition: all 0.2s;
   transition: all 0.2s;
 }
 
@@ -100,7 +97,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.2    Global Elements
+#0.2 Global Elements
 --------------------------------------------------------------*/
 .page-wrapper {
   position: relative;
@@ -142,8 +139,6 @@ a:focus {
   opacity: 0;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -252,7 +247,6 @@ a:focus {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
@@ -276,10 +270,6 @@ a:focus {
   position: absolute;
   right: 0;
   bottom: 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -307,10 +297,6 @@ a:focus {
 
 ::-webkit-scrollbar-thumb {
   background-color: #5e9a8e;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -368,17 +354,17 @@ a:focus {
 }
 
 .section-title .vertical-line, .section-title-white .vertical-line,
-.section-title .vertical-line span, .section-title-white .vertical-line span {
+.section-title .vertical-line span,
+.section-title-white .vertical-line span {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-.section-title .vertical-line span, .section-title-white .vertical-line span {
+
+.section-title .vertical-line span,
+.section-title-white .vertical-line span {
   background: rgba(94, 154, 142, 0.2);
   width: 2px;
   height: 42px;
@@ -386,13 +372,17 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .section-title .vertical-line span, .section-title-white .vertical-line span {
+  
+  .section-title .vertical-line span,
+  .section-title-white .vertical-line span {
     height: 35px;
   }
 }
 
 @media (max-width: 767px) {
-  .section-title .vertical-line span, .section-title-white .vertical-line span {
+  
+  .section-title .vertical-line span,
+  .section-title-white .vertical-line span {
     height: 30px;
     top: 15px;
   }
@@ -404,22 +394,10 @@ a:focus {
   top: -57px;
 }
 
-#getting-there .section-title .vertical-line span i, .section-title-white .vertical-line span i {
-  position: absolute;
-  left: -34px;
-  top: -63px;
-}
-
 @media (max-width: 991px) {
   .section-title .vertical-line span i, .section-title-white .vertical-line span i {
     left: -25px;
     top: -46px;
-  }
-
-  #getting-there .section-title .vertical-line span i, .section-title-white .vertical-line span i {
-    position: absolute;
-    left: -34px;
-    top: -62px;
   }
 }
 
@@ -447,9 +425,6 @@ a:focus {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -509,6 +484,19 @@ a:focus {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.section-title-white .vertical-line span i {
+  position: absolute;
+  left: -34px;
+  top: -64px;
+}
+
+@media (max-width: 991px) {
+  .section-title-white .vertical-line span i {
+    left: -34px;
+    top: -62px;
+  }
+}
+
 .section-title-white .vertical-line span i:before {
   margin: 0;
   font-size: 65px;
@@ -537,10 +525,6 @@ a:focus {
   color: #fff;
   padding: 15px;
   border: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  -ms-border-radius: 0;
   border-radius: 0;
   text-transform: uppercase;
 }
@@ -573,7 +557,6 @@ a:focus {
 .form select:focus {
   border-color: #5e9a8e;
   -webkit-box-shadow: 0 0 5px 0 #7cafa5;
-  -moz-box-shadow: 0 0 5px 0 #7cafa5;
   -o-box-shadow: 0 0 5px 0 #7cafa5;
   -ms-box-shadow: 0 0 5px 0 #7cafa5;
   box-shadow: 0 0 5px 0 #7cafa5;
@@ -759,9 +742,6 @@ a:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -791,9 +771,6 @@ a:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -932,7 +909,6 @@ a:focus {
   left: 2px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -1008,14 +984,8 @@ a:focus {
   left: 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1072,7 +1042,6 @@ a:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -1091,7 +1060,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.3	header
+#0.3 header
 --------------------------------------------------------------*/
 .site-header {
   /* navigation open and close btn hide for width screen */
@@ -1103,10 +1072,6 @@ a:focus {
   background-color: #fff;
   margin-bottom: 0;
   border: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  -ms-border-radius: 0;
   border-radius: 0;
 }
 
@@ -1116,9 +1081,6 @@ a:focus {
 
 .site-header #navbar {
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
   transition: all 0.5s;
   /*** mega-menu style ***/
 }
@@ -1150,9 +1112,6 @@ a:focus {
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
     transition: all 0.3s;
   }
   .site-header #navbar > ul > li .sub-menu li {
@@ -1180,9 +1139,6 @@ a:focus {
     right: 15px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
   .site-header #navbar > ul > li:hover > .sub-menu {
@@ -1227,9 +1183,6 @@ a:focus {
     right: 15px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
@@ -1253,9 +1206,6 @@ a:focus {
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
     transition: all 0.3s;
   }
   .site-header #navbar .mega-menu {
@@ -1350,10 +1300,6 @@ a:focus {
     height: 35px;
     border: 0;
     padding: 5px 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
     border-radius: 3px;
     outline: 0;
     position: absolute;
@@ -1401,10 +1347,6 @@ a:focus {
     height: 35px;
     color: #fff;
     border: 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
     border-radius: 50%;
     outline: none;
     position: absolute;
@@ -1469,7 +1411,7 @@ a:focus {
 }
 
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Fifindrel", cursive;
+  font-family: "Fifindrel";
   font-size: 40px;
   font-size: 2.8rem;
   font-weight: 500;
@@ -1520,8 +1462,10 @@ a:focus {
 }
 
 .header-style-1 #navbar ul li.current-menu-item > a, .header-style-2 #navbar ul li.current-menu-item > a,
-.header-style-1 #navbar ul > li.current-menu-ancestor li.current-menu-item > a, .header-style-2 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
-.header-style-1 #navbar ul > li.current-menu-ancestor > a, .header-style-2 #navbar ul > li.current-menu-ancestor > a {
+.header-style-1 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
+.header-style-2 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
+.header-style-1 #navbar ul > li.current-menu-ancestor > a,
+.header-style-2 #navbar ul > li.current-menu-ancestor > a {
   color: #5e9a8e;
 }
 
@@ -1566,7 +1510,7 @@ a:focus {
 
 /*** header style 2 ****/
 /*--------------------------------------------------------------
-#0.4	hero slider
+#0.4 hero slider
 --------------------------------------------------------------*/
 .hero {
   position: relative;
@@ -1643,18 +1587,11 @@ a:focus {
   width: 50px;
   height: 50px;
   z-index: 111;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
   box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
   opacity: 0;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -1824,9 +1761,6 @@ a:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -1837,18 +1771,10 @@ a:focus {
   left: 50%;
   bottom: -350px;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   opacity: 0;
   -webkit-transition: 1s 2.3s ease-in-out;
-  -o-transition: 1s 2.3s ease-in-out;
   transition: 1s 2.3s ease-in-out;
 }
 
@@ -1869,10 +1795,6 @@ a:focus {
 .hero .wedding-announcement .save-the-date:before, .hero .wedding-announcement .save-the-date:after {
   content: "";
   position: absolute;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   z-index: -1;
 }
@@ -1905,7 +1827,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date h4 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 40px;
   font-size: 3rem;
   color: #fff;
@@ -2024,7 +1946,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.5	footer
+#0.5 footer
 --------------------------------------------------------------*/
 .site-footer {
   background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
@@ -2063,7 +1985,7 @@ a:focus {
 }
 
 .site-footer h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 67px;
   font-size: 3.72222rem;
   color: #fff;
@@ -2109,9 +2031,6 @@ a:focus {
   left: 50%;
   top: -25px;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -2120,10 +2039,6 @@ a:focus {
   background: #fff;
   width: 50px;
   height: 50px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -2137,7 +2052,6 @@ a:focus {
 .site-footer .back-to-top .fi {
   display: inline-block;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   position: absolute;
   top: 0;
@@ -2203,9 +2117,6 @@ a:focus {
   z-index: 9999;
   opacity: 0;
   -webkit-transition: all 0.7s;
-  -moz-transition: all 0.7s;
-  -o-transition: all 0.7s;
-  -ms-transition: all 0.7s;
   transition: all 0.7s;
 }
 
@@ -2215,7 +2126,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.6	wedding-couple-section
+#0.6 wedding-couple-section
 --------------------------------------------------------------*/
 .wedding-couple-section .gb {
   overflow: hidden;
@@ -2300,7 +2211,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 28px;
   font-size: 1.55556rem;
   display: block;
@@ -2325,9 +2236,6 @@ a:focus {
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -2347,10 +2255,6 @@ a:focus {
   font-size: 14px;
   font-size: 0.77778rem;
   color: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -2401,7 +2305,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.7	count-down-section
+#0.7 count-down-section
 --------------------------------------------------------------*/
 .count-down-section {
   position: relative;
@@ -2418,7 +2322,7 @@ a:focus {
 }
 
 .count-down-section h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 72px;
   font-size: 4rem;
   color: #fff;
@@ -2482,10 +2386,6 @@ a:focus {
   float: left;
   text-align: center;
   padding: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
   border-radius: 5px;
   border: 5px solid rgba(0, 0, 0, 0.1);
 }
@@ -2540,7 +2440,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.8	story-section
+#0.8 story-section
 --------------------------------------------------------------*/
 .story-section .story-timeline {
   position: relative;
@@ -2555,23 +2455,12 @@ a:focus {
   left: 50%;
   top: 0;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
 @media (max-width: 991px) {
   .story-section .story-timeline:after {
     display: none;
-  }
-
-  #cocktail-timeline {
-    margin-top: 2px;
-  }
-
-  #party-dance-timeline {
-    margin-top: 2px;
   }
 }
 
@@ -2587,9 +2476,6 @@ a:focus {
   left: 50%;
   top: 0;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -2599,6 +2485,12 @@ a:focus {
 }
 
 @media (max-width: 991px) {
+  .story-section .story-timeline > .row + .row {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .story-section .story-timeline > .row + .row {
     padding-top: 0;
   }
@@ -2644,17 +2536,15 @@ a:focus {
 }
 
 @media screen and (min-width: 992px) {
-  .story-section .story-timeline .right-align-text {
-    text-align: right;
-  }
-
-  .story-text {
+  .story-section .story-timeline .story-text {
     position: relative;
     top: -33px;
   }
+}
 
-  .story-section .story-timeline > .row + .row {
-    padding-top: 0;
+@media screen and (min-width: 992px) {
+  .story-section .story-timeline .right-align-text {
+    text-align: right;
   }
 }
 
@@ -2680,36 +2570,18 @@ a:focus {
   position: absolute;
   left: -22px;
   top: -22px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   z-index: 10;
-}
-
-.timeline-clocks {
-  margin-top: 15px;
-  margin-bottom: 8px;
-}
-
-.timeline-clock {
-  padding-right: 12px;
-  /* color: #a9a9a9; */
-}
-
-.timeline-clock:last-child {
-  padding-right: 0px;
-}
-
-.timeline-clock .fa-clock-o {
-  color: #5e9a8e;
 }
 
 @media (max-width: 991px) {
   .story-section .story-timeline .text-holder .heart {
     display: none;
   }
+}
+
+.story-section .story-timeline .right-heart {
+  margin-top: 2px;
 }
 
 .story-section .story-timeline .right-heart .heart {
@@ -2739,6 +2611,23 @@ a:focus {
   }
 }
 
+.story-section .story-timeline .clocks {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.story-section .story-timeline .clock {
+  padding-right: 12px;
+}
+
+.story-section .story-timeline .clock:last-child {
+  padding-right: 0px;
+}
+
+.story-section .story-timeline .clock .fa-clock-o {
+  color: #5e9a8e;
+}
+
 .story-section .story-timeline .date {
   font-size: 14px;
   font-size: 0.77778rem;
@@ -2764,18 +2653,11 @@ a:focus {
   font-size: 25px;
   font-size: 1.38889rem;
   border: 2px solid #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -2788,7 +2670,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#0.9	cta
+#0.9 cta
 --------------------------------------------------------------*/
 .cta {
   position: relative;
@@ -2806,7 +2688,7 @@ a:focus {
 }
 
 .cta h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes";
   font-size: 75px;
   font-size: 4.16667rem;
   color: #fff;
@@ -2858,7 +2740,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.0	events-section
+#1.0 events-section
 --------------------------------------------------------------*/
 .events-section .event {
   overflow: hidden;
@@ -2961,10 +2843,9 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.1	inportant-people-section
+#1.1 inportant-people-section
 --------------------------------------------------------------*/
 .inportant-people-section {
-  /*background-color: #f9f9f9;*/
   /*** tablist ***/
   /*** tab-content ***/
 }
@@ -3083,9 +2964,6 @@ a:focus {
 
 .inportant-people-section .grid .img-holder img {
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-filter: grayscale(50%);
   -moz-filter: grayscale(50%);
@@ -3096,7 +2974,6 @@ a:focus {
 
 .inportant-people-section .grid:hover img {
   -webkit-transform: scale(1.2) rotate(5deg);
-  -ms-transform: scale(1.2) rotate(5deg);
   transform: scale(1.2) rotate(5deg);
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
@@ -3111,9 +2988,6 @@ a:focus {
   padding: 30px 15px 25px;
   text-align: center;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -3192,7 +3066,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.2	gallery-section
+#1.2 gallery-section
 --------------------------------------------------------------*/
 .gallery-section {
   /*** filter ***/
@@ -3288,8 +3162,6 @@ a:focus {
   -ms-filter: grayscale(60%);
   filter: grayscale(60%);
   -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -3330,19 +3202,9 @@ a:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -3351,7 +3213,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.3	rsvp-section
+#1.3 rsvp-section
 --------------------------------------------------------------*/
 .rsvp-section {
   position: relative;
@@ -3421,10 +3283,6 @@ a:focus {
   padding: 6px 15px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -3464,15 +3322,8 @@ a:focus {
   border: 0;
   outline: 0;
   text-transform: uppercase;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -3494,7 +3345,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.4	getting-there-section
+#1.4 getting-there-section
 --------------------------------------------------------------*/
 .getting-there-section {
   background-color: #5e9a8e;
@@ -3590,7 +3441,7 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-#1.5	gift-registration-section
+#1.5 gift-registration-section
 --------------------------------------------------------------*/
 .gift-registration-section {
   text-align: center;
@@ -3620,7 +3471,7 @@ a:focus {
 ===== Blog Page =====
 ------------------------------------------------------*/
 /*--------------------------------------------------------------
-#2.1    blog-main
+#2.1 blog-main
 --------------------------------------------------------------*/
 .blog-main {
   background-color: #fff;
@@ -3744,10 +3595,6 @@ a:focus {
   display: inline-block;
   padding: 5px 20px;
   color: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -3774,7 +3621,6 @@ a:focus {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -3787,10 +3633,10 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
-	#Blog details page
+# Blog details page
 ----------------------------------------------------------------*/
 /*--------------------------------------------------------------
-#13.0 	blog-details-post
+#13.0 blog-details-post
 ----------------------------------------------------------------*/
 .blog-details-content {
   /*** tag social share ***/
@@ -3913,10 +3759,6 @@ a:focus {
   font-size: 0.77778rem;
   color: #d2d2d2;
   border: 1px solid #d2d2d2;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -4136,5 +3978,4 @@ a:focus {
 .blog-details-content .comment-respond .comment-form .submit-btn button {
   border-radius: 0;
 }
-
 /*# sourceMappingURL=style.css.map */
