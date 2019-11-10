@@ -33,7 +33,6 @@ URL:            http://themeforest.net/user/themexriver
 @import url("animate.css");
 @import url("slick.css");
 @import url("slick-theme.css");
-@import url("jquery.fancybox.css");
 @font-face {
   font-family: "Fifindrel";
   src: url("../fonts/AC-Fifindrel_Unicode.otf") format("opentype");
@@ -172,16 +171,6 @@ a:focus {
   position: fixed;
   left: 0;
   top: 0;
-}
-
-/*** for fancybox video ***/
-.fancybox-overlay {
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 9999 !important;
-}
-
-.fancybox-wrap {
-  z-index: 99999 !important;
 }
 
 /*** validate rsvp form ***/
