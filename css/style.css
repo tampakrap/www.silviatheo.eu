@@ -40,7 +40,7 @@ URL:            http://themeforest.net/user/themexriver
 @import url("jquery.fancybox.css");
 @font-face {
   font-family: "Fifindrel";
-  src: url("../fonts/AC-Fifindrel_Unicode.ttf") format("truetype");
+  src: url("../fonts/AC-Fifindrel_Unicode.otf") format("opentype");
 }
 
 @font-face {
