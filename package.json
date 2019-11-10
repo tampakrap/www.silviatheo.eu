@@ -1,0 +1,27 @@
+{
+  "name": "www.silviatheo.eu",
+  "version": "1.0.0",
+  "description": "Silvia and Theo are getting married!",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tampakrap/www.silviatheo.eu.git"
+  },
+  "homepage": "https://www.silviatheo.eu/",
+  "author": "Theo Chatzimichos <tampakrap@gmail.com>",
+  "licence": "MIT",
+  "scripts": {
+    "build:css:compile": "node-sass --output-style=expanded --source-map=true sass/style.scss css/style.css",
+    "build:css:prefix": "postcss --use=autoprefixer --map=false --output=css/style.css css/style.css",
+    "build:css:minify": "cleancss --source-map --source-map-inline-sources --inline local --output css/style.min.css css/style.css",
+    "build:css": "npm run build:css:compile && npm run build:css:prefix && npm run build:css:minify"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.13.0",
+    "postcss-cli": "^6.1.3"
+  }
+}
