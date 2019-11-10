@@ -168,7 +168,7 @@
 
 
 /*--------------------------------------------------------------
-#0.7	count-down-section 
+#0.7	count-down-section
 --------------------------------------------------------------*/
 .count-down-section {
 	position: relative;
@@ -737,6 +737,7 @@
 
 	.grid:hover img {
 		-webkit-transform: scale(1.2) rotate(5deg);
+		-ms-transform: scale(1.2) rotate(5deg);
 		transform: scale(1.2) rotate(5deg);
 		-webkit-filter: grayscale(0);
 		-moz-filter: grayscale(0);
@@ -902,6 +903,7 @@
 	    filter: grayscale(60%);
 		-webkit-transition: all .3s ease;
 		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
 		transition: all .3s ease;
 
 		@include media-query(767px) {
@@ -993,6 +995,7 @@
 			border: 0;
 			color: #2a2a2a;
 			padding: 6px 15px;
+			-webkit-box-shadow: none;
 			box-shadow: none;
 			@include rounded-border(3px);
 

@@ -288,7 +288,7 @@
 			position: fixed;
 			right: -300px;
 			top: 0;
-			z-index: 200;
+			z-index: 999999;
 
 			ul a {
 				color: $black;
@@ -450,6 +450,7 @@
 		}
 
 		#navbar > ul .sub-menu {
+			-webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 			box-shadow: 0 5px 8px 0 rgba(0,0,0,.20);
 		}	
 
