@@ -1,17 +1,17 @@
 .social-links {
-	overflow: hidden;
+  overflow: hidden;
 
-	li {
-		float: left;
+  li {
+    float: left;
 
-		a {
-			display: block;
-			color: $white;
-			text-align: center;
+    a {
+      display: block;
+      color: $white;
+      text-align: center;
 
-			&:hover {
-				background-color: $theme-primary-color;
-			}
-		}
-	}
+      &:hover {
+        background-color: $theme-primary-color;
+      }
+    }
+  }
 }
