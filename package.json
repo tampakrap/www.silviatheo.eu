@@ -8,7 +8,7 @@
   },
   "homepage": "https://www.silviatheo.eu/",
   "author": "Theo Chatzimichos <tampakrap@gmail.com>",
-  "licence": "MIT",
+  "license": "MIT",
   "scripts": {
     "build:css:compile": "node-sass --output-style=expanded --source-map=true sass/style.scss css/style.css",
     "build:css:prefix": "postcss --use=autoprefixer --map=false --output=css/style.css css/style.css",
