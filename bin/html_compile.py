@@ -40,14 +40,16 @@ del strings['yaml_weregettingmarried']
 
 for page in ['index', 'future']:
     for lang in LANGUAGES:
-        if not os.path.exists(lang):
-            os.mkdir(lang)
-        lang_page_html = f'{lang}/{page}.html'
-        print(f'Creating {lang_page_html}')
-        shutil.copyfile(f'{page}.tmpl', lang_page_html)
+        if not os.path.exists(f'src/{lang}'):
+            os.mkdir(f'src/{lang}')
+        lang_page_html = f'src/{lang}/{page}.html'
+        #print(f'Creating {lang_page_html}')
+        shutil.copyfile(f'src/{page}.tmpl', lang_page_html)
         tmp_lang = lang
         if lang == 'gr':
             tmp_lang = 'el'
+            if not os.path.islink(f'src/{tmp_lang}'):
+                os.symlink(lang, f'src/{tmp_lang}')
         with open(lang_page_html, 'r') as f:
             lines = f.readlines()
         with open(lang_page_html, 'w') as f:
@@ -84,7 +86,7 @@ for page in ['index', 'future']:
             orig_tmpl_var = tmpl_var
             translated = strings[tmpl_var][lang]
             orig_translated = translated
-            print(f'Replacing "{tmpl_var}" with "{translated}"')
+            #print(f'Replacing "{tmpl_var}" with "{translated}"')
             with open(lang_page_html, 'r') as f:
                 lines = f.readlines()
             with open(lang_page_html, 'w') as f:
@@ -102,4 +104,7 @@ for page in ['index', 'future']:
                     tmpl_var = orig_tmpl_var
                     translated = orig_translated
 
-        print(f'DONE {lang_page_html}')
+        #print(f'DONE {lang_page_html}')
+
+if not os.path.islink('src/index.html'):
+    os.symlink('en/index.html', 'src/index.html')
