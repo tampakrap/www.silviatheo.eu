@@ -10,15 +10,20 @@
   "author": "Theo Chatzimichos <tampakrap@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:css:compile": "node-sass --output-style=expanded --source-map=true sass/style.scss css/style.css",
-    "build:css:prefix": "postcss --use=autoprefixer --map=false --output=css/style.css css/style.css",
-    "build:css:minify": "cleancss --source-map --source-map-inline-sources --inline local --output css/style.min.css css/style.css",
+    "clean:src": "rm -rf src/cz src/de src/el src/en src/es src/gr src/index.html src/css/style.* src/js/script.min.js",
+    "clean:dist": "rm -rf dist/*",
+    "clean": "npm run clean:dist",
+    "build:html:compile": "bin/html_compile.py",
+    "build:html:minify": "for lang in cz de en es gr; do mkdir -p dist/$lang && htmlmin -o dist/$lang/index.html src/$lang/index.html; done",
+    "build:html": "npm run build:html:compile",
+    "build:css:compile": "node-sass --output-style=expanded --source-map=true src/sass/style.scss src/css/style.css",
+    "build:css:prefix": "postcss --use=autoprefixer --map=false --output=src/css/style.css src/css/style.css",
+    "build:css:minify": "cleancss --source-map --source-map-inline-sources --inline local --output src/css/style.min.css src/css/style.css",
     "build:css": "npm run build:css:compile && npm run build:css:prefix && npm run build:css:minify",
-    "build:js:minify":"uglifyjs js/*.js --compress --mangle --output=js/script.min.js",
-    "build:js": "npm run build:js",
-    "build:html:minify": "htmlmin -o index.min.html index.html",
-    "build:html": "npm run build:html:minify",
-    "build": "npm run build:css; npm run build:js; npm run build:html"
+    "build:js:minify": "uglifyjs --compress --mangle --output=src/js/script.min.js src/js/*.js",
+    "build:js": "npm run build:js:minify",
+    "build": "npm run build:html && npm run build:css && npm run build:js",
+    "install": "npm run build:html:minify && bin/install.sh"
   },
   "browserslist": [
     "last 2 versions"
