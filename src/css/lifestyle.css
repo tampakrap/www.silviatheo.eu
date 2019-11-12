@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "lifestyle";
-  src: url("./lifestyle.eot");
-  src: url("./lifestyle.eot?#iefix") format("embedded-opentype"),
-       url("./lifestyle.woff") format("woff"),
-       url("./lifestyle.ttf") format("truetype"),
-       url("./lifestyle.svg#lifestyle") format("svg");
+  src: url("../fonts/lifestyle.eot");
+  src: url("../fonts/lifestyle.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/lifestyle.woff") format("woff"),
+       url("../fonts/lifestyle.ttf") format("truetype"),
+       url("../fonts/lifestyle.svg#lifestyle") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,15 +17,15 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "lifestyle";
-    src: url("./lifestyle.svg#lifestyle") format("svg");
+    src: url("../fonts/lifestyle.svg#lifestyle") format("svg");
   }
 }
 
 [class^="lifestyle-"]:before, [class*=" lifestyle-"]:before,
-[class^="lifestyle-"]:after, [class*=" lifestyle-"]:after {   
+[class^="lifestyle-"]:after, [class*=" lifestyle-"]:after {
   font-family: lifestyle;
-        font-size: 50px;
-font-style: normal;
+  font-size: 50px;
+  font-style: normal;
 }
 
 .lifestyle-airplane:before { content: "\f100"; }

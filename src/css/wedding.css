@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "Wedding";
-  src: url("./wedding.eot");
-  src: url("./wedding.eot?#iefix") format("embedded-opentype"),
-       url("./wedding.woff") format("woff"),
-       url("./wedding.ttf") format("truetype"),
-       url("./wedding.svg#Wedding") format("svg");
+  src: url("../fonts/wedding.eot");
+  src: url("../fonts/wedding.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/wedding.woff") format("woff"),
+       url("../fonts/wedding.ttf") format("truetype"),
+       url("../fonts/wedding.svg#Wedding") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,12 +17,12 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Wedding";
-    src: url("./wedding.svg#Wedding") format("svg");
+    src: url("../fonts/wedding.svg#Wedding") format("svg");
   }
 }
 
 [class^="wedding-"]:before, [class*=" wedding-"]:before,
-[class^="wedding-"]:after, [class*=" wedding-"]:after {   
+[class^="wedding-"]:after, [class*=" wedding-"]:after {
   font-family: Wedding;
   font-size: 50px;
   font-style: normal;

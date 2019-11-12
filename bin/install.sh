@@ -1,7 +1,8 @@
 #!/bin/bash
 
 FILES=(
-    css
+    css/style.min.css
+    css/style.min.css.map
     el
     fonts
     images
