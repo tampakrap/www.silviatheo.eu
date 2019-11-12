@@ -12,7 +12,7 @@
   "scripts": {
     "clean:src": "rm -rf src/cz src/de src/el src/en src/es src/gr src/index.html src/css/style.* src/js/script.min.js",
     "clean:dist": "rm -rf dist/*",
-    "clean": "npm run clean:dist",
+    "clean": "npm run clean:src && npm run clean:dist",
     "build:html:compile": "bin/html_compile.py",
     "build:html:minify": "for lang in cz de en es gr; do mkdir -p dist/$lang && htmlmin -o dist/$lang/index.html src/$lang/index.html; done",
     "build:html": "npm run build:html:compile",
@@ -22,8 +22,9 @@
     "build:css": "npm run build:css:compile && npm run build:css:prefix && npm run build:css:minify",
     "build:js:minify": "uglifyjs --compress --mangle --output=src/js/script.min.js src/js/*.js",
     "build:js": "npm run build:js:minify",
-    "build": "npm run build:html && npm run build:css && npm run build:js",
-    "install": "npm run build:html:minify && bin/install.sh"
+    "build:src": "npm run clean:src && npm run build:html && npm run build:css && npm run build:js",
+    "build:dist": "npm run build:html:minify && bin/install.sh",
+    "build": "npm run build:src && npm run build:dist"
   },
   "browserslist": [
     "last 2 versions"
