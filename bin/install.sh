@@ -10,11 +10,14 @@ FILES=(
     index.html
 )
 
-[[ $OSTYPE =~ "darwin" ]] && alias cp=gcp
+case $OSTYPE in
+    darwin*) CP=gcp ;;
+    *) CP=cp ;;
+esac
 
 mkdir -p dist
 
 for f in ${FILES[@]}; do
     [[ $f =~ "/" ]] && mkdir -p dist/${f%%/*}
-    test -e dist/$f || cp -rp --preserve=links src/$f dist/$f
+    test -e dist/$f || $CP -rp --preserve=links src/$f dist/$f
 done
