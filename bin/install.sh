@@ -21,3 +21,5 @@ for f in ${FILES[@]}; do
     [[ $f =~ "/" ]] && mkdir -p dist/${f%%/*}
     test -e dist/$f || $CP -rp --preserve=links src/$f dist/$f
 done
+
+$CP CNAME dist/
