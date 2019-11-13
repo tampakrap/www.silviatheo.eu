@@ -56,11 +56,11 @@ for page in ['index', 'future']:
             for line in lines:
                 f.write(re.sub(r'set_lang', tmp_lang, line))
 
-        flags_html = f'{"": <16s}<a href="javascript:void(0);"><img src="../images/flags/{lang}.png"/></a>\n{"": <16s}<ul class="sub-menu">\n'
+        flags_html = f'{"": <16s}<a href="javascript:void(0);"><img width=16 height=11 src="../images/flags/{lang}.png"/></a>\n{"": <16s}<ul class="sub-menu">\n'
         FLAGS = LANGUAGES.copy()
         FLAGS.remove(lang)
         for flag in FLAGS:
-            flags_html += f'{"": <18s}<li><a href="/{flag}/"><img src="../images/flags/{flag}.png"></a></li>\n'
+            flags_html += f'{"": <18s}<li><a href="/{flag}/"><img width=16 height=11 src="../images/flags/{flag}.png"></a></li>\n'
         with open(lang_page_html, 'r') as f:
             lines = f.readlines()
         with open(lang_page_html, 'w') as f:
