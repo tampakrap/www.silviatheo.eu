@@ -457,34 +457,6 @@
   .story-timeline img {
     display: inline-block;
   }
-
-  .video-holder {
-    position: relative;
-
-    .video-play-btn {
-      background: transparentize($white, 0.2);
-      width: 60px;
-      height: 60px;
-      line-height: 57px;
-      text-align: center;
-      font-size: 25px;
-      font-size: calc-rem-value(22.22224);
-      border: 2px solid $white;
-      @include rounded-border();
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      @include center-by-translating();
-    }
-
-    .video-play-btn i {
-      color: $theme-primary-color;
-    }
-  }
-
-  .story-timeline .story-slider {
-    display: none;
-  }
 }
 
 

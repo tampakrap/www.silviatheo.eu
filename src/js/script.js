@@ -336,21 +336,6 @@
 
 
     /*------------------------------------------
-        = STORY SLIDER
-    -------------------------------------------*/
-    if ($(".story-slider").length) {
-        $('.story-slider').owlCarousel({
-            items: 1,
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            smartSpeed: 1000,
-            loop: true,
-        });
-    }
-
-
-    /*------------------------------------------
         = RSVP FORM SUBMISSION
     -------------------------------------------*/
     if ($("#rsvp-form").length) {
