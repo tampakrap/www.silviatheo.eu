@@ -130,11 +130,11 @@
       i {
         position: absolute;
         left: -34px;
-        top: -64px;
+        top: -63px;
 
         @include media-query(991px) {
           left: -34px;
-          top: -62px;
+          top: -61px;
         }
       }
 
