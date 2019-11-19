@@ -441,8 +441,9 @@
     padding-right: 0px;
   }
 
-  .story-timeline .clock .fa-clock-o {
+  .story-timeline .clock .flaticon-time {
     color: $green;
+    font-size: 14.5px;
   }
 
   .story-timeline .date {
@@ -594,7 +595,6 @@
       color: $theme-primary-color;
       position: absolute;
       left: 0;
-      top: 3px;
     }
   }
 

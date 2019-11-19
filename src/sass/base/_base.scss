@@ -101,9 +101,18 @@ a:focus {
   #loader {
     display: none;
 
-    i {
-      font-size: 20px;
-      color: $white;
+    .sk-circle {
+      margin: inherit;
+      width: 25px;
+      height: 25px;
+
+      .sk-child {
+        top: 5px;
+      }
+
+      .sk-child:before {
+        background-color: $white;
+      }
     }
   }
 

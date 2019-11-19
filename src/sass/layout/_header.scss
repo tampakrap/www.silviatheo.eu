@@ -66,8 +66,8 @@
         position: relative;
 
         &:before {
-          font-family: "FontAwesome";
-          content: "\f105";
+          font-family: "Flaticon";
+          content: $font-flaticon-fingerprint;
           font-size: 15px;
           font-size: calc-rem-value(13.33328);
           position: absolute;
@@ -119,10 +119,10 @@
         position: relative;
 
         &:before {
-          font-family: "FontAwesome";
-          content: "\f107";
-          font-size: 15px;
-          font-size: calc-rem-value(13.33328);
+          font-family: "Flaticon";
+          content: $font-flaticon-down-arrow;
+          font-size: 10px;
+          font-size: calc-rem-value(10);
           position: absolute;
           right: 15px;
           top: 50%;
@@ -316,6 +316,8 @@
         left: -18px;
         top: 10px;
         z-index: 20;
+        font-size: 10px;
+        font-weight: bold;
       }
 
       > ul > li {
