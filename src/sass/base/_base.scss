@@ -153,3 +153,9 @@ a:focus {
   background-color: $theme-primary-color;
   @include rounded-border(5px);
 }
+
+.coming-soon {
+  font-family: $heading-font;
+  font-size: 50px;
+  text-align: center;
+}
