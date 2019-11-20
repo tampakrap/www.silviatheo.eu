@@ -2,7 +2,7 @@
   text-align: center;
   margin-bottom: 60px;
   position: relative;
-  
+
   @include media-query(767px) {
     margin-bottom: 50px;
   }

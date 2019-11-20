@@ -242,7 +242,7 @@
       display: none;
     }
   }
-  
+
 
   /* style for navigation less than 992px */
   @include media-query (991px) {
@@ -325,7 +325,7 @@
       }
 
       > ul > li > a {
-        padding: 10px 15px 10px 35px; 
+        padding: 10px 15px 10px 35px;
       }
     }
 
@@ -356,7 +356,7 @@
           display: block;
       }
 
-      .navbar-header .collapse, 
+      .navbar-header .collapse,
       .navbar-toggle {
           display:block;
       }
@@ -455,7 +455,7 @@
     #navbar > ul .sub-menu {
       -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
       box-shadow: 0 5px 8px 0 rgba(0,0,0,.20);
-    } 
+    }
 
     #navbar > ul > li .sub-menu a {
       font-size: 16px;
@@ -494,4 +494,4 @@
 }
 
 
- 
+
