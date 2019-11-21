@@ -9,6 +9,7 @@ with open('strings.yaml', 'r') as f:
     strings = yaml.load(f)
 
 langs = strings['langs']
+special_langs = strings['special_langs']
 
 tmpl_path = jinja2.FileSystemLoader('./src')
 jinja_env = jinja2.Environment(loader=tmpl_path)
@@ -36,7 +37,7 @@ for page in ['index', 'future']:
 
         other_langs = langs.copy()
         other_langs.remove(lang)
-        lang_strings.update({'other_langs': other_langs, 'lang': lang, 'iso_lang': iso_lang})
+        lang_strings.update({'other_langs': other_langs, 'special_langs': special_langs, 'lang': lang, 'iso_lang': iso_lang})
         output = tmpl.render(lang_strings)
         with open(lang_page_html, 'w') as f:
             f.write(output)
