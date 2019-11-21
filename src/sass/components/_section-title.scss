@@ -94,6 +94,11 @@
     text-transform: capitalize;
     letter-spacing: 3px;
 
+    .cz {
+      font-family: 'Promocyja';
+      font-size: 30px;
+    }
+
     @include media-query(1199px) {
       font-size: 40px;
       font-size: calc-rem-value(35.55552);

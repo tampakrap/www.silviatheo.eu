@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="set_lang">
+<html lang="{{ lang }}">
 <head>
   <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="yaml_metadescr">
+  <meta name="description" content="{{ metadescr }}">
 
   <!-- Page Title -->
   <title>#silviatheo</title>
@@ -58,16 +58,24 @@
       <div class="wedding-announcement">
         <div class="couple-name-merried-text">
           <h2 class="wow slideInUp" data-wow-duration="1s">Σίλβια & Θοδωρής</h2>
-          <div class="married-text wow fadeIn" data-wow-delay="1s">
+          {%- set time = namespace(value=1) %}
+          <div class="married-text wow fadeIn" data-wow-delay="{{ time.value }}s">
             <h4 class="">
-yaml_weregettingmarried
+            {%- for letter in weregettingmarried %}
+            {%- set time.value = time.value + 0.05 %}
+            {%- if letter != ' ' %}
+            <span class=" wow fadeInUp" data-wow-delay="{{'%0.2f' | format(time.value|float) }}s">{{ letter }}</span>
+            {%- else %}
+            <span>&nbsp;</span>
+            {%- endif %}
+            {%- endfor %}
             </h4>
           </div>
         </div>
 
         <div class="save-the-date">
           <h4>Save the date</h4>
-          <span class="date">yaml_date</span>
+          <span class="date">{{ date }}</span>
         </div>
       </div>
     </section>
@@ -93,15 +101,19 @@ yaml_weregettingmarried
             <button class="close-navbar"><i class="fi flaticon-delete"></i></button>
             <ul class="nav navbar-nav">
               <!--li><a href="#home">Home</a></li-->
-              <li><a href="#invitation">yaml_invitation_title_cap</a></li>
-              <li><a href="#timeline">yaml_timeline_title_cap</a></li>
-              <li><a href="#venue">yaml_venue_title_cap</a></li>
-              <li><a href="#transportation">yaml_transportation_title_cap</a></li>
-              <li><a href="#accommodation">yaml_accommodation_title_cap</a></li>
+              <li><a href="#invitation">{{ invitation_title }}</a></li>
+              <li><a href="#timeline">{{ timeline_title }}</a></li>
+              <li><a href="#venue">{{ venue_title }}</a></li>
+              <li><a href="#transportation">{{ transportation_title }}</a></li>
+              <li><a href="#accommodation">{{ accommodation_title }}</a></li>
               <li><a href="#rsvp">RSVP</a></li>
               <li><a href="#pre-party">Pre-Party</a></li>
               <li class="menu-item-has-children">
-set_flags
+                <a href="javascript:void(0);"><img style="width:16px;height:11px" src="../images/flags/{{ lang }}.png"/></a>
+                <ul class="sub-menu">
+                  {%- for flag in other_langs %}
+                  <li><a href="/{{ flag }}/"><img style="width:16px;height:11px" src="../images/flags/{{ flag }}.png"></a></li>
+                  {%- endfor %}
                 </ul>
               </li>
             </ul>
@@ -116,7 +128,7 @@ set_flags
     <section class="wedding-couple-section section-padding" id="invitation">
       <div class="section-title">
         <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-        <h2>yaml_invitation_title_cz</h2>
+        <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ invitation_title }}</span>{% else %}{{ invitation_title }}{% endif %}</h2>
       </div>
       <div class="container">
         <div class="row">
@@ -127,7 +139,7 @@ set_flags
               </div>
               <div class="details">
                 <div class="details-inner">
-                  yaml_invitation_content
+                  {{ invitation_content }}
                   <span class="signature">Silvia &amp; Theo</span>
                 </div>
               </div>
@@ -165,7 +177,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_timeline_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ timeline_title }}</span>{% else %}{{ timeline_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -177,13 +189,13 @@ set_flags
                 <div class="col col-md-6 text-holder">
                   <div class="story-text right-align-text">
                     <i class="fi timeline-bus"></i>
-                    <h3>yaml_bus1_title_cap</h3>
+                    <h3>{{ bus1_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 18:00
                       </span>
                     </div>
-                    <p>yaml_bus1_content</p>
+                    <p>{{ bus1_content }}</p>
                   </div>
                 </div>
                 <div class="col col-md-6 text-holder">
@@ -200,13 +212,13 @@ set_flags
                   </span>
                   <div class="story-text">
                     <i class="fi timeline-ring"></i>
-                    <h3>yaml_ceremony_title_cap</h3>
+                    <h3>{{ ceremony_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 19:00
                       </span>
                     </div>
-                    <p>yaml_ceremony_content</p>
+                    <p>{{ ceremony_content }}</p>
                   </div>
                 </div>
               </div>
@@ -217,13 +229,13 @@ set_flags
                   </span>
                   <div class="story-text right-align-text">
                     <i class="fi timeline-toast"></i>
-                    <h3>yaml_cocktail_title_cap</h3>
+                    <h3>{{ cocktail_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 20:00
                       </span>
                     </div>
-                    <p>yaml_cocktail_content</p>
+                    <p>{{ cocktail_content }}</p>
                   </div>
                 </div>
                 <div class="col col-md-6">
@@ -238,13 +250,13 @@ set_flags
                   </span>
                   <div class="story-text">
                     <i class="fi timeline-wedding-cake"></i>
-                    <h3>yaml_dinner_title_cap</h3>
+                    <h3>{{ dinner_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 22:00
                       </span>
                     </div>
-                    <p>yaml_dinner_content</p>
+                    <p>{{ dinner_content }}</p>
                   </div>
                 </div>
               </div>
@@ -255,13 +267,13 @@ set_flags
                   </span>
                   <div class="story-text right-align-text">
                     <i class="fi timeline-music"></i>
-                    <h3>yaml_party_title_cap</h3>
+                    <h3>{{ party_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 00:00
                       </span>
                     </div>
-                    <p>It's party time! Throw your hands in the air and wave them like you just don't care! yaml_party_content</p>
+                    <p>It's party time! Throw your hands in the air and wave them like you just don't care! {{ party_content }}</p>
                   </div>
                 </div>
                 <div class="col col-md-6">
@@ -276,7 +288,7 @@ set_flags
                   </span>
                   <div class="story-text">
                     <i class="fi timeline-bus"></i>
-                    <h3>yaml_bus2_title_cap</h3>
+                    <h3>{{ bus2_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
                         <i class="fi flaticon-time"></i> 01:30
@@ -288,7 +300,7 @@ set_flags
                         <i class="fi flaticon-time"></i> 05:00
                       </span>
                     </div>
-                    <p>yaml_bus2_content</p>
+                    <p>{{ bus2_content }}</p>
                   </div>
                 </div>
               </div>
@@ -305,7 +317,7 @@ set_flags
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
-            <h2><span>yaml_hashtag</span> #silviatheo</h2>
+            <h2><span>{{ hashtag }}</span> #silviatheo</h2>
           </div>
         </div>
       </div>
@@ -320,7 +332,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_venue_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ venue_title }}</span>{% else %}{{ venue_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -334,10 +346,10 @@ set_flags
               <div class="details">
                 <h3>La Quinta de Illescas</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>yaml_venue_address</li>
+                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ venue_address }}</li>
                 </ul>
-                <p>yaml_venue_content</p>
-                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">yaml_venue_map <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <p>{{ venue_content }}</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">{{ venue_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
               </div>
             </div>
           </div>
@@ -354,7 +366,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_transportation_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ transportation_title }}</span>{% else %}{{ transportation_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -365,23 +377,23 @@ set_flags
               <div class="coming-soon">
                 <p>Coming Soon!</p>
               </div>
-              <p>yaml_transportation_soon</p>
+              <p>{{ transportation_soon }}</p>
             </div>
             <!--div class="event">
-              <p>yaml_transportation_content</p>
+              <p>{{ transportation_content }}</p>
             </div>
             <div class="event">
               <div class="img-holder">
                 <img src="../images/transportation1.jpg" alt class="img img-responsive">
               </div>
               <div class="details">
-                <h3>yaml_transportation1_title:</h3>
+                <h3>{{ transportation1_title }}:</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>yaml_transportation1_address</li>
+                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ transportation1_address }}</li>
                   <li><i class="fi flaticon-time"></i> 19:00</li>
                 </ul>
-                <p>yaml_transportation1_content</p>
-                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">yaml_transportation1_map <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <p>{{ transportation1_content }}</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">{{ transportation1_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
               </div>
             </div>
             <div class="event">
@@ -389,13 +401,13 @@ set_flags
                 <img src="../images/transportation2.jpg" alt class="img img-responsive">
               </div>
               <div class="details">
-                <h3>yaml_transportation2_title:</h3>
+                <h3>{{ transportation2_title }}:</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>yaml_transportation2_address</li>
+                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ transportation2_address }}</li>
                   <li><i class="fi flaticon-time"></i> 19:00</li>
                 </ul>
-                <p>yaml_transportation2_content</p>
-                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">yaml_transportation2_map <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <p>{{ transportation2_content }}</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">{{ transportation2_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
               </div>
             </div>
           </div-->
@@ -411,7 +423,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_accommodation_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ accommodation_title }}</span>{% else %}{{ accommodation_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -422,7 +434,7 @@ set_flags
               <div class="coming-soon">
                 <p>Coming Soon!</p>
               </div>
-              <p>yaml_accommodation_soon</p>
+              <p>{{ accommodation_soon }}</p>
             </div>
           </div>
         </div>
@@ -435,7 +447,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_accommodation_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ accommodation_title }}</span>{% else %}{{ accommodation_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -443,7 +455,7 @@ set_flags
         <div class="row">
           <div class="col col-xs-12">
             <div class="inportant-people-content">
-              <p>yaml_accommodation_content</p>
+              <p>{{ accommodation_content }}</p>
               <br/>
               <div class="tab-content">
                 <div class="tab-pane fade in active grid-wrapper" id="groomsmen">
@@ -455,9 +467,9 @@ set_flags
                     </div>
                     <div class="details">
                       <h3>Hotel 1</h3>
-                      <span>yaml_accommodation_address1</span>
+                      <span>{{ accommodation_address1 }}</span>
                       <ul class="social-links">
-                        <li><a href="#" target="_blank">yaml_accommodation_map</a></li>
+                        <li><a href="#" target="_blank">{{ accommodation_map }}</a></li>
                       </ul>
                     </div>
                   </div>
@@ -469,9 +481,9 @@ set_flags
                     </div>
                     <div class="details">
                       <h3>Hotel 2</h3>
-                      <span>yaml_accommodation_address2</span>
+                      <span>{{ accommodation_address2 }}</span>
                       <ul class="social-links">
-                        <li><a href="#" target="_blank">yaml_accommodation_map</a></li>
+                        <li><a href="#" target="_blank">{{ accommodation_map }}</a></li>
                       </ul>
                     </div>
                   </div>
@@ -483,9 +495,9 @@ set_flags
                     </div>
                     <div class="details">
                       <h3>Hotel 3</h3>
-                      <span>yaml_accommodation_address3</span>
+                      <span>{{ accommodation_address3 }}</span>
                       <ul class="social-links">
-                        <li><a href="#" target="_blank">yaml_accommodation_map</a></li>
+                        <li><a href="#" target="_blank">{{ accommodation_map }}</a></li>
                       </ul>
                     </div>
                   </div>
@@ -506,20 +518,20 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title-white">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_gifts_surprises_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ gifts_surprises_title }}</span>{% else %}{{ gifts_surprises_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
 
         <div class="row content">
           <div class="col col-md-6">
-            <h3>yaml_gifts_title</h3>
-            <p>yaml_gifts_content</p>
+            <h3>{{ gifts_title }}</h3>
+            <p>{{ gifts_content }}</p>
             <pre>IBAN: ES91 0239 0806 7600 1762 9528<br/>SWIFT/BIC: EVOBESMMXXX<br/>NAME: Silvia Alvarez Almazan</pre>
           </div>
           <div class="col col-md-6">
-            <h3>yaml_surprises_title</h3>
-            <p>yaml_surprises_content</p>
+            <h3>{{ surprises_title }}</h3>
+            <p>{{ surprises_content }}</p>
             <p>Mélanie: <a href="mailto:info@imaginatuboda.es">info@imaginatuboda.es</a></p>
           </div>
         </div>
@@ -535,27 +547,27 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title-white">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_rsvp_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ rsvp_title }}</span>{% else %}{{ rsvp_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
 
         <div class="row content">
           <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p>yaml_rsvp_content</p>
+            <p>{{ rsvp_content }}</p>
             <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
               <div class="col col-sm-6">
-                <input type="text" name="name" class="form-control" placeholder="yaml_rsvp_name*">
+                <input type="text" name="name" class="form-control" placeholder="{{ rsvp_name}}*">
               </div>
               <div class="col col-sm-6">
-                <input type="email" name="email" class="form-control" placeholder="yaml_rsvp_email*">
+                <input type="email" name="email" class="form-control" placeholder="{{ rsvp_email }}*">
               </div>
               <div class="col col-sm-6">
-                <input type="text" name="partner-name" class="form-control" placeholder="yaml_rsvp_partner">
+                <input type="text" name="partner-name" class="form-control" placeholder="{{ rsvp_partner }}">
               </div>
               <div class="col col-sm-6">
                 <select class="form-control" name="kids">
-                  <option disabled selected>yaml_rsvp_kids</option>
+                  <option disabled selected>{{ rsvp_kids }}</option>
                   <option>0</option>
                   <option>1</option>
                   <option>2</option>
@@ -563,10 +575,10 @@ set_flags
                 </select>
               </div>
               <div class="col col-sm-12">
-                <textarea class="form-control" name="message" placeholder="yaml_rsvp_message"></textarea>
+                <textarea class="form-control" name="message" placeholder="{{ rsvp_message }}"></textarea>
               </div>
               <div class="col col-sm-12 submit-btn">
-                <button type="submit" class="submit">yaml_rsvp_send</button>
+                <button type="submit" class="submit">{{ rsvp_send }}</button>
                 <span id="loader">
                   <div class="sk-circle">
                     <div class="sk-circle1 sk-child"></div>
@@ -585,7 +597,7 @@ set_flags
                 </span>
               </div>
               <div class="col col-md-12 success-error-message">
-                <div id="success">yaml_rsvp_thankyou</div>
+                <div id="success">{{ rsvp_thankyou }}</div>
                 <div id="error"> Error occurred while sending email. Please try again later. </div>
               </div>
             </form>
@@ -603,7 +615,7 @@ set_flags
           <div class="col col-xs-12">
             <div class="section-title">
               <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
-              <h2>yaml_preparty_title_cz</h2>
+              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ preparty_title }}</span>{% else %}{{ preparty_title }}{% endif %}</h2>
             </div>
           </div>
         </div>
@@ -614,7 +626,7 @@ set_flags
               <div class="coming-soon">
                 <p>Coming Soon!</p>
               </div>
-              <p>yaml_preparty_soon</p>
+              <p>{{ preparty_soon }}</p>
             </div>
             <!--div class="event">
               <div class="img-holder">
@@ -623,11 +635,11 @@ set_flags
               <div class="details">
                 <h3>TODO bar name</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>yaml_preparty_address</li>
-                  <li><i class="fi flaticon-time"></i> yaml_preparty_date 2020 17:00</li>
+                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ preparty_address }}</li>
+                  <li><i class="fi flaticon-time"></i> {{ preparty_date }} 2020 17:00</li>
                 </ul>
-                <p>yaml_preparty_content</p>
-                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">yaml_preparty_map <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <p>{{ preparty_content }}</p>
+                <a class="see-location-btn popup-gmaps" target="_blank" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414">{{ preparty_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
               </div>
             </div-->
           </div>
