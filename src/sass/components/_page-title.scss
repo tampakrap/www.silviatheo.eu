@@ -21,12 +21,8 @@
     display: table-cell;
   }
 
-  h2,
-  ol {
-    color: $white;
-  }
-
   h2 {
+    color: $white;
     font-size: 55px;
     font-size: calc-rem-value(48.88896);
     font-weight: 600;
@@ -41,52 +37,6 @@
     @include media-query(767px) {
       font-size: 40px;
       font-size: calc-rem-value(35.55552);
-    }
-  }
-
-  .breadcrumb {
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-
-    a {
-      color: $white;
-    }
-
-    ul {
-      display: inline-block;
-    }
-
-    ul li {
-      font-size: 18px;
-      font-size: calc-rem-value(16);
-      color: $theme-primary-color;
-      float: left;
-      position: relative;
-
-      @include media-query(1199px) {
-        font-size: 16px;
-        font-size: calc-rem-value(14.22224);
-      }
-    }
-
-    ul > li + li {
-      padding-left: 20px;
-      margin-left: 20px;
-
-      @include media-query(1199px) {
-        padding-left: 15px;
-        margin-left: 15px;
-      }
-    }
-
-    ul > li + li:before {
-      content: "/";
-      position: absolute;
-      left: -5px;
-      top: 2px;
-      color: $white;
     }
   }
 }

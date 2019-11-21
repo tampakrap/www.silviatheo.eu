@@ -818,139 +818,7 @@
 
 
 /*--------------------------------------------------------------
-#1.2 gallery-section
---------------------------------------------------------------*/
-.gallery-section {
-
-  /*** filter ***/
-  .gallery-filters {
-    text-align: left;
-    margin-bottom: 35px;
-
-    @include media-query(767px) {
-      margin-bottom: 30px;
-    }
-
-    ul {
-      overflow: hidden;
-    }
-
-    ul li {
-      float: left;
-    }
-
-    ul > li + li {
-      margin-left: 15px;
-    }
-
-    ul li a {
-      font-weight: bold;
-      color: #3e3e3e;
-      display: block;
-      text-transform: uppercase;
-
-      @include media-query(767px) {
-        font-size: 15px;
-        font-size: calc-rem-value(13.33328);
-      }
-    }
-
-    ul .current {
-      color: $theme-primary-color;
-    }
-  }
-
-  .masonry-gallery {
-    margin: 0 -7.5px;
-
-    @include media-query(991px) {
-      margin: 0 5px;
-    }
-
-    @include media-query(500px) {
-      margin: 0;
-    }
-  }
-
-  .masonry-gallery .grid {
-    width: 33.33%;
-    float: left;
-    padding: 0 7.5px 15px;
-
-    @include media-query(991px) {
-      padding: 0 5px 10px;
-    }
-
-    @include media-query(767px) {
-      width: 50%;
-    }
-
-    @include media-query(550px) {
-      width: 100%;
-      float: none;
-      padding: 0 0 15px;
-    }
-  }
-
-  .grid img {
-    -webkit-filter: grayscale(60%);
-    -moz-filter: grayscale(60%);
-    -o-filter: grayscale(60%);
-    -ms-filter: grayscale(60%);
-      filter: grayscale(60%);
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-
-    @include media-query(767px) {
-      -webkit-filter: grayscale(0);
-      -moz-filter: grayscale(0);
-      -o-filter: grayscale(0);
-      -ms-filter: grayscale(0);
-        filter: grayscale(0);
-    }
-  }
-
-  .grid:hover img {
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-      filter: grayscale(0);
-  }
-
-  .video-play-btn {
-    position: relative;
-    display: block;
-
-    i {
-      width: 50px;
-      height: 50px;
-      line-height: 47px;
-      font-size: 20px;
-      font-size: calc-rem-value(17.77776);
-      background: transparentize($theme-primary-color, 0.1);
-      border: 3px solid darken($theme-primary-color, 1%);
-      color: $white;
-      text-align: center;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      @include center-by-translating();
-      @include rounded-border();
-      @include transition-time(0.3s);
-    }
-  }
-
-  .video-play-btn:hover i {
-    background: $theme-primary-color;
-  }
-}
-
-
-/*--------------------------------------------------------------
-#1.3 rsvp-section
+#1.2 rsvp-section
 --------------------------------------------------------------*/
 .rsvp-section {
   position: relative;
@@ -1052,7 +920,7 @@
 
 
 /*--------------------------------------------------------------
-#1.4 getting-there-section
+#1.3 getting-there-section
 --------------------------------------------------------------*/
 .getting-there-section {
   background-color: $theme-primary-color;
@@ -1134,32 +1002,6 @@
   .content > .col:last-child {
     @include widther(992px) {
       padding-left: 75px;
-    }
-  }
-}
-
-
-/*--------------------------------------------------------------
-#1.5 gift-registration-section
---------------------------------------------------------------*/
-.gift-registration-section {
-  text-align: center;
-
-  .gif-registration-slider {
-    margin-top: 55px;
-
-    @include media-query(767px) {
-      margin-top: 45px;
-    }
-  }
-
-  .gif-registration-slider .register {
-    border: 1px solid #111;
-    padding: 20px;
-
-    img {
-      width: auto;
-      max-width: 100%;
     }
   }
 }
