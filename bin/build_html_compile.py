@@ -20,12 +20,12 @@ for page in ['index', 'future']:
             os.mkdir(f'src/{lang}')
 
         lang_page_html = f'src/{lang}/{page}.html'
-        tmp_lang = lang
+        iso_lang = lang
 
         if lang == 'gr':
-            tmp_lang = 'el'
-            if not os.path.islink(f'src/{tmp_lang}'):
-                os.symlink(lang, f'src/{tmp_lang}')
+            iso_lang = 'el'
+            if not os.path.islink(f'src/{iso_lang}'):
+                os.symlink(lang, f'src/{iso_lang}')
 
         lang_strings = {}
         for k, v in strings.items():
@@ -36,7 +36,7 @@ for page in ['index', 'future']:
 
         other_langs = langs.copy()
         other_langs.remove(lang)
-        lang_strings.update({'other_langs': other_langs, 'lang': tmp_lang})
+        lang_strings.update({'other_langs': other_langs, 'lang': lang, 'iso_lang': iso_lang})
         output = tmpl.render(lang_strings)
         with open(lang_page_html, 'w') as f:
             f.write(output)
