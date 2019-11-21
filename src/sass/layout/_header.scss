@@ -336,10 +336,6 @@
   }
 
   @include media-query(767px) {
-    .navbar-header .navbar-brand {
-      font-size: 24px;
-    }
-
     #navbar .navbar-nav {
       margin: 0;
     }
@@ -436,9 +432,7 @@
     }
   }
 
-  #navbar ul li.current-menu-item > a,
-  #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
-  #navbar ul > li.current-menu-ancestor > a {
+  #navbar ul li.current-menu-item > a {
     color: $theme-primary-color;
   }
 

@@ -306,16 +306,6 @@
 
   .story-timeline > .row {
     position: relative;
-
-    .horizontal-line {
-      background: transparentize($theme-primary-color, 0.9);
-      width: 70%;
-      height: 1px;
-      position: absolute;
-      left: 50%;
-      top: 0;
-      @include translatingX();
-    }
   }
 
   .story-timeline > .row + .row {
@@ -619,44 +609,6 @@
 #1.1 inportant-people-section
 --------------------------------------------------------------*/
 .inportant-people-section {
-
-  /*** tablist ***/
-  .tablist {
-    text-align: center;
-    max-height: 45px;
-    margin-bottom: 45px;
-
-    @include media-query(767px) {
-      margin-bottom: 35px;
-    }
-  }
-
-  .tablist ul {
-    overflow: hidden;
-    display: inline-block;
-
-    li {
-      float: left;
-    }
-  }
-
-  .tablist ul li a {
-    background: transparentize($theme-primary-color, 0.85);
-    display: block;
-    color: #3e3e3e;
-    font-weight: 600;
-    padding: 7px 15px;
-
-    @include media-query(767px) {
-      font-size: 14px;
-      font-size: calc-rem-value(12.44448);
-    }
-  }
-
-  .tablist ul .active a {
-    background-color: $theme-primary-color;
-    color: $white;
-  }
 
   /*** tab-content ***/
   .tab-content > div {
