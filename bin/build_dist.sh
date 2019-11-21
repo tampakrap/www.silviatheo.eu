@@ -31,3 +31,5 @@ done
 $CP CNAME dist/
 
 $SED -i -e 's#\.\./\(css\|fonts\|images\|js\)#/\1#g' dist/css/style.min.css dist/js/script.min.js dist/{cz,de,en,es,gr}/index.html
+
+rm dist/images/logo/logo{,_with_date}.jpg
