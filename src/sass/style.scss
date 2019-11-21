@@ -26,13 +26,15 @@ URL:            http://themeforest.net/user/themexriver
 
 ----------------------------------------------------------------*/
 
+// fonts
+@import "fonts/fifindrel";
+@import "fonts/promocyja";
+@import "fonts/flaticon";
+
 // helpers
 @import "helpers/variables";
 @import "helpers/functions";
 @import "helpers/mixins";
-
-// icon fonts
-@import "fonts/flaticon";
 
 // base
 @import "base/base";
