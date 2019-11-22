@@ -81,7 +81,7 @@
   }
 
   h2 {
-    font-family: $heading-font2;
+    font-family: $heading-font;
     background-color: transparentize($theme-primary-color, 0.9);
     font-size: 46px;
     font-size: calc-rem-value(40.88896);
@@ -95,7 +95,7 @@
     letter-spacing: 3px;
 
     .cz {
-      font-family: 'Promocyja';
+      font-family: $heading-font-cz;
       font-size: 30px;
     }
 
