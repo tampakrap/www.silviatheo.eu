@@ -36,5 +36,17 @@
     "node-sass": "^4.13.0",
     "postcss-cli": "^6.1.3",
     "uglify-js": "^3.6.8"
+  },
+  "silviatheo": {
+    "special_langs": [
+      "cz"
+    ],
+    "langs": [
+      "cz",
+      "de",
+      "en",
+      "es",
+      "gr"
+    ]
   }
 }

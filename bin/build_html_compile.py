@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import jinja2
+import json
 import os
 import re
 import yaml
@@ -8,8 +9,12 @@ import yaml
 with open('strings.yaml', 'r') as f:
     strings = yaml.load(f)
 
-langs = strings['langs']
-special_langs = strings['special_langs']
+with open('package.json', 'r') as f:
+    package = json.load(f)
+    config = package['silviatheo']
+
+langs = config['langs']
+special_langs = config['special_langs']
 
 tmpl_path = jinja2.FileSystemLoader('./src')
 jinja_env = jinja2.Environment(loader=tmpl_path)
