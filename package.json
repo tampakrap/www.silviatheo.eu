@@ -48,5 +48,8 @@
       "es",
       "gr"
     ]
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
   }
 }
