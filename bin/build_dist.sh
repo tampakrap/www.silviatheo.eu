@@ -6,8 +6,10 @@ FILES=(
     el
     fonts
     images
-    js/script.min.js
     index.html
+    js/script.min.js
+    robots.txt
+    sitemap.xml
 )
 
 case $OSTYPE in
