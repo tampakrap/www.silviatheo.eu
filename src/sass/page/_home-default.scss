@@ -825,7 +825,22 @@
 
     select {
       color: #2a2a2a;
-      background: #e6eceb url(../images/select-icon.png) no-repeat calc(100% - 15px) center;
+    }
+
+    .select-wrapper {
+      position: relative;
+
+      &:before {
+        font-family: "Flaticon";
+        content: $font-flaticon-down-arrow;
+        font-size: 10px;
+        font-size: calc-rem-value(10);
+        font-weight: bolder;
+        position: absolute;
+        top: 15px;
+        right: 12px;
+        color: #9c9e9e;
+      }
     }
 
     textarea {

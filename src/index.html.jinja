@@ -569,13 +569,15 @@
                 <input type="text" name="partner-name" class="form-control" placeholder="{{ rsvp_partner }}">
               </div>
               <div class="col col-sm-6">
-                <select class="form-control" name="kids">
-                  <option disabled selected>{{ rsvp_kids }}</option>
-                  <option>0</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                </select>
+                <div class="select-wrapper">
+                  <select class="form-control" name="kids">
+                    <option disabled selected>{{ rsvp_kids }}</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
               </div>
               <div class="col col-sm-12">
                 <textarea class="form-control" name="message" placeholder="{{ rsvp_message }}"></textarea>

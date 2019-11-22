@@ -18,7 +18,6 @@
   @include placeholder-style(lighten($black, 35%));
 
   select {
-    background: url(../images/select-icon.png) no-repeat right center;
     display: inline-block;
     -webkit-appearance:none;
     -moz-appearance:none;
