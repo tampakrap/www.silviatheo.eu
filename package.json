@@ -29,7 +29,7 @@
   "browserslist": [
     "last 2 versions"
   ],
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^9.7.1",
     "clean-css-cli": "^4.3.0",
     "html-minifier-cli": "^0.1.0",
