@@ -2,6 +2,9 @@ dist: bionic
 language: node_js
 node_js:
   - 12
+env:
+  global:
+    - NODE_ENV=production
 script:
   - npm run build
 deploy:
