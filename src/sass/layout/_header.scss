@@ -138,8 +138,7 @@
         position: static;
       }
 
-      .mega-menu,
-      .half-mega-menu {
+      .mega-menu {
         background-color: $white;
         padding: 20px;
         border-top: 2px solid $theme-primary-color;
@@ -155,10 +154,6 @@
       .mega-menu {
         width: 1140px;
         right: 15px;
-      }
-
-      .half-mega-menu {
-        width: 585px;
       }
 
       .mega-menu-box-title {
@@ -193,20 +188,14 @@
         width: 950px;
         right: 15px;
       }
-
-      > ul .half-mega-menu {
-        width: 485px;
-      }
     }
 
     @include media-query(991px) {
-      > ul .mega-menu,
-      > ul .half-mega-menu {
+      > ul .mega-menu {
         width: auto;
       }
 
-      > ul .mega-menu .row,
-      > ul .half-mega-menu .row {
+      > ul .mega-menu .row {
         margin: 0;
       }
 
