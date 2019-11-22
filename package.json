@@ -42,11 +42,11 @@
       "cz"
     ],
     "langs": [
-      "cz",
-      "de",
       "en",
+      "gr",
       "es",
-      "gr"
+      "cz",
+      "de"
     ]
   },
   "devDependencies": {
