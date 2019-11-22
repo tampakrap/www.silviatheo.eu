@@ -392,6 +392,8 @@
     .fi:before {
       font-size: 25px;
       font-size: calc-rem-value(22.22224);
+      position: relative;
+      top: -12px;
 
       @include media-query(991px) {
         font-size: 20px;
