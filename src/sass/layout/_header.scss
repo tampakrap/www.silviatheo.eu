@@ -17,6 +17,11 @@
   #navbar {
     @include transition-time(0.5s);
 
+    img {
+      width: 16px;
+      height: 11px;
+    }
+
     > ul li a:hover {
       text-decoration: none;
       color: $theme-primary-color;
