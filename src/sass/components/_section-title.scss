@@ -85,7 +85,7 @@
     background-color: transparentize($theme-primary-color, 0.9);
     font-size: 46px;
     font-size: calc-rem-value(40.88896);
-    color: #848383;
+    color: $section-title;
     margin: 59px 0 0;
     padding: 10px 25px 5px;
     border-top: 2px solid transparentize($theme-primary-color, 0.9);
