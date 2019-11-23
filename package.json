@@ -29,6 +29,9 @@
   "browserslist": [
     "last 2 versions"
   ],
+  "devDependencies": {
+    "purify-css": "^1.2.5"
+  },
   "dependencies": {
     "autoprefixer": "^9.7.1",
     "clean-css-cli": "^4.3.0",
@@ -48,8 +51,5 @@
       "cz",
       "de"
     ]
-  },
-  "devDependencies": {
-    "purify-css": "^1.2.5"
   }
 }
