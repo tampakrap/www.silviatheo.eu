@@ -578,17 +578,17 @@
             <p>{{ rsvp_content }}</p>
             <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
               <div class="col col-sm-6">
-                <input type="text" name="name" class="form-control" placeholder="{{ rsvp_name}}*">
+                <input type="text" name="name" class="form-control" placeholder="{{ rsvp_name }}*" aria-label="{{ rsvp_name }}*">
               </div>
               <div class="col col-sm-6">
-                <input type="email" name="email" class="form-control" placeholder="{{ rsvp_email }}*">
+                <input type="email" name="email" class="form-control" placeholder="{{ rsvp_email }}*" aria-label="{{ rsvp_email }}*">
               </div>
               <div class="col col-sm-6">
-                <input type="text" name="partner-name" class="form-control" placeholder="{{ rsvp_partner }}">
+                <input type="text" name="partner-name" class="form-control" placeholder="{{ rsvp_partner }}" aria-label="{{ rsvp_partner }}">
               </div>
               <div class="col col-sm-6">
                 <div class="select-wrapper">
-                  <select class="form-control" name="kids">
+                  <select class="form-control" name="kids" aria-label="{{ rsvp_kids }}">
                     <option disabled selected>{{ rsvp_kids }}</option>
                     <option>0</option>
                     <option>1</option>
@@ -598,7 +598,7 @@
                 </div>
               </div>
               <div class="col col-sm-12">
-                <textarea class="form-control" name="message" placeholder="{{ rsvp_message }}"></textarea>
+                <textarea class="form-control" name="message" placeholder="{{ rsvp_message }}" aria-label="{{ rsvp_message }}"></textarea>
               </div>
               <div class="col col-sm-12 submit-btn">
                 <button type="submit" class="submit">{{ rsvp_send }}</button>
