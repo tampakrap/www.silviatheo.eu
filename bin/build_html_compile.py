@@ -19,19 +19,22 @@ special_langs = config['special_langs']
 tmpl_path = jinja2.FileSystemLoader('./src')
 jinja_env = jinja2.Environment(loader=tmpl_path)
 
+if not os.path.exists('dist/'):
+    os.mkdir('dist/')
+
 for page in ['index', 'future']:
     tmpl = jinja_env.get_template(f'{page}.html.jinja')
     for lang in langs:
-        if not os.path.exists(f'src/{lang}'):
-            os.mkdir(f'src/{lang}')
+        if not os.path.exists(f'dist/{lang}'):
+            os.mkdir(f'dist/{lang}')
 
-        lang_page_html = f'src/{lang}/{page}.html'
+        lang_page_html = f'dist/{lang}/{page}.html'
         iso_lang = lang
 
         if lang == 'gr':
             iso_lang = 'el'
-            if not os.path.islink(f'src/{iso_lang}'):
-                os.symlink(lang, f'src/{iso_lang}')
+            if not os.path.islink(f'dist/{iso_lang}'):
+                os.symlink(lang, f'dist/{iso_lang}')
 
         lang_strings = {}
         for k, v in strings.items():
@@ -47,5 +50,5 @@ for page in ['index', 'future']:
         with open(lang_page_html, 'w') as f:
             f.write(output)
 
-if not os.path.islink('src/index.html'):
-    os.symlink('en/index.html', 'src/index.html')
+if not os.path.islink('dist/index.html'):
+    os.symlink('en/index.html', 'dist/index.html')

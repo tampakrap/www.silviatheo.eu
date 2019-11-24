@@ -10,35 +10,27 @@
   "author": "Theo Chatzimichos <tampakrap@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean:src": "rm -rf src/cz src/de src/el src/en src/es src/gr src/index.html src/css/style.* src/js/script.min.js",
-    "clean:dist": "rm -rf dist/*",
-    "clean": "npm run clean:src && npm run clean:dist",
-    "build:html:compile": "bin/build_html_compile.py",
-    "build:html:minify": "for lang in cz de en es gr; do mkdir -p dist/$lang && htmlmin -o dist/$lang/index.html src/$lang/index.html; done",
-    "build:html": "npm run build:html:compile",
-    "build:css:compile": "node-sass --output-style=expanded --source-map=true src/sass/style.scss src/css/style.css",
-    "build:css:prefix": "postcss --use=autoprefixer --map=false --output=src/css/style.css src/css/style.css",
-    "build:css:minify": "cleancss --source-map --source-map-inline-sources --inline local --output src/css/style.min.css src/css/style.css",
-    "build:css": "npm run build:css:compile && npm run build:css:prefix && npm run build:css:minify",
-    "build:js:minify": "uglifyjs --compress --mangle --output=src/js/script.min.js src/js/*.js",
-    "build:js": "npm run build:js:minify",
-    "build:src": "npm run clean:src && npm run build:html && npm run build:css && npm run build:js",
-    "build:dist": "npm run build:html:minify && bin/build_dist.sh",
-    "build": "npm run build:src && npm run build:dist"
+    "clean": "npx gulp clean",
+    "build:html": "npx gulp build_html",
+    "build:css": "npx gulp build_css",
+    "build:js": "npx gulp build_js",
+    "build:dev": "npx gulp build_dev",
+    "build:prod": "npx gulp build_prod",
+    "build": "npx gulp build"
   },
-  "browserslist": [
-    "last 2 versions"
-  ],
   "devDependencies": {
     "purify-css": "^1.2.5"
   },
   "dependencies": {
-    "autoprefixer": "^9.7.1",
-    "clean-css-cli": "^4.3.0",
-    "html-minifier-cli": "^0.1.0",
-    "node-sass": "^4.13.0",
-    "postcss-cli": "^6.1.3",
-    "uglify-js": "^3.6.8"
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
   },
   "silviatheo": {
     "special_langs": [
