@@ -7,7 +7,7 @@ import re
 import yaml
 
 with open('strings.yaml', 'r') as f:
-    strings = yaml.load(f)
+    strings = yaml.load(f, Loader=yaml.BaseLoader)
 
 with open('package.json', 'r') as f:
     package = json.load(f)
