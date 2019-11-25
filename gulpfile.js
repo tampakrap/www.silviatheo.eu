@@ -51,7 +51,7 @@ function build_js() {
     .pipe(sourcemaps.init())
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
-    .pipe(sourcemaps.write('.', {sourceRoot: '../../src/sass'}))
+    .pipe(sourcemaps.write('.', {sourceRoot: '../../src/js'}))
     .pipe(gulp.dest('dist/js'));
 }
 
