@@ -49,6 +49,7 @@ function build_css() {
 function build_js() {
   return gulp.src('src/js/script.js')
     .pipe(sourcemaps.init())
+    .pipe(sourcemaps.identityMap())
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
     .pipe(sourcemaps.write('.', {sourceRoot: '../../src/js'}))
