@@ -3,7 +3,6 @@
 import jinja2
 import json
 import os
-import re
 import yaml
 
 with open('strings.yaml', 'r') as f:
