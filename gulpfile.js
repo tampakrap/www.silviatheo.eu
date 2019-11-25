@@ -36,13 +36,13 @@ function build_html_minify() {
 }
 
 function build_css() {
-  return gulp.src('src/sass/style.scss')
+  return gulp.src('src/scss/style.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer('last 2 versions'))
     .pipe(rename({suffix: '.min'}))
     .pipe(cleancss())
-    .pipe(sourcemaps.write('.', {sourceRoot: '../../src/sass'}))
+    .pipe(sourcemaps.write('.', {sourceRoot: '../../src/scss'}))
     .pipe(gulp.dest('dist/css'));
 }
 
