@@ -84,27 +84,27 @@
   }
 }
 
-@mixin placeholder-style( $color, $font-size:18px, $font-style: italic ) {
+@mixin placeholder-style( $color, $font-size: 18px, $font-style: italic ) {
   ::-webkit-input-placeholder {
-    font-style: $font-size;
+    font-size: $font-size;
     font-style: $font-style;
     color: $color;
   }
 
   :-moz-placeholder {
-    font-style: $font-size;
+    font-size: $font-size;
     font-style: $font-style;
     color: $color;
   }
 
   ::-moz-placeholder {
-    font-style: $font-size;
+    font-size: $font-size;
     font-style: $font-style;
     color: $color;
   }
 
   :-ms-input-placeholder {
-    font-style: $font-size;
+    font-size: $font-size;
     font-style: $font-style;
     color: $color;
   }

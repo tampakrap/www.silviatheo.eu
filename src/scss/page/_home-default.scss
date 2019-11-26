@@ -796,7 +796,7 @@
   }
 
   .form {
-    @include placeholder-style($dark-gray, 18px, normal);
+    @include placeholder-style($dark-gray, calc-rem-value(14.22224), normal);
 
     .col {
       margin-bottom: 25px;
