@@ -16,12 +16,12 @@ body {
 
   @include media-query(1199px) {
     font-size: 17px;
-    font-style: calc-rem-value(15.11104);
+    font-size: calc-rem-value(15.11104);
   }
 
   @include media-query(991px) {
     font-size: 16px;
-    font-style: calc-rem-value(14.22224);
+    font-size: calc-rem-value(14.22224);
   }
 }
 
