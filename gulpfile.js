@@ -72,3 +72,19 @@ exports.build_js = build_js
 exports.build_dev = gulp.parallel(exports.build_html, build_css, build_js, build_others_dev)
 exports.build_prod = gulp.parallel(gulp.series(exports.build_html, build_others_prod), build_css, build_js)
 exports.build = exports.build_prod
+
+/* keeping it here in case I need it in the future */
+
+/*
+const spritesmith = require('gulp.spritesmith');
+
+function sprites() {
+  var spriteData = gulp.src('src/images/flags/*.png').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.scss'
+  }));
+  return spriteData.pipe(gulp.dest('flags/'));
+}
+
+exports.sprites = sprites
+*/

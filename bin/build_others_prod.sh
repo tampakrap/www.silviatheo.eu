@@ -26,3 +26,4 @@ done
 $SED -i -e 's#\.\./\(css\|fonts\|images\|js\)#/\1#g' dist/css/style.min.css dist/js/script.min.js dist/{cz,de,en,es,gr}/index.html
 
 rm dist/{cz,de,en,es,gr}/future.html
+rm -rf dist/images/flags/

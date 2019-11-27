@@ -17,10 +17,7 @@
   #navbar {
     @include transition-time(0.5s);
 
-    img {
-      width: 16px;
-      height: 11px;
-    }
+    @include flags($flags-all);
 
     > ul li a:hover {
       text-decoration: none;

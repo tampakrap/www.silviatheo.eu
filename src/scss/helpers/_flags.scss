@@ -1,0 +1,151 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $flags: width height image $flags-all;
+$flag-cz-name: 'cz';
+$flag-cz-x: 0px;
+$flag-cz-y: 0px;
+$flag-cz-offset-x: 0px;
+$flag-cz-offset-y: 0px;
+$flag-cz-width: 16px;
+$flag-cz-height: 11px;
+$flag-cz-total-width: 48px;
+$flag-cz-total-height: 22px;
+$flag-cz-image: '../images/flags.png';
+$flag-cz: (0px, 0px, 0px, 0px, 16px, 11px, 48px, 22px, '../images/flags.png', 'flag-cz', );
+$flag-de-name: 'de';
+$flag-de-x: 16px;
+$flag-de-y: 0px;
+$flag-de-offset-x: -16px;
+$flag-de-offset-y: 0px;
+$flag-de-width: 16px;
+$flag-de-height: 11px;
+$flag-de-total-width: 48px;
+$flag-de-total-height: 22px;
+$flag-de-image: '../images/flags.png';
+$flag-de: (16px, 0px, -16px, 0px, 16px, 11px, 48px, 22px, '../images/flags.png', 'flag-de', );
+$flag-en-name: 'en';
+$flag-en-x: 0px;
+$flag-en-y: 11px;
+$flag-en-offset-x: 0px;
+$flag-en-offset-y: -11px;
+$flag-en-width: 16px;
+$flag-en-height: 11px;
+$flag-en-total-width: 48px;
+$flag-en-total-height: 22px;
+$flag-en-image: '../images/flags.png';
+$flag-en: (0px, 11px, 0px, -11px, 16px, 11px, 48px, 22px, '../images/flags.png', 'flag-en', );
+$flag-es-name: 'es';
+$flag-es-x: 16px;
+$flag-es-y: 11px;
+$flag-es-offset-x: -16px;
+$flag-es-offset-y: -11px;
+$flag-es-width: 16px;
+$flag-es-height: 11px;
+$flag-es-total-width: 48px;
+$flag-es-total-height: 22px;
+$flag-es-image: '../images/flags.png';
+$flag-es: (16px, 11px, -16px, -11px, 16px, 11px, 48px, 22px, '../images/flags.png', 'flag-es', );
+$flag-gr-name: 'gr';
+$flag-gr-x: 32px;
+$flag-gr-y: 0px;
+$flag-gr-offset-x: -32px;
+$flag-gr-offset-y: 0px;
+$flag-gr-width: 16px;
+$flag-gr-height: 11px;
+$flag-gr-total-width: 48px;
+$flag-gr-total-height: 22px;
+$flag-gr-image: '../images/flags.png';
+$flag-gr: (32px, 0px, -32px, 0px, 16px, 11px, 48px, 22px, '../images/flags.png', 'flag-gr', );
+$flags-width: 48px;
+$flags-height: 22px;
+$flags-image: '../images/flags.png';
+$flags-all: ($flag-cz, $flag-de, $flag-en, $flag-es, $flag-gr, );
+$flags: (48px, 22px, '../images/flags.png', $flags-all, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($flags-all);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+@mixin flags($sprites) {
+  .#{'flags'} {
+    background-image: url(#{$flags-image});
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite-position($sprite);
+    }
+  }
+}
