@@ -70,7 +70,7 @@ exports.build_html = gulp.series(build_html_compile, build_html_minify)
 exports.build_css = build_css
 exports.build_js = build_js
 exports.build_dev = gulp.parallel(exports.build_html, build_css, build_js, build_others_dev)
-exports.build_prod = gulp.parallel(gulp.series(exports.build_html, build_others_prod), build_css, build_js)
+exports.build_prod = gulp.series(gulp.parallel(exports.build_html, build_css, build_js), build_others_prod)
 exports.build = exports.build_prod
 
 /* keeping it here in case I need it in the future */
