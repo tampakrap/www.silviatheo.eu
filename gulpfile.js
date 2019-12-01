@@ -18,20 +18,9 @@ function build_html_compile() {
 }
 
 function build_html_minify() {
-  var options = {
-    removeComments: true,
-    removeCommentsFromCDATA: true,
-    removeCDATASectionsFromCDATA: true,
-    collapseWhitespace: true,
-    collapseBooleanAttributes: true,
-    removeAttributeQuotes: true,
-    removeRedundantAttributes: true,
-    useShortDoctype: true,
-    removeEmptyAttributes: true,
-    removeOptionalTags: true
-  }
+  var config = require('./.htmlminrc.json')
   return gulp.src('dist/*/index.html')
-    .pipe(htmlmin(options))
+    .pipe(htmlmin(config))
     .pipe(gulp.dest('dist'));
 }
 
