@@ -8,5 +8,6 @@
   "lang-style": false,
   "indent-style": "spaces",
   "indent-width": 2,
+  "link-req-noopener": false,
   "tag-self-close": "never"
 }
