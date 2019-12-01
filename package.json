@@ -19,6 +19,7 @@
     "build": "npx gulp build"
   },
   "devDependencies": {
+    "gulp.spritesmith": "^6.11.0",
     "purify-css": "^1.2.5"
   },
   "dependencies": {

@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const spritesmith = require('gulp.spritesmith');
 const del = require('del');
 const spawn = require('child_process').spawn;
 const htmlmin = require('gulp-htmlmin');
@@ -8,6 +9,14 @@ const rename = require('gulp-rename');
 const sourcemaps = require('gulp-sourcemaps');
 const cleancss = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
+
+function sprites() {
+  var spriteData = gulp.src('src/images/flags/*.png').pipe(spritesmith({
+    imgName: 'flags.png',
+    cssName: '_flags.scss'
+  }));
+  return spriteData.pipe(gulp.dest('flags/'));
+}
 
 function clean() {
   return del(['dist/**']);
@@ -54,6 +63,7 @@ function build_others_prod() {
   return spawn('bin/build_others_prod.sh');
 }
 
+exports.sprites = sprites
 exports.clean = clean
 exports.build_html = gulp.series(build_html_compile, build_html_minify)
 exports.build_css = build_css
@@ -61,19 +71,3 @@ exports.build_js = build_js
 exports.build_dev = gulp.parallel(exports.build_html, build_css, build_js, build_others_dev)
 exports.build_prod = gulp.series(gulp.parallel(exports.build_html, build_css, build_js), build_others_prod)
 exports.build = exports.build_prod
-
-/* keeping it here in case I need it in the future */
-
-/*
-const spritesmith = require('gulp.spritesmith');
-
-function sprites() {
-  var spriteData = gulp.src('src/images/flags/*.png').pipe(spritesmith({
-    imgName: 'sprite.png',
-    cssName: 'sprite.scss'
-  }));
-  return spriteData.pipe(gulp.dest('flags/'));
-}
-
-exports.sprites = sprites
-*/
