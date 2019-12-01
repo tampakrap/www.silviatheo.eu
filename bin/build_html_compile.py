@@ -30,8 +30,11 @@ for page in ['index', 'future']:
         lang_page_html = f'dist/{lang}/{page}.html'
         iso_lang = lang
 
-        if lang == 'gr':
-            iso_lang = 'el'
+        if lang in ['cz', 'gr']:
+            if lang == 'cz':
+                iso_lang = 'cs'
+            elif lang == 'gr':
+                iso_lang = 'el'
             if not os.path.islink(f'dist/{iso_lang}'):
                 os.symlink(lang, f'dist/{iso_lang}')
 
