@@ -5,6 +5,8 @@ node_js:
 env:
   global:
     - NODE_ENV=production
+before_script:
+  - npm run lint
 script:
   - npm run build
 deploy:

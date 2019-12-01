@@ -1,0 +1,11 @@
+{
+  "doctype-first": "smart",
+  "doctype-html5": true,
+  "head-req-title": true,
+  "href-style": "relative",
+  "html-req-lang": true,
+  "id-class-style": "dash",
+  "indent-style": "spaces",
+  "indent-width": 2,
+  "tag-self-close": "never"
+}

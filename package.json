@@ -11,6 +11,10 @@
   "license": "MIT",
   "scripts": {
     "clean": "npx gulp clean",
+    "lint:html:jinja": "npx gulp lint_html_jinja",
+    "lint:html:compiled": "npx gulp lint_html_compiled",
+    "lint:html": "npx gulp lint_html",
+    "lint": "npx gulp lint",
     "build:html": "npx gulp build_html",
     "build:css": "npx gulp build_css",
     "build:js": "npx gulp build_js",
@@ -27,6 +31,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
+    "gulp-htmllint": "0.0.16",
     "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
