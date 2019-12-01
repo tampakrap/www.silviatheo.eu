@@ -34,7 +34,7 @@
       animation: rotating 1s linear infinite;
     }
 
-    i {
+    .fi {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -42,7 +42,7 @@
     }
   }
 
-  .icon i:before {
+  .icon .fi:before {
     font-size: 55px;
     font-size: calc-rem-value(48.88896);
     color: $theme-primary-color;

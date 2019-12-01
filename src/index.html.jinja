@@ -59,7 +59,7 @@
     <!-- start preloader -->
     <div class="preloader">
       <div class="inner">
-        <span class="icon"><i class="fi flaticon-bird"></i></span>
+        <span class="icon"><div class="fi flaticon-bird"></div></span>
       </div>
     </div>
     <!-- end preloader -->
@@ -118,11 +118,11 @@
               <span class="icon-bar"></span>
             </button>
             <div class="couple-logo">
-              <h1><a href="#" class="back-to-top-btn-logo">Σ <i class="fi flaticon-fingerprint"></i> Θ</a></h1>
+              <h1><a href="#" class="back-to-top-btn-logo">Σ <span class="fi flaticon-fingerprint"></span> Θ</a></h1>
             </div>
           </div>
           <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
-            <button class="close-navbar"><i class="fi flaticon-delete"></i></button>
+            <button class="close-navbar"><div class="fi flaticon-delete"></div></button>
             <ul class="nav navbar-nav">
               <!--li><a href="#home">Home</a></li-->
               <li><a href="#invitation">{{ invitation_title }}</a></li>
@@ -134,12 +134,12 @@
               <li><a href="#pre-party">Pre-Party</a></li>
               <li class="menu-item-has-children">
                 <!-- htmllint id-class-style=false -->
-                <a href="javascript:void(0);"><i class="flags flag-{{ lang }}"></i></a>
+                <a href="javascript:void(0);"><div class="flags flag-{{ lang }}"></div></a>
                 <!-- htmllint id-class-style="dash" -->
                 <ul class="sub-menu">
                   <!-- htmllint id-class-style=false -->
                   {%- for flag in other_langs %}
-                  <li><a href="/{{ flag }}/"><i class="flags flag-{{ flag }}"></i></a></li>
+                  <li><a href="/{{ flag }}/"><div class="flags flag-{{ flag }}"></div></a></li>
                   {%- endfor %}
                   <!-- htmllint id-class-style="dash" -->
                 </ul>
@@ -155,7 +155,7 @@
     <!-- start wedding-couple-section -->
     <section class="wedding-couple-section section-padding" id="invitation">
       <div class="section-title">
-        <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+        <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
         <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ invitation_title }}</span>{% else %}{{ invitation_title }}{% endif %}</h2>
       </div>
       <div class="container">
@@ -206,7 +206,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ timeline_title }}</span>{% else %}{{ timeline_title }}{% endif %}</h2>
             </div>
           </div>
@@ -218,11 +218,11 @@
               <div class="row">
                 <div class="col col-md-6 text-holder">
                   <div class="story-text right-align-text">
-                    <i class="fi timeline-bus"></i>
+                    <div class="fi timeline-bus"></div>
                     <h3>{{ bus1_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 18:00
+                        <span class="fi flaticon-time"></span> 18:00
                       </span>
                     </div>
                     <p>{{ bus1_content }}</p>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                 </div>
               </div>
@@ -238,14 +238,14 @@
                 <div class="col col-md-6"></div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                   <div class="story-text">
-                    <i class="fi timeline-ring"></i>
+                    <div class="fi timeline-ring"></div>
                     <h3>{{ ceremony_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 19:00
+                        <span class="fi flaticon-time"></span> 19:00
                       </span>
                     </div>
                     <p>{{ ceremony_content }}</p>
@@ -255,14 +255,14 @@
               <div class="row">
                 <div class="col col-md-6 text-holder right-heart">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                   <div class="story-text right-align-text">
-                    <i class="fi timeline-toast"></i>
+                    <div class="fi timeline-toast"></div>
                     <h3>{{ cocktail_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 20:00
+                        <span class="fi flaticon-time"></span> 20:00
                       </span>
                     </div>
                     <p>{{ cocktail_content }}</p>
@@ -276,14 +276,14 @@
                 </div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                   <div class="story-text">
-                    <i class="fi timeline-wedding-cake"></i>
+                    <div class="fi timeline-wedding-cake"></div>
                     <h3>{{ dinner_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 22:00
+                        <span class="fi flaticon-time"></span> 22:00
                       </span>
                     </div>
                     <p>{{ dinner_content }}</p>
@@ -293,14 +293,14 @@
               <div class="row">
                 <div class="col col-md-6 text-holder right-heart">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                   <div class="story-text right-align-text">
-                    <i class="fi timeline-music"></i>
+                    <div class="fi timeline-music"></div>
                     <h3>{{ party_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 00:00
+                        <span class="fi flaticon-time"></span> 00:00
                       </span>
                     </div>
                     <p>It's party time! Throw your hands in the air and wave them like you just don't care! {{ party_content }}</p>
@@ -314,20 +314,20 @@
                 </div>
                 <div class="col col-md-6 text-holder">
                   <span class="heart">
-                    <i class="fi flaticon-heart"></i>
+                    <div class="fi flaticon-heart"></div>
                   </span>
                   <div class="story-text">
-                    <i class="fi timeline-bus"></i>
+                    <div class="fi timeline-bus"></div>
                     <h3>{{ bus2_title }}</h3>
                     <div class="clocks">
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 01:30
+                        <span class="fi flaticon-time"></span> 01:30
                       </span>
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 03:00
+                        <span class="fi flaticon-time"></span> 03:00
                       </span>
                       <span class="clock">
-                        <i class="fi flaticon-time"></i> 05:00
+                        <span class="fi flaticon-time"></span> 05:00
                       </span>
                     </div>
                     <p>{{ bus2_content }}</p>
@@ -361,7 +361,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ venue_title }}</span>{% else %}{{ venue_title }}{% endif %}</h2>
             </div>
           </div>
@@ -376,11 +376,11 @@
               <div class="details">
                 <h3>La Quinta de Illescas</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ venue_address }}</li>
+                  <li><div class="fi flaticon-placeholder-filled-point"></div>{{ venue_address }}</li>
                 </ul>
                 <!-- htmllint href-style="absolute" -->
                 <p>{{ venue_content }}</p>
-                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ venue_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ venue_map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
                 <!-- htmllint href-style="relative" -->
               </div>
             </div>
@@ -397,7 +397,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ transportation_title }}</span>{% else %}{{ transportation_title }}{% endif %}</h2>
             </div>
           </div>
@@ -421,11 +421,11 @@
               <div class="details">
                 <h3>{{ transportation1_title }}:</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ transportation1_address }}</li>
-                  <li><i class="fi flaticon-time"></i> 19:00</li>
+                  <li><div class="fi flaticon-placeholder-filled-point"></div>{{ transportation1_address }}</li>
+                  <li><div class="fi flaticon-time"></div> 19:00</li>
                 </ul>
                 <p>{{ transportation1_content }}</p>
-                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ transportation1_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ transportation1_map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
               </div>
             </div>
             <div class="event">
@@ -435,11 +435,11 @@
               <div class="details">
                 <h3>{{ transportation2_title }}:</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ transportation2_address }}</li>
-                  <li><i class="fi flaticon-time"></i> 19:00</li>
+                  <li><div class="fi flaticon-placeholder-filled-point"></div>{{ transportation2_address }}</li>
+                  <li><div class="fi flaticon-time"></div> 19:00</li>
                 </ul>
                 <p>{{ transportation2_content }}</p>
-                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ transportation2_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ transportation2_map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
               </div>
             </div-->
           </div>
@@ -454,7 +454,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ accommodation_title }}</span>{% else %}{{ accommodation_title }}{% endif %}</h2>
             </div>
           </div>
@@ -478,7 +478,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ accommodation_title }}</span>{% else %}{{ accommodation_title }}{% endif %}</h2>
             </div>
           </div>
@@ -549,7 +549,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title-white">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ gifts_surprises_title }}</span>{% else %}{{ gifts_surprises_title }}{% endif %}</h2>
             </div>
           </div>
@@ -578,7 +578,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title-white">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ rsvp_title }}</span>{% else %}{{ rsvp_title }}{% endif %}</h2>
             </div>
           </div>
@@ -648,7 +648,7 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="section-title">
-              <div class="vertical-line"><span><i class="fi flaticon-bird"></i></span></div>
+              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
               <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ preparty_title }}</span>{% else %}{{ preparty_title }}{% endif %}</h2>
             </div>
           </div>
@@ -669,11 +669,11 @@
               <div class="details">
                 <h3>TODO bar name</h3>
                 <ul>
-                  <li><i class="fi flaticon-placeholder-filled-point"></i>{{ preparty_address }}</li>
-                  <li><i class="fi flaticon-time"></i> {{ preparty_date }} 2020 17:00</li>
+                  <li><div class="fi flaticon-placeholder-filled-point"></div>{{ preparty_address }}</li>
+                  <li><div class="fi flaticon-time"></div> {{ preparty_date }} 2020 17:00</li>
                 </ul>
                 <p>{{ preparty_content }}</p>
-                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ preparty_map }} <i class="fi flaticon-angle-arrow-pointing-to-right"></i></a>
+                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow">{{ preparty_map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
               </div>
             </div-->
           </div>
@@ -686,7 +686,7 @@
     <!-- start footer -->
     <footer class="site-footer">
       <div class="back-to-top">
-        <a href="#" class="back-to-top-btn"><span><i class="fi flaticon-cupid"></i></span></a>
+        <a href="#" class="back-to-top-btn"><span><div class="fi flaticon-cupid"></div></span></a>
       </div>
       <div class="container">
         <div class="row">
