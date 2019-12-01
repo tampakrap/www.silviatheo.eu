@@ -40,7 +40,7 @@ function newline_remove() {
 }
 
 function lint_html_compiled() {
-  return gulp.src('dist/*/index.html')
+  return gulp.src('dist/{cz,de,en,es,gr}/index.html')
     .pipe(htmllint({config: '.htmllintrc-compiled.json'}, htmllintReporter));
 }
 
