@@ -83,16 +83,16 @@
           <!-- htmllint id-class-style=false -->
           <div class="married-text wow fadeIn" data-wow-delay="{{ time.value }}s">
             <h4 class="">
+            <!-- htmllint id-class-style="camel" -->
             {%- for letter in weregettingmarried %}
             {%- set time.value = time.value + 0.05 %}
             {%- if letter != ' ' %}
-            <!-- htmllint id-class-style="camel"-->
             <span class="wow fadeInUp" data-wow-delay="{{'%0.2f' | format(time.value|float) }}s">{{ letter }}</span>
-            <!-- htmllint id-class-style="dash" -->
-            {%- else %}
+            {%- else -%}
             <span>&nbsp;</span>
             {%- endif %}
             {%- endfor %}
+            <!-- htmllint id-class-style="dash" -->
             </h4>
           </div>
         </div>
