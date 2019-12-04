@@ -58,7 +58,7 @@ function build_html_compile() {
 
 function build_html_minify() {
   var config = require('./.htmlminrc.json')
-  return gulp.src('dist/*/index.html')
+  return gulp.src('dist/{cz,de,en,es,gr}/index.html')
     .pipe(htmlmin(config))
     .pipe(gulp.dest('dist'));
 }
