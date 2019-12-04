@@ -96,12 +96,12 @@ function build_others_prod() {
 exports.sprites = sprites
 exports.clean = clean
 exports.lint_html_jinja = lint_html_jinja
-exports.lint_html_compiled = gulp.series(build_html_compile, newline_add, lint_html_compiled)
+exports.lint_html_compiled = gulp.series(build_html_compile, newline_add, lint_html_compiled, newline_remove)
 exports.lint_html = gulp.parallel(lint_html_jinja, exports.lint_html_compiled)
 exports.lint = gulp.parallel(exports.lint_html)
 exports.build_html = gulp.series(build_html_compile, build_html_minify)
 exports.build_css = build_css
 exports.build_js = build_js
 exports.build_dev = gulp.parallel(exports.build_html, build_css, build_js, build_others_dev)
-exports.build_prod = gulp.series(gulp.parallel(exports.build_html, build_css, build_js), build_others_prod)
+exports.build_prod = gulp.series(gulp.parallel(build_html_minify, build_css, build_js), build_others_prod)
 exports.build = exports.build_prod
