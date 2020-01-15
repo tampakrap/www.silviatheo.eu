@@ -378,7 +378,7 @@
       height: 43px;
       line-height: 41px;
       text-align: center;
-      border: 2px solid transparentize($theme-primary-color, 0.5);;
+      border: 2px solid transparentize($theme-primary-color, 0.5);
       position: absolute;
       left: -22px;
       top: -22px;
@@ -684,7 +684,7 @@
       -moz-filter: grayscale(50%);
       -o-filter: grayscale(50%);
       -ms-filter: grayscale(50%);
-        filter: grayscale(50%);
+      filter: grayscale(50%);
     }
   }
 
@@ -696,7 +696,7 @@
     -moz-filter: grayscale(0);
     -o-filter: grayscale(0);
     -ms-filter: grayscale(0);
-      filter: grayscale(0);
+    filter: grayscale(0);
   }
 
   .grid .details {

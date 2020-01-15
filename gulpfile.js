@@ -1,10 +1,13 @@
 const gulp = require('gulp');
 const del = require('del');
+const spawn = require('child_process').spawn;
 //const spritesmith = require('gulp.spritesmith');
 const htmllint = require('gulp-htmllint');
 const fancyLog = require('fancy-log');
 const colors = require('ansi-colors');
-const spawn = require('child_process').spawn;
+const stylelint = require('gulp-stylelint');
+//const scssLint = require('gulp-scss-lint');
+//const eslint = require('gulp-eslint');
 const htmlmin = require('gulp-htmlmin');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
@@ -42,6 +45,29 @@ function newline_remove() {
 function lint_html_compiled() {
   return gulp.src('dist/{cz,de,en,es,gr}/index.html')
     .pipe(htmllint({config: '.htmllintrc-compiled.json'}, htmllintReporter));
+}
+
+function lint_scss() {
+  return gulp.src('src/scss/**/*.scss')
+    .pipe(stylelint({reporters: [{formatter: 'string', console: true}]}))
+}
+
+//function lint_scss() {
+//  return gulp.src('src/sass/**/*.scss')
+//    .pipe(scssLint({reporterOutput: 'scssReport.json'}))
+//}
+
+function lint_js() {
+  return gulp.src(['src/js/script.js'])
+    // eslint() attaches the lint output to the "eslint" property
+    // of the file object so it can be used by other modules.
+    .pipe(eslint())
+    // eslint.format() outputs the lint results to the console.
+    // Alternatively use eslint.formatEach() (see Docs).
+    .pipe(eslint.format())
+    // To have the process exit with an error code (1) on
+    // lint error, return the stream and pipe to failAfterError last.
+    .pipe(eslint.failAfterError());
 }
 
 function sprites() {
@@ -98,6 +124,7 @@ exports.clean = clean
 exports.lint_html_jinja = lint_html_jinja
 exports.lint_html_compiled = gulp.series(build_html_compile, newline_add, lint_html_compiled, newline_remove)
 exports.lint_html = gulp.parallel(lint_html_jinja, exports.lint_html_compiled)
+exports.lint_scss = lint_scss
 exports.lint = gulp.parallel(exports.lint_html)
 exports.build_html = gulp.series(build_html_compile, build_html_minify)
 exports.build_css = build_css

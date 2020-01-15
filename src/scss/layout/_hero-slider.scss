@@ -208,11 +208,11 @@
 
   .couple-name-merried-text .fi {
     font-size: 450px;
-      color: transparentize($theme-primary-color, 0.3);
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      @include center-by-translating();
+    color: transparentize($theme-primary-color, 0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include center-by-translating();
   }
 
   /*** save the date ***/

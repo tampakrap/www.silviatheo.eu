@@ -145,12 +145,12 @@
         padding: 20px;
         border-top: 2px solid $theme-primary-color;
         position: absolute;
-          right: 0;
-          top: 120%;
-          z-index: 10;
-          visibility: hidden;
-          opacity: 0;
-          @include transition-time(0.3s);
+        right: 0;
+        top: 120%;
+        z-index: 10;
+        visibility: hidden;
+        opacity: 0;
+        @include transition-time(0.3s);
       }
 
       .mega-menu {
@@ -255,7 +255,7 @@
       z-index: 20;
 
 
-       span {
+      span {
         background-color: $white;
         display: block;
         height: 2px;
@@ -264,7 +264,7 @@
         &:last-child {
           margin: 0;
         }
-       }
+      }
     }
 
     #navbar {
@@ -335,34 +335,34 @@
 
   /*navbar collaps less then 992px*/
   @include media-query (991px) {
-      .navbar-collapse.collapse {
-          display: none;
-      }
+    .navbar-collapse.collapse {
+      display: none;
+    }
 
-      .navbar-collapse.collapse.in {
-          display: block;
-      }
+    .navbar-collapse.collapse.in {
+      display: block;
+    }
 
-      .navbar-header .collapse,
-      .navbar-toggle {
-          display:block;
-      }
+    .navbar-header .collapse,
+    .navbar-toggle {
+      display:block;
+    }
 
-      .navbar-header {
-          float:none;
-      }
+    .navbar-header {
+      float:none;
+    }
 
-      .navbar-right {
-          float: none;
-      }
+    .navbar-right {
+      float: none;
+    }
 
-      .navbar-nav {
-        float: none;
-      }
+    .navbar-nav {
+      float: none;
+    }
 
-      .navbar-nav > li {
-          float: none;
-      }
+    .navbar-nav > li {
+      float: none;
+    }
   }
 }
 
@@ -447,12 +447,12 @@
     #navbar > ul > li .sub-menu a {
       font-size: 16px;
       font-size: calc-rem-value(14.22224);
-        color: $darker-gray;
-        padding: 10px 15px;
+      color: $darker-gray;
+      padding: 10px 15px;
 
-        &:hover {
-          color: $theme-primary-color;
-        }
+      &:hover {
+        color: $theme-primary-color;
+      }
     }
 
     #navbar > ul > li:last-child > ul {
