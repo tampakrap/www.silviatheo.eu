@@ -52,20 +52,12 @@
 </head>
 
 <body id="home">
-
-  <!-- start page-wrapper -->
   <div class="page-wrapper">
-
-    <!-- start preloader -->
     <div class="preloader">
       <div class="inner">
         <span class="icon"><div class="fi flaticon-bird"></div></span>
       </div>
     </div>
-    <!-- end preloader -->
-
-
-    <!-- start of hero -->
     <section class="hero">
       <div class="hero-slider hero-slider-s1">
         <div class="slide-item">
@@ -96,17 +88,12 @@
             </h4>
           </div>
         </div>
-
         <div class="save-the-date">
           <h4>Save the date</h4>
           <span class="date">{{ date }}</span>
         </div>
       </div>
     </section>
-    <!-- end of hero slider -->
-
-
-    <!-- Start header -->
     <header id="header" class="site-header header-style-1">
       <nav class="navigation navbar navbar-default">
         <div class="container">
@@ -149,10 +136,6 @@
         </div>
       </nav>
     </header>
-    <!-- end of header -->
-
-
-    <!-- start wedding-couple-section -->
     <section class="wedding-couple-section section-padding" id="invitation">
       <div class="section-title">
         <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
@@ -179,10 +162,6 @@
         </div>
       </div>
     </section>
-    <!-- end wedding-couple-section -->
-
-
-    <!-- start count-down-section -->
     <section class="count-down-section section-padding parallax" data-bg-image="../images/countdown-bg.jpg" data-speed="7">
       <div class="container">
         <div class="row">
@@ -198,10 +177,6 @@
         </div>
       </div>
     </section>
-    <!-- end count-down-section -->
-
-
-    <!-- start story-section -->
     <section class="story-section section-padding" id="timeline">
       <div class="container">
         <div class="row">
@@ -212,7 +187,6 @@
             </div>
           </div>
         </div>
-
         <div class="row">
           <div class="col col-xs-12">
             <div class="story-timeline">
@@ -340,10 +314,6 @@
         </div>
       </div>
     </section>
-    <!-- end story-section -->
-
-
-    <!-- start cta -->
     <section class="cta section-padding parallax" data-bg-image="../images/cta-bg.jpg" data-speed="7">
       <div class="container">
         <div class="row">
@@ -353,10 +323,6 @@
         </div>
       </div>
     </section>
-    <!-- end cta -->
-
-
-    <!-- start events-section -->
     <section class="events-section section-padding" id="venue">
       <div class="container">
         <div class="row">
@@ -367,7 +333,6 @@
             </div>
           </div>
         </div>
-
         <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
@@ -389,10 +354,6 @@
         </div>
       </div>
     </section>
-    <!-- end events-section -->
-
-
-    <!-- start events-section -->
     <section class="events-section section-padding" id="transportation">
       <div class="container">
         <div class="row">
@@ -403,7 +364,6 @@
             </div>
           </div>
         </div>
-
         <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
@@ -447,9 +407,6 @@
         </div>
       </div>
     </section>
-    <!-- end events-section -->
-
-
     <section class="events-section section-padding" id="accommodation">
       <div class="container">
         <div class="row">
@@ -460,7 +417,6 @@
             </div>
           </div>
         </div>
-
         <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
@@ -473,78 +429,6 @@
         </div>
       </div>
     </section>
-    <!-- start inportant-people-section -->
-    <!--section class="inportant-people-section section-padding" id="accommodation">
-      <div class="container">
-        <div class="row">
-          <div class="col col-xs-12">
-            <div class="section-title">
-              <div class="vertical-line"><span><div class="fi flaticon-bird"></div></span></div>
-              <h2>{% if lang in special_langs %}<span class="{{ lang }}">{{ accommodation_title }}</span>{% else %}{{ accommodation_title }}{% endif %}</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col col-xs-12">
-            <div class="inportant-people-content">
-              <p>{{ accommodation_content }}</p>
-              <br/>
-              <div class="tab-content">
-                <div class="tab-pane fade in active grid-wrapper" id="groomsmen">
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="https://google.com" target="_blank" rel="noreferrer noopener nofollow">
-                        <img src="../images/hotel1.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Hotel 1</h3>
-                      <span>{{ accommodation_address1 }}</span>
-                      <ul class="social-links">
-                        <li><a href="#" target="_blank" rel="noreferrer noopener nofollow">{{ accommodation_map }}</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="https://google.com" target="_blank" rel="noreferrer noopener nofollow">
-                        <img src="../images/hotel2.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Hotel 2</h3>
-                      <span>{{ accommodation_address2 }}</span>
-                      <ul class="social-links">
-                        <li><a href="#" target="_blank" rel="noreferrer noopener nofollow">{{ accommodation_map }}</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="grid">
-                    <div class="img-holder">
-                      <a href="https://google.com" target="_blank" rel="noreferrer noopener nofollow">
-                        <img src="../images/hotel3.jpg" alt class="img img-responsive">
-                      </a>
-                    </div>
-                    <div class="details">
-                      <h3>Hotel 3</h3>
-                      <span>{{ accommodation_address3 }}</span>
-                      <ul class="social-links">
-                        <li><a href="#" rel="noreferrer" target="_blank" rel="noreferrer noopener nofollow">{{ accommodation_map }}</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section-->
-    <!-- end inportant-people-section -->
-
-
-    <!-- start getting-there-section -->
     <section class="getting-there-section section-padding">
       <div class="container">
         <div class="row">
@@ -555,7 +439,6 @@
             </div>
           </div>
         </div>
-
         <div class="row content">
           <div class="col col-md-6">
             <h3>{{ gifts_title }}</h3>
@@ -570,10 +453,6 @@
         </div>
       </div>
     </section>
-    <!-- end getting-there-section -->
-
-
-    <!-- start rsvp-section -->
     <section class="rsvp-section section-padding parallax" data-bg-image="../images/rsvp-bg.jpg" data-speed="7" id="rsvp">
       <div class="container">
         <div class="row">
@@ -584,7 +463,6 @@
             </div>
           </div>
         </div>
-
         <div class="row content">
           <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <p>{{ rsvp_content }}</p>
@@ -640,10 +518,6 @@
         </div>
       </div>
     </section>
-    <!-- end rsvp-section -->
-
-
-    <!-- start events-section -->
     <section class="events-section section-padding" id="pre-party">
       <div class="container">
         <div class="row">
@@ -654,7 +528,6 @@
             </div>
           </div>
         </div>
-
         <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
@@ -681,10 +554,6 @@
         </div>
       </div>
     </section>
-    <!-- end events-section -->
-
-
-    <!-- start footer -->
     <footer class="site-footer">
       <div class="back-to-top">
         <a href="#" class="back-to-top-btn"><span><div class="fi flaticon-cupid"></div></span></a>
@@ -698,11 +567,7 @@
         </div>
       </div>
     </footer>
-    <!-- end footer -->
-
   </div>
-  <!-- end of page-wrapper -->
-
 
   <!-- All JavaScript files
   ================================================== -->
