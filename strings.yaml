@@ -329,36 +329,24 @@ rsvp_thankyou:
   es: Gracias!
   cz: Děkujeme!
   de: Dankeschön!
-preparty_address:
-  en: TODO
-  gr: TODO
-  es: TODO
-  cz: TODO
-  de: TODO
 preparty_date:
-  en: Friday 10th of July 2020
-  gr: Παρασκευή 10 Ιουλίου 2020
-  es: Viernes 10 de Julio 2020
-  cz: Pátek 10 července 2020
-  de: Freitag, 10. Juli 2020
+  en: Friday 10th of July 2020, at 20:00
+  gr: Παρασκευή 10 Ιουλίου 2020, στις 20:00
+  es: Viernes 10 de Julio 2020, en 20:00
+  cz: Pátek 10 července 2020, v 20:00
+  de: Freitag, 10. Juli 2020, um 20:00
 preparty_content:
-  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020 at TODO_PLACE, starting at TODO_TIME.
-  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο TODO_PLACE, ξεκινώντας από τις TODO_TIME.
-  es: TODO
-  cz: TODO
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020, at <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! The party starts at 20:00 and there will be plenty of food and drinks to go around. The first two hours are completely on us so come early!
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!
+  es: También tendremos una fiesta previa a la boda el viernes 10 de julio de 2020 en <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>!. La fiesta comienza a las 20:00 y habrá mucha comida y bebida para todos. Las primeras dos horas corren por nuestra cuenta, así que ven temprano!
+  cz: Zajišťujeme také předsvatební party v pátek 10. července 2020 v <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! Párty začíná ve 20 hodin a bude tam mnoho nápojů a bohaté občerstvení. První 2 hodiny jsou na nás, proto neváhejte a přijďte co nejdříve!
   de: Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im TODO_PLACE statt und beginnt um TODO_TIME Uhr.
-preparty_soon:
-  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020. The exact place and time of the Pre-Party will be announced soon!
-  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020. Το ακριβές μέρος και η ώρα του Pre-Party θα ανακοινωθούν σύντομα!
-  es: También estamos organizando una fiesta previa a la boda, el viernes 10 de Julio de 2020. ¡Pronto se anunciará el lugar y la hora exacta de la fiesta!
-  cz: Plánujeme zajistit předsvatební párty v pátek 10. 7. 2020. Přesný čas a místo bude brzy upřesněno!
-  de: Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Location und Uhrzeit der Pre-Party werden demnächst veröffentlicht!
-preparty_map:
-  en: See the location at the map
-  gr: Δείτε την τοποθεσία στο χάρτη
-  es: Ver la ubicación en el mapa
-  cz: Podívejte se umístění na mapě
-  de: Seht euch die Location auf der Karte an
+preparty_music:
+  en: Music selections by
+  gr: Μουσικές επιλογές από τις Αντιλόπες aka
+  es: Selección musical por parte de
+  cz: Výběr hudby zajistí
+  de: TODO
 ### static
 rsvp_title:
   en: RSVP
