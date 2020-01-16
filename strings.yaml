@@ -47,6 +47,12 @@ accommodation_title:
   es: Alojamiento
   cz: Ubytování
   de: Unterkunft
+map:
+  en: See the location at the map
+  gr: Δείτε την τοποθεσία στο χάρτη
+  es: Ver la ubicación en el mapa
+  cz: Podívejte se umístění na mapě
+  de: Seht euch die Location auf der Karte an
 invitation_content:
   en: "<p>After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our wedding, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!</p><p><a href=\"#rsvp\">Accept Invitation</a></p>"
   gr: "<p>Μετά από τέσσερα υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να παρεβρεθείτε στο γάμο μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει αυτό το γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!</p><p><a href=\"#rsvp\">Αποδοχή Πρόσκλησης</a></p>"
@@ -143,12 +149,6 @@ venue_content:
   es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín se hará la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
   cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat koktejlová párty. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Následně nás čeká večírek v disco. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
   de: Unsere Trauung und Hochzeitsfeier werden im wunderschönen Landhaus <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a> stattfinden. Die Trauung findet im wunderschönen Garten der Location statt. Anschließend beginnt die Cocktailparty. Danach werden wir uns in den bezaubernden Salon des Landhauses begeben, um ein großartiges Abendessen zu genießen. Endlich, nach dem Essen werden wir in der Disko des Hauses unsere Partynacht starten. Wir sind sehr glücklich über unsere Entscheidung und freuen uns darauf euch an unserem ganz besonderen Tag zu sehen!
-venue_map:
-  en: See the location at the map
-  gr: Δείτε την τοποθεσία στο χάρτη
-  es: Ver la ubicación en el mapa
-  cz: Podívejte se umístění na mapě
-  de: Seht euch die Location auf der Karte an
 transportation_content:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
