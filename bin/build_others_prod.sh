@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FILES=(
+    calendar
     CNAME
     fonts
     images
@@ -23,6 +24,6 @@ for f in ${FILES[@]}; do
     test -e dist/$f || $CP -rp --preserve=links src/$f dist/$f
 done
 
-$SED -i -e 's#\.\./\(css\|fonts\|images\|js\)#/\1#g' dist/css/style.min.css dist/js/script.min.js dist/{cz,de,en,es,gr}/index.html
+$SED -i -e 's#\.\./\(calendar\|css\|fonts\|images\|js\)#/\1#g' dist/css/style.min.css dist/js/script.min.js dist/{cz,de,en,es,gr}/index.html
 
 rm -rf dist/images/flags/

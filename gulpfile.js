@@ -85,7 +85,7 @@ function build_js() {
 }
 
 function build_others_dev() {
-  return gulp.src('src/{fonts,images}')
+  return gulp.src('src/{calendar,fonts,images}')
     .pipe(gulp.symlink('dist'));
 }
 

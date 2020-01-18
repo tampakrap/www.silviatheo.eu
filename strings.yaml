@@ -53,6 +53,18 @@ map:
   es: Ver la ubicación en el mapa
   cz: Podívejte se umístění na mapě
   de: Seht euch die Location auf der Karte an
+website:
+  en: Visit its website
+  gr: Επισκευτείτε την ιστοσελίδα του
+  es: Visite el sitio web
+  cz: Navštivte jejich webovou stránku
+  de: TODO
+calendar:
+  en: Add the event to your calendar
+  gr: Προσθέστε το γεγονός στο ημερολόγιό σας
+  es: Añadir en el calendario
+  cz: Přidejte si tuto událost do vašeho kalendáře
+  de: TODO
 invitation_content:
   en: After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our wedding, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!
   gr: Μετά από τέσσερα υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να παρεβρεθείτε στο γάμο μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει αυτό το γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!
@@ -143,6 +155,12 @@ hashtag:
   es: "¡Nos encantaría ver nuestro día especial a través de vuestros ojos! Simplemente etiquetar vuestras publicaciones en redes sociales con:"
   cz: "Rádi bychom viděli tento mimořádný den skrz Vaše oči. Použivejte prosím tento hastag na sociálních mediích:"
   de: "Wir würden uns freuen, unseren ganz besonderen Tag mit euren Augen zu erleben! Verseht eure Social Media Beiträge bitte mit dem Hashtag:"
+venue_date:
+  en: Saturday 11th of July 2020, at 19:00
+  gr: Σάββατο 11 Ιουλίου 2020, στις 19:00
+  es: Sábado 11 de Julio de 2020, en 19:00
+  cz: Sobota 11. července 2020, v 19:00
+  de: Samstag 11. Juli 2020, um 19:00
 venue_address:
   en: Highway Madrid-Toledo (A-42), km. 30 (exit 30A), 45200 Illescas (Toledo)
   gr: Περιφερειακή οδός Μαδρίτης-Τολέδο (A-42), 30ο χιλιόμετρο (έξοδος 30A), 45200 Illescas (Τολέδο)
@@ -150,11 +168,11 @@ venue_address:
   cz: Dálnice Madrid-Toledo (A-42), km. 30 (výjezd 30A), 45200 Illescas (Toledo)
   de: Autobahn Madrid-Toledo (A-42), km. 30 (Ausfahrt 30A), 45200 Illescas (Toledo)
 venue_content:
-  en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
-  gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
-  es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. En el espacioso y maravilloso jardín se hará la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
-  cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat koktejlová párty. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Následně nás čeká večírek v disco. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
-  de: Unsere Trauung und Hochzeitsfeier werden im wunderschönen Landhaus <a href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow">La Quinta de Illescas</a> stattfinden. Die Trauung findet im wunderschönen Garten der Location statt. Anschließend beginnt die Cocktailparty. Danach werden wir uns in den bezaubernden Salon des Landhauses begeben, um ein großartiges Abendessen zu genießen. Endlich, nach dem Essen werden wir in der Disko des Hauses unsere Partynacht starten. Wir sind sehr glücklich über unsere Entscheidung und freuen uns darauf euch an unserem ganz besonderen Tag zu sehen!
+  en: The wedding ceremony, along with the rest of the events, will take place at the beautiful venue <strong>La Quinta de Illescas</strong>. The ceremony will be done in its wonderful spacious garden, and then the cocktail party begins. Then we move to its enchanting salon, to enjoy a great dinner. Finally, in its disco we will have the night party! We are very happy for our choice, and we are looking forward to see you there on our special day!
+  gr: Η γαμήλια τελετή, καθώς και όλα τα υπόλοιπα δρώμενα, θα λάβει μέρος στο πανέμορφο γαμήλιο κέντρο <strong>La Quinta de Illescas</strong>. H τελετή θα πραγματοποιηθεί στον υπέροχο ευρύχωρο κήπο του, και μετά ξεκινάει το κοκτέιλ πάρτυ. Ύστερα μεταφερόμαστε στο μαγευτικό του σαλόνι, για να απολαύσουμε ένα υπέροχο δείπνο. Τέλος, στη disco του θα έχουμε το ολονύχτιο πάρτυ! Είμαστε πολύ χαρούμενοι για την επιλογή μας, και περιμένουμε με ανυπομονησία να σας δούμε εκεί στην ξεχωριστή μας μέρα!
+  es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <strong>La Quinta de Illescas</strong>. En el espacioso y maravilloso jardín se hará la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
+  cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <strong>La Quinta de Illescas</strong>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat koktejlová párty. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Následně nás čeká večírek v disco. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
+  de: Unsere Trauung und Hochzeitsfeier werden im wunderschönen Landhaus <strong>La Quinta de Illescas</strong> stattfinden. Die Trauung findet im wunderschönen Garten der Location statt. Anschließend beginnt die Cocktailparty. Danach werden wir uns in den bezaubernden Salon des Landhauses begeben, um ein großartiges Abendessen zu genießen. Endlich, nach dem Essen werden wir in der Disko des Hauses unsere Partynacht starten. Wir sind sehr glücklich über unsere Entscheidung und freuen uns darauf euch an unserem ganz besonderen Tag zu sehen!
 transportation_content:
   en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point!
   gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
@@ -221,12 +239,6 @@ accommodation_content:
   es: TODO
   cz: Pro usnadnění Vám doporučujeme následující hotely. Jsou relativně blízko místům, kde Vás budou vyzvedávat autobusy a odvezou vás na místo konaní. Nezapomeňte využít slevových kupónů tam, kde to bude možné. Pokud potřebujete pomoct s rezervací vašeho ubytování (hotel či Airbnb) neváhejte a dejte nám vědět!
   de: Für einen angenehmen Aufenthalt in der Stadt, empfehlen wir euch die folgenden Hotels. Sie liegen in der Nähe der Bushaltestellen, die euch zur Hochzeitslocation bringen werden. Vergesst nicht zu erwähnen, dass ihr zur Hochzeit von Silvia und Theo anreist, damit ihr einen Rabatt erhaltet.
-accommodation_website:
-  en: Website of the Hotel
-  gr: Ιστοσελίδα του Ξενοδοχείου
-  es: TODO
-  cz: Webová stránka hotelu
-  de: TODO
 accommodation_hotel1:
   en: Located in metro "Sainz de Baranda", 20 min by metro from the city center "Sol". Price approximately 90€/night, for a double room, minus 10% discount with the code <strong>BODAJULIO20</strong>, by making the reservation in their web page. The code will be available till 1st of July 2020.
   gr: Βρίσκεται κοντά στο μετρό "Sainz de Baranda", 20 λεπτά με το μετρό από την κεντρική στάση "Sol". Η τιμή είναι περίπου 90€/βράδυ, για δίκλινο δωμάτιο, μείον 10% έκπτωση με τον κωδικό <strong>BODAJULIO20</strong>, κάνοντας την κράτηση από την ιστοσελίδα τους. Ο εκπτωτικός κωδικός θα είναι διαθέσιμος μέχρι την 1η Ιουλίου 2020.
@@ -338,14 +350,14 @@ rsvp_thankyou:
 preparty_date:
   en: Friday 10th of July 2020, at 20:00
   gr: Παρασκευή 10 Ιουλίου 2020, στις 20:00
-  es: Viernes 10 de Julio 2020, en 20:00
-  cz: Pátek 10 července 2020, v 20:00
+  es: Viernes 10 de Julio de 2020, en 20:00
+  cz: Pátek 10. července 2020, v 20:00
   de: Freitag, 10. Juli 2020, um 20:00
 preparty_content:
-  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020, at <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! The party starts at 20:00 and there will be plenty of food and drinks to go around. The first two hours are completely on us so come early!
-  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!
-  es: También tendremos una fiesta previa a la boda el viernes 10 de julio de 2020 en <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>!. La fiesta comienza a las 20:00 y habrá mucha comida y bebida para todos. Las primeras dos horas corren por nuestra cuenta, así que ven temprano!
-  cz: Zajišťujeme také předsvatební party v pátek 10. července 2020 v <a href="https://the-saporem.tumblr.com/" target="_blank" rel="noreferrer noopener nofollow">Saporem</a>! Párty začíná ve 20 hodin a bude tam mnoho nápojů a bohaté občerstvení. První 2 hodiny jsou na nás, proto neváhejte a přijďte co nejdříve!
+  en: We are also organizing a pre-wedding party, on Friday 10th of July 2020, at <strong>Saporem</strong>! The party starts at 20:00 and there will be plenty of food and drinks to go around. The first two hours are completely on us so come early!
+  gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο <strong>Saporem</strong>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!
+  es: También tendremos una fiesta previa a la boda el viernes 10 de julio de 2020 en <strong>Saporem</strong>! La fiesta comienza a las 20:00 y habrá mucha comida y bebida para todos. Las primeras dos horas corren por nuestra cuenta, así que ven temprano!
+  cz: Zajišťujeme také předsvatební party v pátek 10. července 2020 v <strong>Saporem</strong>! Párty začíná ve 20 hodin a bude tam mnoho nápojů a bohaté občerstvení. První 2 hodiny jsou na nás, proto neváhejte a přijďte co nejdříve!
   de: Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im TODO_PLACE statt und beginnt um TODO_TIME Uhr.
 preparty_music:
   en: Music selections by
