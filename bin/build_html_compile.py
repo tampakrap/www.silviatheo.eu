@@ -21,7 +21,7 @@ jinja_env = jinja2.Environment(loader=tmpl_path)
 if not os.path.exists('dist/'):
     os.mkdir('dist/')
 
-for page in ['index', 'future']:
+for page in ['index']:
     tmpl = jinja_env.get_template(f'{page}.html.jinja')
     for lang in langs:
         if not os.path.exists(f'dist/{lang}'):
