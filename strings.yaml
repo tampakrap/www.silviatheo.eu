@@ -185,60 +185,12 @@ transportation_soon:
   es: El lugar de la boda está a media hora de Madrid. Si no tenéis coche, habrá autobuses para trasladaros allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
   cz: Místo konání svatby je zhruba 30 minut od Madridu. Pokud nemáte vůz, tak můžete využít autobusů, které Vás tam odvezou. Brzy oznámíme místa vyzvednutí, kde Vás autobusy vyzvednou.
   de: Die Hochzeitslocation ist ca. eine halbe Stunde von Madrid entfernt. Falls ihr nicht mit dem Auto anreist, gibt es einen Bustransfer zur Hochzeitslocation. Wir werden die Haltestellen des Busses demnächst veröffentlichen.
-transportation1_title:
-  en: FIRST PICKUP POINT
-  gr: ΠΡΩΤΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ
-  es: TODO
-  cz: TODO
-  de: ERSTE HALTESTELLE
-transportation1_address:
-  en: Central Street 105
-  gr: TODO
-  es: TODO
-  cz: TODO
-  de: Central Street 105
-transportation1_content:
-  en: You can get there by bus 144, stop Central, or by metro green line, stop Central.
-  gr: TODO
-  es: TODO
-  cz: TODO
-  de: Ihr gelangt zur ersten Haltestelle mit dem Bus Nummer 144, Haltestelle Central oder mit der grünen Metro-Linie, Haltstelle Central.
-transportation1_map:
-  en: See the first pickup point on the map
-  gr: Δείτε το πρώτο σημείο στο χάρτη
-  es: TODO
-  cz: TODO
-  de: Seht euch die erste Haltestelle auf der Karte an
-transportation2_title:
-  en: SECOND PICKUP POINT
-  gr: ΔΕΥΤΕΡΟ ΣΗΜΕΙΟ ΣΥΛΛΟΓΗΣ ΕΠΙΒΑΤΩΝ
-  es: TODO
-  cz: TODO
-  de: ZWEITE HALTESTELLE
-transportation2_address:
-  en: Central Street 120
-  gr: TODO
-  es: TODO
-  cz: TODO
-  de: Central Street 120
-transportation2_content:
-  en: You can get there by bus 144, stop Central, or by metro green line, stop Central.
-  gr: TODO
-  es: TODO
-  cz: TODO
-  de: Ihr gelangt zur zweiten Haltestelle mit dem Bus Nummer 144, Haltestelle Central oder mit der grünen Metro-Linie, Haltstelle Central.
-transportation2_map:
-  en: See the second pickup point on the map
-  gr: Δείτε το δεύτερο σημείο στο χάρτη
-  es: TODO
-  cz: TODO
-  de: Seht euch die zweite Haltestelle auf der Karte an
 accommodation_content:
   en: For your convenience, we recommend the hotels below. They are relatively close to the pickup points of the buses that will transfer you to the venue. Don't forget to use the Discount Code when applicable! If you need any help in booking your accommodation (either a hotel or Airbnb), feel free to contact us!
   gr: Για τη διευκόλυνσή σας προτείνουμε τα ακόλουθα ξενοδοχεία. Είναι σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων που θα σας μεταφέρουν στο γαμήλιο κέντρο. Μην ξεχάσετε να χρησιμοποιήσετε τον Εκπτωτικό Κωδικό όπου είναι διαθέσιμος! Αν χρειάζεστε βοήθεια με την κράτηση της διαμονής σας (για ξενοδοχείο ή για Airbnb), μη διστάσετε να επικοινωνήσετε μαζί μας!
   es: Para vuestra comodidad, os recomendamos los siguientes hoteles. Están relativamente cerca de los puntos de recogida de los autobuses que os trasladarán al lugar de la boda. ¡No olvidéis usar el Código de descuento! Si necesitáis ayuda para reservar vuestro alojamiento (ya sea Hotel o Airbnb), ¡no dudéis en contactarnos!
   cz: Pro usnadnění Vám doporučujeme následující hotely. Jsou relativně blízko místům, kde Vás budou vyzvedávat autobusy a odvezou vás na místo konaní. Nezapomeňte využít slevových kupónů tam, kde to bude možné. Pokud potřebujete pomoct s rezervací vašeho ubytování (hotel či Airbnb) neváhejte a dejte nám vědět!
-  de: Für einen angenehmen Aufenthalt in der Stadt, empfehlen wir euch die folgenden Hotels. Sie liegen in der Nähe der Bushaltestellen, die euch zur Hochzeitslocation bringen werden. Vergesst nicht zu erwähnen, dass ihr zur Hochzeit von Silvia und Theo anreist, damit ihr einen Rabatt erhaltet.
+  de: TODO Für einen angenehmen Aufenthalt in der Stadt, empfehlen wir euch die folgenden Hotels. Sie liegen in der Nähe der Bushaltestellen, die euch zur Hochzeitslocation bringen werden. Vergesst nicht zu erwähnen, dass ihr zur Hochzeit von Silvia und Theo anreist, damit ihr einen Rabatt erhaltet.
 accommodation_hotel1:
   en: Located in metro "Sainz de Baranda", 20 min by metro from the city center "Sol". The price is approximately 90€/night for a double room, minus 10% discount with the code <strong>BODAJULIO20</strong>, by making the reservation on their web page. The code will be available until the 1st of July, 2020.
   gr: Βρίσκεται κοντά στο μετρό "Sainz de Baranda", 20 λεπτά με το μετρό από την κεντρική στάση "Sol". Η τιμή είναι περίπου 90€/βράδυ, για δίκλινο δωμάτιο, μείον 10% έκπτωση με τον κωδικό <strong>BODAJULIO20</strong>, κάνοντας την κράτηση από την ιστοσελίδα τους. Ο εκπτωτικός κωδικός θα είναι διαθέσιμος μέχρι την 1η Ιουλίου 2020.
@@ -358,7 +310,7 @@ preparty_content:
   gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο <strong>Saporem</strong>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!
   es: También tendremos una fiesta previa a la boda el viernes 10 de julio de 2020 en <strong>Saporem</strong>! La fiesta comienza a las 20:00 y habrá mucha comida y bebida para todos. Las primeras dos horas corren por nuestra cuenta, así que ven temprano!
   cz: Zajišťujeme také předsvatební party v pátek 10. července 2020 v <strong>Saporem</strong>! Párty začíná ve 20 hodin a bude tam mnoho nápojů a bohaté občerstvení. První 2 hodiny jsou na nás, proto neváhejte a přijďte co nejdříve!
-  de: Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im TODO_PLACE statt und beginnt um TODO_TIME Uhr.
+  de: TODO Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im TODO_PLACE statt und beginnt um TODO_TIME Uhr.
 preparty_music:
   en: Music selections by
   gr: Μουσικές επιλογές από τις Αντιλόπες aka
