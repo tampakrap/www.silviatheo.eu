@@ -322,19 +322,19 @@ calendar_preparty:
   gr: Προ-Γαμήλιο Πάρτυ της Σίλβιας και του Θοδωρή
   es: Fiesta pre-boda Silvia y Theo
   cz: Předsvatební party Silvie a Thea
-  de: Silvia und Theo: Party am Vortag der Hochzeit
+  de: "Silvia und Theo: Party am Vortag der Hochzeit"
 calendar_transportation:
   en: Transportation to the wedding venue of Silvia and Theo
   gr: Μετακίνηση στο γαμήλιο κέντρο της Σίλβιας και του Θοδωρή
   es: TODO
   cz: TODO
-  de: Silvia und Theo: Transport zur Hochzeitslocation
+  de: "Silvia und Theo: Transport zur Hochzeitslocation"
 calendar_wedding:
   en: Wedding of Silvia and Theo
   gr: Γάμος της Σίλβιας και του Θοδωρή
   es: Boda Silvia y Theo
   cz: Svatba Silvie a Thea
-  de: Silvia und Theo: Hochzeit
+  de: "Silvia und Theo: Hochzeit"
 ### static
 rsvp_title:
   en: RSVP
