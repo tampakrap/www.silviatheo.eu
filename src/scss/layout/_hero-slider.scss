@@ -170,7 +170,7 @@
     }
   }
 
-  .married-text h4 {
+  .married-text h2 {
     font-size: 26px;
     font-size: calc-rem-value(23.11104);
     color: $white;
@@ -202,7 +202,7 @@
   }
 
   .couple-name-merried-text h1,
-  .married-text h4 {
+  .married-text h2 {
     text-shadow: 1px 1px 2px transparentize($black, 0.4);
   }
 
@@ -272,7 +272,7 @@
       top: 0;
     }
 
-    h4 {
+    h2 {
       font-family: $calligraphic-font;
       font-size: 40px;
       font-size: calc-rem-value(48);

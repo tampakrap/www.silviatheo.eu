@@ -74,7 +74,7 @@
           {%- set time = namespace(value=1) %}
           <!-- htmllint id-class-style=false -->
           <div class="married-text wow fadeIn" data-wow-delay="{{ time.value }}s">
-            <h4 class="">
+            <h2 class="">
             <!-- htmllint id-class-style="camel" -->
             {%- for letter in weregettingmarried %}
             {%- set time.value = time.value + 0.05 %}
@@ -85,11 +85,11 @@
             {%- endif %}
             {%- endfor %}
             <!-- htmllint id-class-style="dash" -->
-            </h4>
+            </h2>
           </div>
         </div>
         <div class="save-the-date">
-          <h4>Save the date</h4>
+          <h2>Save the date</h2>
           <span class="date">{{ date }}</span>
         </div>
       </div>
