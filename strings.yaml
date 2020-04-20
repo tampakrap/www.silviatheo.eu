@@ -58,13 +58,13 @@ website:
   gr: Επισκευτείτε την ιστοσελίδα του
   es: Visite el sitio web
   cz: Navštivte jejich webovou stránku
-  de: TODO thomic
+  de: Besucht die Webseite
 calendar:
   en: Add the event to your calendar
   gr: Προσθέστε το γεγονός στο ημερολόγιό σας
   es: Añadir en el calendario
   cz: Přidejte si tuto událost do vašeho kalendáře
-  de: TODO thomic
+  de: Fügt den Termin zu eurem Kalender hinzu
 invitation_content:
   en: After four amazing years together, we are looking forward to having our dream wedding in Madrid, Spain!</p><p>We invite you to attend our wedding, on Saturday, 11th of July 2020. Your presence will make this event more special!</p><p>In this website you will find information about the Venue, transportation, recommended accommodation and the Friday's pre-party!
   gr: Μετά από τέσσερα υπέροχα χρόνια σχέσης, περιμένουμε με ανυπομονησία το γάμο των ονείρων μας στη Μαδρίτη!</p><p>Σας προσκαλούμε να παρεβρεθείτε στο γάμο μας, το Σάββατο 11 Ιουλίου 2020. Η παρουσία σας θα κάνει αυτό το γεγονός ακόμα πιο μοναδικό!</p><p>Στην παρούσα ιστοσελίδα θα βρείτε πληροφορίες για το Γαμήλιο Κέντρο, για τη μεταφορά, προτεινόμενη διαμονή καθώς και για το pre-party της Παρασκευής!
@@ -310,31 +310,31 @@ preparty_content:
   gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 10 Ιουλίου 2020, στο <strong>Saporem</strong>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!
   es: También tendremos una fiesta previa a la boda el viernes 10 de julio de 2020 en <strong>Saporem</strong>! La fiesta comienza a las 20:00 y habrá mucha comida y bebida para todos. Las primeras dos horas corren por nuestra cuenta, así que ven temprano!
   cz: Zajišťujeme také předsvatební party v pátek 10. července 2020 v <strong>Saporem</strong>! Párty začíná ve 20 hodin a bude tam mnoho nápojů a bohaté občerstvení. První 2 hodiny jsou na nás, proto neváhejte a přijďte co nejdříve!
-  de: TODO thomic Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im TODO_PLACE statt und beginnt um TODO_TIME Uhr.
+  de: Wir planen ebenfalls eine Party am Vortag der Hochzeit, am Freitag, den 10. Juli 2020. Die Party findet im <strong>Saporem</strong> statt und beginnt um 20:00 Uhr. Für ausreichend Essen und Getränke ist gesorgt. Die ersten beiden Stunden gehen auf uns, also seid früh dran!
 preparty_music:
   en: Music selections by
   gr: Μουσικές επιλογές από τις Αντιλόπες aka
   es: Selección musical por parte de
   cz: Výběr hudby zajistí
-  de: TODO thomic
+  de: Musik von
 calendar_preparty:
   en: Pre-Wedding Party of Silvia and Theo
   gr: Προ-Γαμήλιο Πάρτυ της Σίλβιας και του Θοδωρή
   es: Fiesta pre-boda Silvia y Theo
   cz: Předsvatební party Silvie a Thea
-  de: TODO thomic
+  de: "Silvia und Theo: Party am Vortag der Hochzeit"
 calendar_transportation:
   en: Transportation to the wedding venue of Silvia and Theo
   gr: Μετακίνηση στο γαμήλιο κέντρο της Σίλβιας και του Θοδωρή
   es: TODO
   cz: TODO
-  de: TODO thomic
+  de: "Silvia und Theo: Transport zur Hochzeitslocation"
 calendar_wedding:
   en: Wedding of Silvia and Theo
   gr: Γάμος της Σίλβιας και του Θοδωρή
   es: Boda Silvia y Theo
   cz: Svatba Silvie a Thea
-  de: TODO thomic
+  de: "Silvia und Theo: Hochzeit"
 ### static
 rsvp_title:
   en: RSVP
