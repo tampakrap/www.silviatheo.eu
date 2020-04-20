@@ -121,12 +121,12 @@
               <li><a href="#pre-party">Pre-Party</a></li>
               <li class="menu-item-has-children">
                 <!-- htmllint id-class-style=false -->
-                <a href="javascript:void(0);" title="#silviatheo in {{ lang }}"><div class="flags flag-{{ lang }}" title="#silviatheo in {{ lang }}"></div></a>
+                <a href="javascript:void(0);"><div class="flags flag-{{ lang }}" title="{{ lang }}"></div></a>
                 <!-- htmllint id-class-style="dash" -->
                 <ul class="sub-menu">
                   <!-- htmllint id-class-style=false -->
                   {%- for flag in other_langs %}
-                  <li><a href="/{{ flag }}/" title="#silviatheo in {{ flag }}"><div class="flags flag-{{ flag }}" title="#silviatheo in {{ flag }}"></div></a></li>
+                  <li><a href="/{{ flag }}/"><div class="flags flag-{{ flag }}" title="{{ flag }}"></div></a></li>
                   {%- endfor %}
                   <!-- htmllint id-class-style="dash" -->
                 </ul>
