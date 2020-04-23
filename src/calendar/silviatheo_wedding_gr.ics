@@ -25,8 +25,8 @@ BEGIN:VEVENT
 SUMMARY:Σίλβια και Θοδωρής: Προ-Γαμήλιο πάρτ
  υ
 DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210709T200000
-DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T010000
-UID:20200423T203656Z-300849274@silviatheo.eu
+DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T020000
+UID:20200423T205953Z-299066485@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/#pre-party\n\nSaporem\, Calle de Ven
  tura de la Vega\, 5\, 28014 Madrid\, Spain\n\nhttps://www.google.com/maps/
  place/Saporem/@40.4158492\,-3.7010353\,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228
@@ -37,9 +37,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Σίλβια και Θοδωρής: Μετακίνηση στο γ
  αμήλιο κέντρο
-DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T180000
-DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T183000
-UID:20200423T203656Z-846885727@silviatheo.eu
+DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T173000
+DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T181500
+UID:20200423T205953Z-876177820@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/#transportation\n\nEl Brillante\, Pl
  aza del Emperador Carlos V\, 8\, 28012 Madrid\, Spain\n\nhttps://www.googl
  e.com/maps/place/El+Brillante/@40.4084654\,-3.6937362\,19z/data=!3m1!4b1!4
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:Σίλβια και Θοδωρής: Γάμος
 DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T190000
 DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210711T050000
-UID:20200423T203656Z-518631949@silviatheo.eu
+UID:20200423T205953Z-850062954@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/\n\nLa Quinta de Illescas - Finca pa
  ra bodas\, A-42 KM.30\, 45200 Illescas\, Toledo\, Spain\n\nhttps://www.goo
  gle.com/maps/place/La+Quinta+de+Illescas/@40.164897\,-3.8161193\,18.58z/da
