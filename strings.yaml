@@ -324,22 +324,22 @@ preparty_music:
   cz: Výběr hudby zajistí
   de: Musik von
 calendar_preparty:
-  en: Pre-Wedding Party of Silvia and Theo
-  gr: Προ-Γαμήλιο Πάρτυ της Σίλβιας και του Θοδωρή
-  es: Fiesta pre-boda Silvia y Theo
-  cz: Předsvatební party Silvie a Thea
+  en: "Silvia and Theo: Pre-Wedding Party"
+  gr: "Σίλβια και Θοδωρής: Προ-Γαμήλιο πάρτυ"
+  es: "Silvia y Theo: Fiesta pre-boda"
+  cz: "Silvia a Theo: Předsvatební party"
   de: "Silvia und Theo: Party am Vortag der Hochzeit"
 calendar_transportation:
-  en: Transportation to the wedding venue of Silvia and Theo
-  gr: Μετακίνηση στο γαμήλιο κέντρο της Σίλβιας και του Θοδωρή
-  es: TODO
-  cz: TODO
+  en: "Silvia and Theo: Transportation to the wedding venue"
+  gr: "Σίλβια και Θοδωρής: Μετακίνηση στο γαμήλιο κέντρο"
+  es: "Silvia y Theo: Transporte al lugar de la boda"
+  cz: "Silvia a Theo: Doprava na svatební místo"
   de: "Silvia und Theo: Transport zur Hochzeitslocation"
 calendar_wedding:
-  en: Wedding of Silvia and Theo
-  gr: Γάμος της Σίλβιας και του Θοδωρή
-  es: Boda Silvia y Theo
-  cz: Svatba Silvie a Thea
+  en: "Silvia and Theo: Wedding"
+  gr: "Σίλβια και Θοδωρής: Γάμος"
+  es: "Silvia y Theo: Boda"
+  cz: "Silvia a Theo: Svatba"
   de: "Silvia und Theo: Hochzeit"
 ### static
 rsvp_title:
