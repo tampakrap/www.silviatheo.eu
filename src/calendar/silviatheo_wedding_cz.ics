@@ -1,44 +1,63 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//ical.marudot.com//iCal Event Maker
+PRODID:-//iCal Generator//silviatheo.eu//
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
+TZID:Europe/Madrid
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
 BEGIN:DAYLIGHT
+DTSTART;VALUE=DATE-TIME:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:CEST
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
+DTSTART;VALUE=DATE-TIME:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20200118T163432Z
-UID:20200118T163432Z-1817507687@marudot.com
-DTSTART;TZID=Europe/Berlin:20200710T200000
-DTEND;TZID=Europe/Berlin:20200711T020000
-SUMMARY:Předsvatební party Silvie a Thea
-URL:https%3A%2F%2Fwww.silviatheo.cz%2F%23pre-party
-DESCRIPTION:https://www.silviatheo.cz/#pre-party
+SUMMARY:Silvia a Theo: Předsvatební party
+DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210709T200000
+DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T010000
+UID:20200423T203656Z-491618242@silviatheo.eu
+DESCRIPTION:https://www.silviatheo.eu/#pre-party\n\nSaporem\, Calle de Ven
+ tura de la Vega\, 5\, 28014 Madrid\, Spain\n\nhttps://www.google.com/maps/
+ place/Saporem/@40.4158492\,-3.7010353\,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228
+ 8175bcdb51:0x9bcb201a9344e5b!8m2!3d40.4158492!4d-3.6988466
 LOCATION:Saporem\, Calle de Ventura de la Vega\, 5\, 28014 Madrid\, Spain
+URL:https%3A%2F%2Fwww.silviatheo.eu%2F%23pre-party
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20200118T163432Z
-UID:20200118T163432Z-2087244705@marudot.com
-DTSTART;TZID=Europe/Berlin:20200711T190000
-DTEND;TZID=Europe/Berlin:20200712T050000
-SUMMARY:Svatba Silvie a Thea
-URL:https%3A%2F%2Fwww.silviatheo.cz%2F
-DESCRIPTION:https://www.silviatheo.cz/
-LOCATION:La Quinta de Illescas - Finca para bodas\, A-42 KM.30\, 45200 Illescas\, Toledo\, Spain
+SUMMARY:Silvia a Theo: Doprava na svatební místo
+DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T180000
+DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T183000
+UID:20200423T203656Z-483776729@silviatheo.eu
+DESCRIPTION:https://www.silviatheo.eu/#transportation\n\nEl Brillante\, Pl
+ aza del Emperador Carlos V\, 8\, 28012 Madrid\, Spain\n\nhttps://www.googl
+ e.com/maps/place/El+Brillante/@40.4084654\,-3.6937362\,19z/data=!3m1!4b1!4
+ m5!3m4!1s0xd422628ae900001:0x9f47c22eb73ab37a!8m2!3d40.4084654!4d-3.693189
+LOCATION:El Brillante\, Plaza del Emperador Carlos V\, 8\, 28012 Madrid\, 
+ Spain
+URL:https%3A%2F%2Fwww.silviatheo.eu%2F%23transportation
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Silvia a Theo: Svatba
+DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T190000
+DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210711T050000
+UID:20200423T203656Z-337197824@silviatheo.eu
+DESCRIPTION:https://www.silviatheo.eu/\n\nLa Quinta de Illescas - Finca pa
+ ra bodas\, A-42 KM.30\, 45200 Illescas\, Toledo\, Spain\n\nhttps://www.goo
+ gle.com/maps/place/La+Quinta+de+Illescas/@40.164897\,-3.8161193\,18.58z/da
+ ta=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8
+ 158414
+LOCATION:La Quinta de Illescas - Finca para bodas\, A-42 KM.30\, 45200 Ill
+ escas\, Toledo\, Spain
+URL:https%3A%2F%2Fwww.silviatheo.eu%2F
 END:VEVENT
 END:VCALENDAR

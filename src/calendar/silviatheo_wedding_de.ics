@@ -22,10 +22,10 @@ TZOFFSETTO:+0100
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Silvia and Theo: Pre-Wedding Party
+SUMMARY:Silvia und Theo: Party am Vortag der Hochzeit
 DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210709T200000
 DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T010000
-UID:20200423T203656Z-158086127@silviatheo.eu
+UID:20200423T203656Z-117067451@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/#pre-party\n\nSaporem\, Calle de Ven
  tura de la Vega\, 5\, 28014 Madrid\, Spain\n\nhttps://www.google.com/maps/
  place/Saporem/@40.4158492\,-3.7010353\,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228
@@ -34,10 +34,10 @@ LOCATION:Saporem\, Calle de Ventura de la Vega\, 5\, 28014 Madrid\, Spain
 URL:https%3A%2F%2Fwww.silviatheo.eu%2F%23pre-party
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Silvia and Theo: Transportation to the wedding venue
+SUMMARY:Silvia und Theo: Transport zur Hochzeitslocation
 DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T180000
 DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T183000
-UID:20200423T203656Z-604456028@silviatheo.eu
+UID:20200423T203656Z-405321269@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/#transportation\n\nEl Brillante\, Pl
  aza del Emperador Carlos V\, 8\, 28012 Madrid\, Spain\n\nhttps://www.googl
  e.com/maps/place/El+Brillante/@40.4084654\,-3.6937362\,19z/data=!3m1!4b1!4
@@ -47,10 +47,10 @@ LOCATION:El Brillante\, Plaza del Emperador Carlos V\, 8\, 28012 Madrid\,
 URL:https%3A%2F%2Fwww.silviatheo.eu%2F%23transportation
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Silvia and Theo: Wedding
+SUMMARY:Silvia und Theo: Hochzeit
 DTSTART;TZID=Europe/Madrid;VALUE=DATE-TIME:20210710T190000
 DTEND;TZID=Europe/Madrid;VALUE=DATE-TIME:20210711T050000
-UID:20200423T203656Z-415085146@silviatheo.eu
+UID:20200423T203656Z-364965344@silviatheo.eu
 DESCRIPTION:https://www.silviatheo.eu/\n\nLa Quinta de Illescas - Finca pa
  ra bodas\, A-42 KM.30\, 45200 Illescas\, Toledo\, Spain\n\nhttps://www.goo
  gle.com/maps/place/La+Quinta+de+Illescas/@40.164897\,-3.8161193\,18.58z/da
