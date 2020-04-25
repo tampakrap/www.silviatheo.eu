@@ -84,10 +84,10 @@ bus1_title:
   cz: Odjezd Autobusu
   de: Abfahrtszeiten des Busses
 bus1_content:
-  en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup points of the buses. Please make sure to be at least 15 minutes earlier at any pickup point!
-  gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
-  es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="#venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar los puntos de recogida de los autobuses. ¡Aseguraos de llegar al menos 15 minutos antes de la salida de los autobuses!
-  cz: V případě že nemáte vůz, můžete využít autobusu, který Vás doveze až na <a href="#venue">místo konání svatby</a>. Podívejte se zde na plán míst, kde Vás autobus vyzvedne. Prosím buďte 15 minut před vyzvednutím již na místě, abychom předešli možným nepříjemnostem!
+  en: In case you don't have a car, there will be buses to transfer you to the <a href="#venue">wedding venue</a>. Look <a href="#transportation">here</a> for the pickup point of the buses. Please make sure to be at the pickup point at least 15 minutes earlier!
+  gr: Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν στο <a href="#venue">γαμήλιο κέντρο</a>. Δείτε <a href="#transportation">εδώ</a> για το σημείο συλλογής επιβατών. Παρακαλούμε να είστε στο σημείο τουλάχιστον 15 λεπτά νωρίτερα!
+  es: En caso de que no tengáis coche, habrá autobuses para trasladaros al <a href="#venue">lugar de la boda</a>. Pinchar <a href="#transportation">aquí</a> para visualizar el punto de recogida de los autobuses. ¡Aseguraos de llegar al menos 15 minutos antes de la salida de los autobuses!
+  cz: V případě že nemáte vůz, můžete využít autobusu, který Vás doveze až na <a href="#venue">místo konání svatby</a>. Podívejte se <a href="transportation">zde</a> na místo, kde Vás autobus vyzvedne. Prosím buďte 15 minut před vyzvednutím již na místě, abychom předešli možným nepříjemnostem!
   de: Falls ihr kein Auto habt, wird euch ein Bus zur <a href="#venue">Hochzeitslocation</a> bringen. Mehr Informationen über die Haltestellen des Busses findet ihr <a href="#transportation">hier</a>. Bitte seid mindestens 15 Minuten vor der Abfahrtszeit an der Haltestelle!
 ceremony_title:
   en: Ceremony
@@ -144,11 +144,11 @@ bus2_title:
   cz: Odjezdy Autobusů
   de: Abfahrtszeiten des Busses
 bus2_content:
-  en: "There will be 3 bus departures from the venue: At 1:30, at 3:00 and at 5:00. You don't need to pre-reserve the time. They will drop you back to the same place that they picked you up."
-  gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:00 και στις 5:00. Δεν χρειάζεται να κάνετε κράτηση την ώρα. Θα σας αφήσουν στο ίδιο σημείο από το οποίο αναχωρήσατε."
-  es: "Habrá 3 salidas de autobuses desde el lugar de la celebración: a la 1:30, a las 3:00 y a las 5:00. No es necesario reservar previamente la hora. Os dejarán en el mismo lugar donde os recogieron."
-  cz: "Budou připraveny 3 autobusy z místa konání v 1:30, ve 3:00 a v 5:00. Nemusíte dopředu rezervovat, kterým pojedete. Autobus Vás odveze přesně tam, kde Vás vyzvedl."
-  de: "Es wird drei Busse geben, die euch von der Hochzeitslocation zurück zur Haltestelle bringen, an der ihr abgeholt worden seid. Die Busse von der Hochzeitslocation zu eurer Haltestelle fahren um 1:30 Uhr, um 3:00 Uhr und um 5:00 Uhr. Die Busse müssen nicht vor-reserviert werden."
+  en: "There will be 3 bus departures from the venue: At 1:30, at 3:30 and at 5:30. You don't need to pre-reserve the time. They will drop you back to the same place that they picked you up."
+  gr: "Θα υπάρχουν 3 αναχωρήσεις λεοφωρείων από το γαμήλιο κέντρο: Στις 1:30, στις 3:30 και στις 5:30. Δεν χρειάζεται να κάνετε κράτηση την ώρα. Θα σας αφήσουν στο ίδιο σημείο από το οποίο αναχωρήσατε."
+  es: "Habrá 3 salidas de autobuses desde el lugar de la celebración: a la 1:30, a las 3:30 y a las 5:30. No es necesario reservar previamente la hora. Os dejarán en el mismo lugar donde os recogieron."
+  cz: "Budou připraveny 3 autobusy z místa konání v 1:30, ve 3:30 a v 5:30. Nemusíte dopředu rezervovat, kterým pojedete. Autobus Vás odveze přesně tam, kde Vás vyzvedl."
+  de: "Es wird drei Busse geben, die euch von der Hochzeitslocation zurück zur Haltestelle bringen, an der ihr abgeholt worden seid. Die Busse von der Hochzeitslocation zu eurer Haltestelle fahren um 1:30 Uhr, um 3:30 Uhr und um 5:30 Uhr. Die Busse müssen nicht vor-reserviert werden."
 hashtag:
   en: "We'd love to see our special day through your eyes! Simply hashtag your social media posts with:"
   gr: "Θα θέλαμε πολύ να δούμε την ξεχωριστή μέρα μας μέσα από τα μάτια σας! Απλά χρησιμοποιήστε το εξής hashtag στα social media posts σας:"
@@ -173,18 +173,24 @@ venue_content:
   es: La celebración de nuestro enlace, junto con el resto de los eventos, tendrá lugar en la preciosa finca <strong>La Quinta de Illescas</strong>. En el espacioso y maravilloso jardín se hará la ceremonia y a continuación dará comienzo el cóctel. Después pasaremos a su encantador salón a degustar una gran cena. Finalmente, en su discoteca tendremos la fiesta nocturna. ¡El lugar es simplemente increíble, estamos muy contentos con nuestra decisión y esperamos veros allí en nuestro día especial!
   cz: Obřad s dalšími aktivitami se bude odehrávat na tomto překrásném místě <strong>La Quinta de Illescas</strong>. Obřad samotný proběhne v krásné a prostorné zahradě, po kterém bude následovat koktejlová párty. Poté se přesuneme do okouzlující salónku, abychom si vychutnala výjimečnou večeři. Následně nás čeká večírek v disco. Máme radost z tohoto výběru a těšíme se, že Vás uvidíme v tento výjimečný den!
   de: Unsere Trauung und Hochzeitsfeier werden im wunderschönen Landhaus <strong>La Quinta de Illescas</strong> stattfinden. Die Trauung findet im wunderschönen Garten der Location statt. Anschließend beginnt die Cocktailparty. Danach werden wir uns in den bezaubernden Salon des Landhauses begeben, um ein großartiges Abendessen zu genießen. Endlich, nach dem Essen werden wir in der Disko des Hauses unsere Partynacht starten. Wir sind sehr glücklich über unsere Entscheidung und freuen uns darauf euch an unserem ganz besonderen Tag zu sehen!
+transportation_date:
+  en: Saturday 10th of July 2021, at 17:30
+  gr: Σάββατο 10 Ιουλίου 2021, στις 17:30
+  es: Sábado 10 de Julio de 2021, en 17:30
+  cz: Sobota 10. července 2021, v 17:30
+  de: Samstag 10. Juli 2021, um 17:30
+transportation_header:
+  en: Pickup point
+  gr: Σημείο συλλογής επιβατών
+  es: Lugar de recogida
+  cz: Místo vyzvednutí
+  de: TODO
 transportation_content:
-  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. See below for the pickup points. Please make sure to be at least 15 minutes earlier at any pickup point!
-  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Παρακάτω θα δείτε τα σημεία συλλογής επιβατών. Παρακαλούμε να είστε σε ένα από τα σημεία τουλάχιστον 15 λεπτά νωρίτερα!
-  es: TODO
-  cz: TODO
-  de: Die Hochzeitslocation ist ca. eine halbe Stunde von Madrid entfernt. Falls ihr nicht mit dem Auto anreist, gibt es einen Bustransfer zur Hochzeitslocation. Untenstehend findet ihr die Haltestellen des Busses. Bitte seid mindestens 15 Minuten vor der Abfahrtszeit an der Haltestelle.
-transportation_soon:
-  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. We will announce soon the pickup points of the buses!
-  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δεν διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Θα ανακοινώσουμε σύντομα τα σημεία συλλογής των επιβατών!
-  es: El lugar de la boda está a media hora de Madrid. Si no tenéis coche, habrá autobuses para trasladaros allí. ¡Pronto anunciaremos los puntos de recogida de los autobuses!
-  cz: Místo konání svatby je zhruba 30 minut od Madridu. Pokud nemáte vůz, tak můžete využít autobusů, které Vás tam odvezou. Brzy oznámíme místa vyzvednutí, kde Vás autobusy vyzvednou.
-  de: Die Hochzeitslocation ist ca. eine halbe Stunde von Madrid entfernt. Falls ihr nicht mit dem Auto anreist, gibt es einen Bustransfer zur Hochzeitslocation. Wir werden die Haltestellen des Busses demnächst veröffentlichen.
+  en: The wedding venue is around half an hour away from Madrid. If you don't have a car, there will be buses to transfer you there. The address of the pickup point is <strong>Plaza del Emperador Carlos V, 8</strong>, in front of the restaurant <strong>El Brillante</strong>. The buses leave at <strong>17:30</strong>. Please make sure to be at the pickup point at least 15 minutes earlier!
+  gr: Το γαμήλιο κέντρο είναι περίπου μισή ώρα από τη Μαδρίτη. Σε περίπτωση που δε διαθέτετε αυτοκίνητο, θα υπάρχουν λεωφορεία για να σας μεταφέρουν εκεί. Η διεύθυνση του σημείου συλλογής επιβατών είναι <strong>Plaza del Emperador Carlos V, 8</strong>, μπροστά από το εστιατόριο <strong>El Brillante</strong>. Τα λεωφορεία αναχωρούν στις <strong>17:30</strong>. Παρακαλούμε να είστε στο σημείο τουλάχιστον 15 λεπτά νωρίτερα!
+  es: El lugar de la boda está aproximadamente a media hora de Madrid. Si no tenéis medio de transporte, habrá autobuses para trasladaros allí. La dirección del punto de recogida es <strong>Plaza del Emperador Carlos V, 8</strong>, frente al restaurante <strong>El Brillante</strong>. Los autobuses salen a las <strong>17:30</strong>. Por favor aseguraos de estar en el punto de recogida al menos 15 minutos antes.
+  cz: Místo konání svatby je od Madridu zhruba půl hodiny. Pokud nemáte auto, budou zajištěny autobusy, které Vás tam odvezou. Adresa místa vyzvednutí je <strong>Plaza del Emperador Carlos V, 8</strong> naproti restauraci <strong>El Brillante</strong>. Autobusy odjíždí v <strong>17:30</strong>. Prosím, buďte na místě setkání minimálně 15 minut předem!
+  de: TODO Die Hochzeitslocation ist ca. eine halbe Stunde von Madrid entfernt. Falls ihr nicht mit dem Auto anreist, gibt es einen Bustransfer zur Hochzeitslocation. Untenstehend findet ihr die Haltestellen des Busses. Bitte seid mindestens 15 Minuten vor der Abfahrtszeit an der Haltestelle.
 accommodation_soon:
   en: For your convenience, we plan to recommend some hotels, that will be relatively close to the pickup points of the buses, and will offer discounts for our wedding's guests. We will announce soon our recommended hotels!
   gr: Για τη διευκόλυνσή σας θα προτείνουμε μερικά ξενοδοχεία, τα οποία θα βρίσκονται σχετικά κοντά στα σημεία συλλογής των επιβατών των λεωφορείων, και θα προσφέρουν έκπτωση για τους καλεσμένους του γάμου. Θα ανακοινώσουμε σύντομα τα προτεινόμενα ξενοδοχεία!
@@ -310,7 +316,7 @@ preparty_date:
   gr: Παρασκευή 9 Ιουλίου 2021, στις 20:00
   es: Viernes 9 de Julio de 2021, en 20:00
   cz: Pátek 9. července 2021, v 20:00
-  de: Freitag, 9. Juli 2021, um 20:00
+  de: Freitag 9. Juli 2021, um 20:00
 preparty_content:
   en: We are also organizing a pre-wedding party, on Friday 9th of July 2021, at <strong>Saporem</strong>! The party starts at 20:00 and there will be plenty of food and drinks to go around. The first two hours are completely on us so come early!
   gr: Οργανώνουμε επίσης ένα προ-γαμήλιο πάρτυ, την Παρασκευή 9 Ιουλίου 2021, στο <strong>Saporem</strong>! Το πάρτυ ξεκινάει στις 20:00 και θα υπάρχει αρκετό φαγητό και ποτά για όλους. Τις πρώτες δύο ώρες είναι κέρασμά μας οπότε ελάτε νωρίς!

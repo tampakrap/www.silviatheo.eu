@@ -299,10 +299,10 @@
                         <span class="fi flaticon-time"></span> 01:30
                       </span>
                       <span class="clock">
-                        <span class="fi flaticon-time"></span> 03:00
+                        <span class="fi flaticon-time"></span> 03:30
                       </span>
                       <span class="clock">
-                        <span class="fi flaticon-time"></span> 05:00
+                        <span class="fi flaticon-time"></span> 05:30
                       </span>
                     </div>
                     <p>{{ bus2_content }}</p>
@@ -349,8 +349,8 @@
                   <li><div class="fi flaticon-placeholder-filled-point"></div>{{ venue_address }}</li>
                   <li><div class="fi flaticon-time"></div>{{ venue_date }}</li>
                 </ul>
-                <!-- htmllint href-style="absolute" -->
                 <p>{{ venue_content }}</p>
+                <!-- htmllint href-style="absolute" -->
                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/La+Quinta+de+Illescas/@40.164897,-3.8161193,18.58z/data=!4m5!3m4!1s0xd41f4029c1e3685:0xe528694c1b18788e!8m2!3d40.1649416!4d-3.8158414" target="_blank" rel="noreferrer noopener nofollow"><span class="fi flaticon-map"></span> {{ map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
                 <br>
                 <a class="see-location-btn popup-gmaps" href="https://www.laquintadeillescas.com/" target="_blank" rel="noreferrer noopener nofollow"><span class="fi flaticon-internet"></span> {{ website }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
@@ -376,10 +376,26 @@
         <div class="row">
           <div class="col col-lg-10 col-lg-offset-1">
             <div class="event">
-              <div class="coming-soon">
-                <p>Coming Soon!</p>
+              <div class="img-holder">
+                <picture>
+                  <source type="image/webp" srcset="../images/transportation.webp">
+                  <source type="image/jpeg" srcset="../images/transportation.jpg">
+                  <img src="../images/transportation.jpg" alt="transportation" class="img img-responsive">
+                </picture>
               </div>
-              <p>{{ transportation_soon }}</p>
+              <div class="details">
+                <h3>{{ transportation_header }}</h3>
+                <ul>
+                  <li><div class="fi flaticon-placeholder-filled-point"></div>Plaza del Emperador Carlos V, 8</li>
+                  <li><div class="fi flaticon-time"></div>{{ transportation_date }}</li>
+                </ul>
+                <p>{{ transportation_content }}</p>
+                <!-- htmllint href-style="absolute" -->
+                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/El+Brillante/@40.4084654,-3.6937362,19z/data=!3m1!4b1!4m5!3m4!1s0xd422628ae900001:0x9f47c22eb73ab37a!8m2!3d40.4084654!4d-3.693189" target="_blank" rel="noreferrer noopener nofollow"><span class="fi flaticon-map"></span> {{ map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
+                <!-- htmllint href-style="relative" -->
+                <br>
+                <a class="see-location-btn popup-gmaps" href="../calendar/silviatheo_wedding_{{ lang }}.ics" target="_blank" rel="noreferrer noopener nofollow"><span class="fi flaticon-calendar"></span> {{ calendar }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
+              </div>
             </div>
           </div>
         </div>
@@ -522,8 +538,8 @@
                   <li><div class="fi flaticon-placeholder-filled-point"></div>Calle de Ventura de la Vega, 5</li>
                   <li><div class="fi flaticon-time"></div>{{ preparty_date }}</li>
                 </ul>
-                <!-- htmllint href-style="absolute" -->
                 <p>{{ preparty_content }}</p>
+                <!-- htmllint href-style="absolute" -->
                 <p><a href="https://www.facebook.com/theantilopes/" target="_blank" rel="noreferrer noopener nofollow"><img src="../images/theantilopes.jpg" alt="the antilopes"></a>{{ preparty_music }} <a href="https://www.facebook.com/theantilopes/" target="_blank" rel="noreferrer noopener nofollow">The Antilopes</a>!</p>
                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/place/Saporem/@40.4158492,-3.7010353,17z/data=!3m1!4b1!4m5!3m4!1s0xd42288175bcdb51:0x9bcb201a9344e5b!8m2!3d40.4158492!4d-3.6988466" target="_blank" rel="noreferrer noopener nofollow"><span class="fi flaticon-map"></span> {{ map }} <span class="fi flaticon-angle-arrow-pointing-to-right"></span></a>
                 <br>
